@@ -1,0 +1,271 @@
+/* CSS Document */
+
+/*-------------------------
+        重置样式 
+--------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+p {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Microsoft YaHei';
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  color: #666666;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0e468e;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+ul,
+ol,
+dl {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font: 14px/1.5 'Microsoft Yahei', sans-serif; /*sans-serif 是手机默认字体*/
+}
+
+/*-------------------------
+        预制样式 
+--------------------------*/
+/********* layout 布局  *************/
+.jl-full {
+  height: 100%;
+}
+.jl-full-width {
+  width: 100%;
+}
+
+/********* 版心  *************/
+.jl-middle {
+  width: 1920px;
+}
+
+/********* font-size  *************/
+.jl-fsize12 {
+  font-size: 12px;
+}
+.jl-fsize14 {
+  font-size: 14px;
+}
+.jl-fsize16 {
+  font-size: 16px;
+}
+.jl-fsize18 {
+  font-size: 18px;
+}
+.jl-fsize20 {
+  font-size: 20px;
+}
+.jl-fsize24 {
+  font-size: 24px;
+}
+.jl-fsize30 {
+  font-size: 30px;
+}
+.jl-fsize36 {
+  font-size: 36px;
+}
+.jl-fsize48 {
+  font-size: 48px;
+}
+
+/********* border  *************/
+.jl-border {
+  border: 1px solid #eee;
+}
+.jl-border-top {
+  border-top: 1px solid #eee;
+}
+.jl-border-right {
+  border-right: 1px solid #eee;
+}
+.jl-border-bottom {
+  border-bottom: 1px solid #eee;
+}
+.jl-border-left {
+  border-left: 1px solid #eee;
+}
+
+/********* padding  *************/
+.jl-padding--half {
+  padding: 10px;
+}
+.jl-padding {
+  padding: 20px;
+}
+
+.jl-pt--half {
+  padding-top: 10px;
+}
+.jl-pt {
+  padding-top: 20px;
+}
+
+.jl-pr--half {
+  padding-right: 10px;
+}
+.jl-pr {
+  padding-right: 20px;
+}
+
+.jl-pb--half {
+  padding-bottom: 10px;
+}
+.jl-pb {
+  padding-bottom: 20px;
+}
+
+.jl-pl--half {
+  padding-left: 10px;
+}
+.jl-pl {
+  padding-left: 20px;
+}
+
+/********* margin  *************/
+.jl-margin--half {
+  margin: 10px;
+}
+.jl-margin {
+  margin: 20px;
+}
+
+.jl-mt--half {
+  margin-top: 10px;
+}
+.jl-mt {
+  margin-top: 20px;
+}
+
+.jl-mr--half {
+  margin-right: 10px;
+}
+.jl-mr {
+  margin-right: 20px;
+}
+
+.jl-mb--half {
+  margin-bottom: 10px;
+}
+.jl-mb {
+  margin-bottom: 20px;
+}
+
+.jl-ml--half {
+  margin-left: 10px;
+}
+.jl-ml {
+  margin-left: 20px;
+}
+
+/******* float *******/
+.jl-float-left {
+  float: left;
+}
+.jl-float-right {
+  float: right;
+}
+.jl-clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+/******* flex *******/
+.jl-flex {
+  display: flex;
+  overflow: hidden;
+}
+.jl-flex--column {
+  flex-direction: column;
+}
+
+.jl-flex-con {
+  flex: 1;
+  overflow: hidden;
+}
+.jl-flex-con--2 {
+  flex: 2;
+  overflow: hidden;
+}
+.jl-flex-con--3 {
+  flex: 3;
+  overflow: hidden;
+}
+.jl-flex-con--4 {
+  flex: 4;
+  overflow: hidden;
+}
+
+.jl-flex-vertical {
+  align-items: center;
+}
+
+/******* color *******/
+.jl-color-theme {
+  color: #1563a0;
+}
+
+/******* text *******/
+.jl-text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.jl-auto--y {
+  overflow-y: auto;
+}
+
+/******** 自动滚动条  *********/
+html::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #f5f5f5;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background-color: #333;
+}
+
+html::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: #e2e2e2;
+}

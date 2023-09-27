@@ -1,0 +1,756 @@
+<!-- 首页 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>金陵中学河西分校</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/swiper.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./index.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="jl-container">
+      <!-- header -->
+      <div class="jl-main-header jl-main">
+        <!-- header top -->
+        <div class="jl-header-top">
+          <div class="jl-header-container jl-flex">
+            <!-- logo -->
+            <h1 class="jl-logo">
+              <img src="./images/logo.png" alt="">
+            </h1>
+
+            <!-- nav -->
+            <div class="jl-nav-wrapper jl-flex-con jl-flex jl-flex-vertical">
+              <ul class="jl-nav jl-flex jl-flex-vertical">
+                <li class="jl-nav-item">学校简介</li>
+                <li class="jl-nav-item">学校新闻</li>
+                <li class="jl-nav-item">通知通告</li>
+                <li class="jl-nav-item">招生专栏</li>
+                <li class="jl-nav-item">教师频道</li>
+                <li class="jl-nav-item">校园生活</li>
+                <li class="jl-nav-item">学部链接</li>
+                <li class="jl-nav-item">部门之窗</li>
+                <li class="jl-nav-item">党委工会</li>
+                <li class="jl-nav-item">智慧校园</li>
+                <li class="jl-nav-item">校庆二十周年</li>
+              </ul>
+
+              <!-- 全部按钮 -->
+              <div class="jl-nav-operate">
+                <img class="jl-nav-more-img" src="./images/nav-more.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- =============================== 主体 开始 ============================= -->
+
+      <!-------------   banner 开始   ------------->
+      <section class="jl-banner-wrap">
+        <div class="jl-banner-container">
+          <!-- swiper -->
+          <div class="swiper jl-banner">
+            <!-- 轮播内容 -->
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a class="jl-img-wrap" href="#">
+                  <img class="jl-img" src="./images/banner1.png" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="jl-img-wrap" href="#">
+                  <img class="jl-img" src="./images/banner2.png" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="jl-img-wrap" href="#">
+                  <img class="jl-img" src="./images/banner3.png" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="jl-img-wrap" href="#">
+                  <img class="jl-img" src="./images/banner4.png" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="jl-img-wrap" href="#">
+                  <img class="jl-img" src="./images/banner5.png" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <!-- 左右按钮 -->
+            <div class="swiper-button-next jl-main-banner-next"></div>
+            <div class="swiper-button-prev jl-main-banner-prev"></div>
+
+            <!-- 底部背景 -->
+            <div class="jl-banner-bottom"></div>
+
+            <!-- 轮播页 -->
+            <div class="swiper-pagination-wrap jl-flex jl-flex-vertical">
+              <div class="swiper-pagination jl-flex jl-flex-vertical"></div>
+              <a class="jl-swiper-more" href="#">
+                <h6 class="jl-more">
+                  more
+                  <svg
+                    t="1670842358822"
+                    class="icon"
+                    viewBox="0 0 1024 1024"
+                    p-id="1275"
+                    width="40"
+                    height="40"
+                  >
+                    <path
+                      d="M793.6 426.666667H896l-85.333333 81.066666-132.266667 132.266667-51.2-51.2 81.066667-81.066667H128V426.666667h665.6z"
+                      p-id="1276"
+                    ></path>
+                  </svg>
+                </h6>
+              </a>
+            </div>
+          </div>
+
+          <!-- Swiper JS -->
+        
+          <script>
+            var swiper = new Swiper('.jl-banner', {
+              autoplay: {
+                delay: 8000,
+                disableOnInteraction: false
+              },
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+              },
+              navigation: {
+                nextEl: '.jl-main-banner-next',
+                prevEl: '.jl-main-banner-prev'
+              }
+            })
+          </script>
+        </div>
+      </section>
+      <!-------------   banner 结束   ------------->
+
+      <!-------------   新闻  开始   ------------->
+
+      <section class="jl-news-container jl-flex">
+        <!-- 最新新闻 -->
+        <div class="jl-last-news jl-flex-con">
+          <div class="jl-header jl-flex">
+            <!-- <div class="jl-header-title">学校新闻</div> -->
+            <!-- <div class="jl-header-more">
+                <span>查看更多</span>
+                <img
+                  class="jl-more-img jl-ml--half"
+                  src="./images/more.png"
+                  alt=""
+                />
+              </div> -->
+          </div>
+          <div class="jl-news-content">
+            <!-- 图片 -->
+            <div class="jl-news-img-wrap">
+              <img
+                class="jl-last-news-img"
+                src="./images/last-news.png"
+                alt=""
+              />
+            </div>
+
+            <!-- 标题内容 -->
+            <div class="jl-news-info-wrap jl-flex jl-mt">
+              <div class="jl-news-time">
+                <div class="jl-title-day">28</div>
+                <div class="jl-title-date">2023/09</div>
+              </div>
+              <div class="jl-news-info jl-flex-con jl-ml--half">
+                <div class="jl-news-title jl-text-overflow">
+                  多家央媒关注！河西学子踏梦归来
+                </div>
+                <div class="jl-news-desc jl-text-overflow">
+                  夏秋交迭 微风送爽 9月1日返校报到日
+                  金中河西的莘莘学子们满怀憧憬 返回焕新的夏秋交迭 微风送爽
+                  9月1日返校报到日 金中河西的莘莘学子们满怀憧憬 返回焕新的
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 新闻列表 -->
+        <div class="jl-news-list-wrap jl-flex-con">
+          <!-- 标题 -->
+          <div class="jl-header jl-flex">
+            <div class="jl-header-title">学校新闻</div>
+            <div class="jl-header-more">
+              <span>查看更多</span>
+              <img
+                class="jl-more-img jl-ml--half"
+                src="./images/more.png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!-- 新闻列表 -->
+          <div class="jl-news-list">
+            <div class="jl-news-item">
+              <div class="jl-news-info-wrap jl-flex">
+                <div class="jl-news-time">
+                  <div class="jl-title-day">17</div>
+                  <div class="jl-title-date">2023/09</div>
+                </div>
+                <div class="jl-news-info jl-flex-con jl-ml--half">
+                  <div class="jl-news-title jl-text-overflow">
+                    全市一等奖！我校荣获南京高一新生军事训练比赛最高荣誉
+                  </div>
+                  <div class="jl-news-desc jl-text-overflow">
+                    在8月30日刚刚落幕的南京市2023年高一新生军事训练成果展示比赛中我校从最终参赛的17支队伍中脱颖而的17支队伍中脱颖而…
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="jl-news-item">
+              <div class="jl-news-info-wrap jl-flex">
+                <div class="jl-news-time">
+                  <div class="jl-title-day">10</div>
+                  <div class="jl-title-date">2023/09</div>
+                </div>
+                <div class="jl-news-info jl-flex-con jl-ml--half">
+                  <div class="jl-news-title jl-text-overflow">
+                    通往未来的路——金陵中学河西教育集团全体教职工校本研训
+                  </div>
+                  <div class="jl-news-desc jl-text-overflow">
+                    8月27日—29日，金陵中学河西教育集团全体教职工齐聚学校体育馆，共同参加“通往未来的路”新学期校共同参加“通往未来…
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="jl-news-item">
+              <div class="jl-news-info-wrap jl-flex">
+                <div class="jl-news-time">
+                  <div class="jl-title-day">08</div>
+                  <div class="jl-title-date">2023/09</div>
+                </div>
+                <div class="jl-news-info jl-flex-con jl-ml--half">
+                  <div class="jl-news-title jl-text-overflow">
+                    蝉联全国冠军！金中河西学子“剑”指巅峰
+                  </div>
+                  <div class="jl-news-desc jl-text-overflow">
+                    在8月25日刚刚落幕的2023年全国击剑锦标赛上，来自南京市金陵中学河西分校初中部的15岁少年秦浴恩初中部的15岁少年恩...
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="jl-news-item">
+              <div class="jl-news-info-wrap jl-flex">
+                <div class="jl-news-time">
+                  <div class="jl-title-day">03</div>
+                  <div class="jl-title-date">2023/09</div>
+                </div>
+                <div class="jl-news-info jl-flex-con jl-ml--half">
+                  <div class="jl-news-title jl-text-overflow">
+                    感悟时间，约定未来@2023年秋季开学典礼
+                  </div>
+                  <div class="jl-news-desc jl-text-overflow">
+                    在8月25日刚刚落幕的2023年全国击剑锦标赛上，来自南京市金陵中学河西分校初中部的15岁少年秦浴恩初中部的15岁少年恩...
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="jl-news-item">
+              <div class="jl-news-info-wrap jl-flex">
+                <div class="jl-news-time">
+                  <div class="jl-title-day">16</div>
+                  <div class="jl-title-date">2023/09</div>
+                </div>
+                <div class="jl-news-info jl-flex-con jl-ml--half">
+                  <div class="jl-news-title jl-text-overflow">
+                    又飒又燃！河西少年的迷彩青春
+                  </div>
+                  <div class="jl-news-desc jl-text-overflow">
+                    八月似火，沙场点兵。8月中旬，“全国国防教育示范学校”金陵中学河西分校2023届普高、国高全体高学河西分校2023届...
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-------------   新闻  结束   ------------->
+
+      <!-------------   公告  结束   ------------->
+      <section class="jl-notice-container jl-flex">
+        <!-- 智慧校园 -->
+        <div class="jl-notice-smart-campus jl-flex-con--3">
+          <!-- 标题 -->
+          <div class="jl-header jl-flex">
+            <div class="jl-header-title">智慧校园</div>
+          </div>
+
+          <!-- 智慧校园内容 -->
+          <div class="jl-smart-campus-content jl-flex">
+            <div class="jl-smart-campus-title jl-flex jl-flex--column">
+              <div class="jl-smart-campus-label">智慧校园</div>
+              <svg
+                class="jl-more-svg"
+                t="1670842358822"
+                class="icon"
+                viewBox="0 0 1024 1024"
+                p-id="1275"
+                width="40"
+                height="40"
+              >
+                <path
+                  d="M793.6 426.666667H896l-85.333333 81.066666-132.266667 132.266667-51.2-51.2 81.066667-81.066667H128V426.666667h665.6z"
+                  p-id="1276"
+                ></path>
+              </svg>
+            </div>
+            <div class="jl-smart-campus-img-wrap jl-flex-con">
+              <img
+                class="jl-smart-campus-img"
+                src="./images/smart-campus-img.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- 通知公告 -->
+        <div class="jl-notice-wrap jl-flex-con--2">
+          <!-- 标题 -->
+          <div class="jl-header jl-flex">
+            <div class="jl-header-title">学校新闻</div>
+            <div class="jl-header-more">
+              <span>查看更多</span>
+              <img
+                class="jl-more-img jl-ml--half"
+                src="./images/more.png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!-- 内容  -->
+          <div class="jl-notice-content jl-auto--y">
+            <div class="jl-notice-item">
+              <div class="jl-notice-title jl-text-overflow">
+                开学前及第一周工作安排（ 2023年8月27日~9月10日 ）
+              </div>
+              <div class="jl-notice-time jl-flex">
+                <div class="jl-time">2023-09-16</div>
+                <div class="jl-line jl-flex-con"></div>
+              </div>
+            </div>
+
+            <div class="jl-notice-item jl-hot">
+              <div class="jl-notice-title jl-text-overflow">
+                南京市金陵中学河西分校高中部招聘启事
+              </div>
+              <div class="jl-notice-time jl-flex">
+                <div class="jl-time">2023-09-16</div>
+                <div class="jl-line jl-flex-con"></div>
+              </div>
+            </div>
+
+            <div class="jl-notice-item">
+              <div class="jl-notice-title jl-text-overflow">
+                南京市金陵中学河西分校国际高中部招聘启事
+              </div>
+              <div class="jl-notice-time jl-flex">
+                <div class="jl-time">2023-09-16</div>
+                <div class="jl-line jl-flex-con"></div>
+              </div>
+            </div>
+
+
+            <div class="jl-notice-item">
+              <div class="jl-notice-title jl-text-overflow">
+                南京市金陵中学河西分校初中部招聘启事
+              </div>
+              <div class="jl-notice-time jl-flex">
+                <div class="jl-time">2023-09-16</div>
+                <div class="jl-line jl-flex-con"></div>
+              </div>
+            </div>
+
+            <div class="jl-notice-item">
+              <div class="jl-notice-title jl-text-overflow">
+                2023年暑假读书笔记评选办法
+              </div>
+              <div class="jl-notice-time jl-flex">
+                <div class="jl-time">2023-09-16</div>
+                <div class="jl-line jl-flex-con"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        </div>
+      </section>
+      <!-------------   公告  结束   ------------->
+
+
+      <!-------------   教师频道  开始   ------------->
+      <section class="jl-section-wrap">
+        <div class="jl-section-header">
+          教师频道
+        </div>
+
+        <div class="jl-teacher-channel  jl-section-content">
+          <img class="jl-section-img" src="./images/teacher-channel.png" alt="">
+          
+          <div class="jl-section-container jl-flex jl-flex--column">
+            <!-- header  -->
+            <div class="jl-section-top jl-flex jl-header">
+              <!-- tab list -->
+              <div class="jl-tab-list jl-flex">
+                <div class="jl-tab-item jl-active">教育随笔</div>
+                <div class="jl-tab-item">教师荣誉</div>
+                <div class="jl-tab-item">教师风采</div>
+              </div>
+
+
+              <!-- 更多 -->
+              <div class="jl-header-more">
+                <span>查看更多</span>
+                <img
+                  class="jl-more-img jl-ml--half"
+                  src="./images/more-white.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="jl-teacher-channel-swiper jl-flex-con">
+              <!-- swiper -->
+              <div class="swiper jl-teacher">
+
+                <!-- 轮播内容 -->
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide jl-section-slide jl-flex">
+                    <div class="jl-slide-info jl-flex-con--3">
+                      <!-- 日期 -->
+                      <div class="jl-slide-time jl-flex">
+                        <div class="jl-slide-day">30</div>
+                        <div class="jl-slide-date">2023/05</div>
+                      </div>
+                      <!-- 标题 -->
+                      <div class="jl-slide-title">将快乐进行到底</div>
+
+                      <!-- 描述 -->
+                      <div class="jl-slide-desc">时间过得可真快，快得让人来不及收拾和整理逝去的年华。一年，两年，两点，一点， 与自己的工作年限成反比的是自己工作之初的那股热情在渐渐地冷却。当理想与现实越 来越呈现出巨大反差，</div>
+                    </div>
+                    <div class="jl-slide-wrap jl-flex-con--2">
+                      <a   class="jl-slide-img-wrap" href="#">
+                        <img  class="jl-slide-img" src="./images//teacher-banner1.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide jl-section-slide jl-flex">
+                    <div class="jl-slide-info jl-flex-con--3">
+                      <!-- 日期 -->
+                      <div class="jl-slide-time jl-flex">
+                        <div class="jl-slide-day">31</div>
+                        <div class="jl-slide-date">2023/05</div>
+                      </div>
+                      <!-- 标题 -->
+                      <div class="jl-slide-title">将快乐进行到底</div>
+
+                      <!-- 描述 -->
+                      <div class="jl-slide-desc">时间过得可真快，快得让人来不及收拾和整理逝去的年华。一年，两年，两点，一点， 与自己的工作年限成反比的是自己工作之初的那股热情在渐渐地冷却。当理想与现实越 来越呈现出巨大反差，</div>
+                    </div>
+                    <div class="jl-slide-wrap jl-flex-con--2">
+                      <a   class="jl-slide-img-wrap" href="#">
+                        <img  class="jl-slide-img" src="./images//teacher-banner1.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide jl-section-slide jl-flex">
+                    <div class="jl-slide-info jl-flex-con--3">
+                      <!-- 日期 -->
+                      <div class="jl-slide-time jl-flex">
+                        <div class="jl-slide-day">32</div>
+                        <div class="jl-slide-date">2023/05</div>
+                      </div>
+                      <!-- 标题 -->
+                      <div class="jl-slide-title">将快乐进行到底</div>
+
+                      <!-- 描述 -->
+                      <div class="jl-slide-desc">时间过得可真快，快得让人来不及收拾和整理逝去的年华。一年，两年，两点，一点， 与自己的工作年限成反比的是自己工作之初的那股热情在渐渐地冷却。当理想与现实越 来越呈现出巨大反差，</div>
+                    </div>
+                    <div class="jl-slide-wrap jl-flex-con--2">
+                      <a   class="jl-slide-img-wrap" href="#">
+                        <img  class="jl-slide-img" src="./images//teacher-banner1.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 左右按钮 -->
+                <div class="swiper-button-next jl-swiper-next"></div>
+                <div class="swiper-button-prev jl-swiper-prev"></div>
+
+            
+
+                <!-- 轮播页 -->
+                <div class="swiper-pagination jl-section-pagination"></div>
+              </div>
+
+              <!-- Swiper JS -->
+              <script>
+                var swiperTeacher = new Swiper('.jl-teacher', {
+                  // autoplay: {
+                  //   delay: 8000,
+                  //   disableOnInteraction: false
+                  // },
+                  pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                  },
+                  navigation: {
+                    nextEl: '.jl-swiper-next',
+                    prevEl: '.jl-swiper-prev'
+                  }
+                })
+              </script>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-------------   教师频道  结束   ------------->
+
+
+      <!-------------   校园生活  开始   ------------->
+      <section class="jl-section-wrap">
+        <div class="jl-section-header">
+          校园生活
+        </div>
+
+        <div class="jl-campus-life jl-section-content">
+          <!-- 背景图 -->
+          <img class="jl-section-img" src="./images/campus-life.png" alt="">
+          
+          <div class="jl-section-container jl-flex jl-flex--column">
+            <!-- header  -->
+            <div class="jl-section-top jl-flex jl-header">
+              <!-- tab list -->
+              <div class="jl-tab-list jl-flex">
+                <div class="jl-tab-item jl-active">学生活动</div>
+                <div class="jl-tab-item">学生作品</div>
+                <div class="jl-tab-item">心灵花园</div>
+              </div>
+
+
+              <!-- 更多 -->
+              <div class="jl-header-more">
+                <span>查看更多</span>
+                <img
+                  class="jl-more-img jl-ml--half"
+                  src="./images/more-white.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="jl-section-swiper jl-flex-con">
+              <!-- swiper -->
+              <div class="swiper jl-life">
+
+                <!-- 轮播内容 -->
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide jl-section-slide jl-flex">
+                    <div class="jl-slide-info jl-flex-con--3">
+                      <!-- 日期 -->
+                      <div class="jl-slide-time jl-flex">
+                        <div class="jl-slide-day">21</div>
+                        <div class="jl-slide-date">2023/09</div>
+                      </div>
+                      <!-- 标题 -->
+                      <div class="jl-slide-title">以青春之姿 实现凌云壮志</div>
+
+                      <!-- 描述 -->
+                      <div class="jl-slide-desc">【梁】云天收夏色，木叶动秋声。时光悠远，天地长新。青春灼灼应节舞，新的学期， 我们朝气蓬勃，斗志昂扬，在追梦的征途上击水中流，精彩绽放。 【许】漫漫拼搏路，铮铮河西魂。每一届河西学子始终充满着青春的活力，迸发着… 与自己的工作年限成反比的是自己工作之初的那股热情在渐渐地冷却。当理想与现实越 来越呈现出巨大反差，</div>
+                    </div>
+                    <div class="jl-slide-wrap jl-flex-con--2">
+                      <a   class="jl-slide-img-wrap" href="#">
+                        <img  class="jl-slide-img" src="./images/teacher-banner1.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide jl-section-slide jl-flex">
+                    <div class="jl-slide-info jl-flex-con--3">
+                      <!-- 日期 -->
+                      <div class="jl-slide-time jl-flex">
+                        <div class="jl-slide-day">22</div>
+                        <div class="jl-slide-date">2023/09</div>
+                      </div>
+                      <!-- 标题 -->
+                      <div class="jl-slide-title">以青春之姿 实现凌云壮志</div>
+
+                      <!-- 描述 -->
+                      <div class="jl-slide-desc">【梁】云天收夏色，木叶动秋声。时光悠远，天地长新。青春灼灼应节舞，新的学期， 我们朝气蓬勃，斗志昂扬，在追梦的征途上击水中流，精彩绽放。 【许】漫漫拼搏路，铮铮河西魂。每一届河西学子始终充满着青春的活力，迸发着… 与自己的工作年限成反比的是自己工作之初的那股热情在渐渐地冷却。当理想与现实越 来越呈现出巨大反差，</div>
+                    </div>
+                    <div class="jl-slide-wrap jl-flex-con--2">
+                      <a   class="jl-slide-img-wrap" href="#">
+                        <img  class="jl-slide-img" src="./images/teacher-banner1.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide jl-section-slide jl-flex">
+                    <div class="jl-slide-info jl-flex-con--3">
+                      <!-- 日期 -->
+                      <div class="jl-slide-time jl-flex">
+                        <div class="jl-slide-day">23</div>
+                        <div class="jl-slide-date">2023/09</div>
+                      </div>
+                      <!-- 标题 -->
+                      <div class="jl-slide-title">以青春之姿 实现凌云壮志</div>
+
+                      <!-- 描述 -->
+                      <div class="jl-slide-desc">【梁】云天收夏色，木叶动秋声。时光悠远，天地长新。青春灼灼应节舞，新的学期， 我们朝气蓬勃，斗志昂扬，在追梦的征途上击水中流，精彩绽放。 【许】漫漫拼搏路，铮铮河西魂。每一届河西学子始终充满着青春的活力，迸发着… 与自己的工作年限成反比的是自己工作之初的那股热情在渐渐地冷却。当理想与现实越 来越呈现出巨大反差，</div>
+                    </div>
+                    <div class="jl-slide-wrap jl-flex-con--2">
+                      <a   class="jl-slide-img-wrap" href="#">
+                        <img  class="jl-slide-img" src="./images/teacher-banner1.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 左右按钮 -->
+                <div class="swiper-button-next jl-swiper-next jl-life"></div>
+                <div class="swiper-button-prev jl-swiper-prev jl-life"></div>
+
+            
+
+                <!-- 轮播页 -->
+                <div class="swiper-pagination jl-section-pagination"></div>
+              </div>
+
+              <!-- Swiper JS -->
+              <script>
+                var swiperLife = new Swiper('.jl-life', {
+                  // autoplay: {
+                  //   delay: 8000,
+                  //   disableOnInteraction: false
+                  // },
+                  pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                  },
+                  navigation: {
+                    nextEl: '.jl-swiper-next.jl-life',
+                    prevEl: '.jl-swiper-prev.jl-life'
+                  }
+                })
+              </script>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-------------   校园生活  结束   ------------->
+
+
+      <!-------------   校园视频  开始   ------------->
+      <section class="jl-section-wrap">
+        <div class="jl-section-header">
+          校园视频
+        </div>
+
+        <div class="jl-campus-video jl-flex">
+          <div class="jl-campus-play-wrap">
+            <img class="jl-play-btn" src="./images/play.png" alt="">
+          </div>
+          <div class="jl-campus-play-list jl-auto--y">
+            <div class="jl-campus-play-item">
+              <img class="jl-play-small-btn" src="./images/play-small.png" alt="">
+            </div>
+            <div class="jl-campus-play-item">
+              <img class="jl-play-small-btn" src="./images/play-small.png" alt="">
+            </div>
+            <div class="jl-campus-play-item">
+              <img class="jl-play-small-btn" src="./images/play-small.png" alt="">
+            </div>
+            <div class="jl-campus-play-item">
+              <img class="jl-play-small-btn" src="./images/play-small.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-------------   校园视频  结束   ------------->
+      <!-- =============================== 主体 结束 ============================= -->
+
+
+      <!-- =============================== 底部 开始 ============================= -->
+      <div class="jl-section-footer">
+        <div class="jl-section-footer-wrap">
+          <div class="jl-section-center jl-flex">
+            <!-- 关联学校 -->
+            <div class="jl-footer-affiliated-schools jl-flex-con">
+              <div class="jl-schools-item">金陵中学</div>
+              <div class="jl-schools-item">金陵中学附属初级中学</div>
+              <div class="jl-schools-item">金陵中学实验小学</div>
+              <div class="jl-schools-item">陵汇文学校</div>
+              <div class="jl-schools-item">金陵中学高新分校</div>
+              <div class="jl-schools-item">南京市金陵小学</div>
+              <div class="jl-schools-item">金陵中学仙林分校（中学部）</div>
+              <div class="jl-schools-item">金陵中学附属小学</div>
+            </div>
+
+            <!-- 学校名称 -->
+            <div class="jl-footer-schools jl-flex-con">
+              <img src="./images/footer-logo.png" alt="">
+            </div>
+
+            <!-- 分享 -->
+            <div class="jl-footer-contact jl-flex-con">
+              <div class="jl-footer-contact-item">
+                <img class="jl-concat-img" src="./images/wechat.png" alt="">
+              </div>
+              <div class="jl-footer-contact-item">
+                <img class="jl-concat-img" src="./images/user.png" alt="">
+              </div>
+              <div class="jl-footer-contact-item">
+                <img class="jl-concat-img" src="./images/douyin.png" alt="">
+              </div>
+              <div class="jl-footer-contact-item">
+                <img class="jl-concat-img" src="./images/email.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="jl-footer-info">
+          <span class="jl-mr--half">Copyright@2015</span>
+          <span class="jl-mr--half">南京市金陵中学河西分校 </span>
+          <span class="jl-mr--half">苏ICP备05067371号-1</span>
+        </div>
+      </div>
+
+      <!-- =============================== 底部 结束 ============================= -->
+    </div>
+  </body>
+</html>

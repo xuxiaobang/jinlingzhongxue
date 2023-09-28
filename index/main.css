@@ -476,8 +476,6 @@
   width: 12rem;
   height: 6.75rem;
   border-radius: 16px;
-  opacity: 0.5;
-  background: url('./images/last-news.png') no-repeat 0 0 / cover;
 }
 
 .jl-play-btn {

@@ -14,4 +14,7 @@
 |- recruit-students.html 招生专栏
 |- learning-department.html 学部链接
 |- primary-school.html 小学部
+|- middle-school.html 初中部
+|- high-school.html 高中部
+|- international.html 国际部
 ```

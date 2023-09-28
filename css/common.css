@@ -15,11 +15,9 @@
 .jl-header-top {
   height: 120px;
   padding-top: 20px;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.5) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0) 100%);
 }
 
 /*  hader-container */
@@ -41,6 +39,7 @@
   justify-content: flex-end;
   overflow: visible;
 }
+
 .jl-nav-wrapper .jl-nav {
   overflow: visible;
 }
@@ -74,6 +73,7 @@
   background: #ffffff;
   z-index: 8;
 }
+
 .jl-nav-item .jl-nav-sub:before {
   content: '';
   position: absolute;
@@ -100,9 +100,11 @@
     opacity: 1;
   }
 }
+
 .jl-nav-sub .jl-nav-sub-list {
   width: 100%;
 }
+
 .jl-nav-sub .jl-nav-sub-item {
   width: 100%;
   height: 44px;
@@ -113,6 +115,7 @@
   letter-spacing: 1px;
   font-family: MicrosoftYaHei;
 }
+
 .jl-nav-sub .jl-nav-sub-item:hover {
   color: #1563a0;
   background: rgba(21, 99, 160, 0.1);
@@ -124,6 +127,7 @@
   height: 40px;
   margin-right: 40px;
 }
+
 .jl-nav-more-img {
   width: 100%;
   height: 100%;
@@ -154,6 +158,7 @@
 .jl-header-wrap .jl-logo {
   height: 0.48rem;
 }
+
 .jl-logo-img {
   height: 100%;
   object-fit: cover;
@@ -191,6 +196,7 @@
   background: #ffffff;
   opacity: 0.5;
 }
+
 .jl-banner .swiper-pagination-bullet.swiper-pagination-bullet-active {
   opacity: 1;
 }
@@ -201,10 +207,12 @@
   width: 48px !important;
   height: 48px !important;
 }
+
 .swiper-button-prev::after,
 .swiper-button-next::after {
   display: none;
 }
+
 .swiper-button-next {
   right: 2.6rem !important;
   background: url('../assets/images/right.png') no-repeat 0 0 / cover;
@@ -239,6 +247,7 @@
   margin-left: 0.2rem;
   color: #ffffff;
 }
+
 .jl-swiper-more::before {
   content: '';
   position: absolute;
@@ -282,11 +291,9 @@
   bottom: 0;
   height: 3rem;
   z-index: 3;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.6) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.6) 100%);
 }
 
 /* 标语 */
@@ -302,9 +309,87 @@
   line-height: 0.84rem;
   /* text-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3); */
 }
+
 /****************************************
           banner 结束
 ****************************************/
+
+
+
+/****************************************
+                  底部 结束
+****************************************/
+.jl-section-footer-wrap {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  height: 3.91rem;
+  background: url('../assets/images/footer-bg.png') no-repeat 0 0 / cover;
+}
+
+.jl-section-center {
+  width: 15rem;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.jl-footer-affiliated-schools {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 0.4rem;
+  font-size: 0.16rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 0.22rem;
+}
+
+.jl-footer-affiliated-schools .jl-schools-item {
+  margin-top: 0.5rem;
+}
+
+.jl-footer-schools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jl-footer-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jl-footer-contact .jl-footer-contact-item {
+  width: 0.56rem;
+  height: 0.56rem;
+  margin-left: 0.4rem;
+}
+
+.jl-footer-contact .jl-concat-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.jl-footer-info {
+  position: relative;
+  z-index: 3;
+  height: 71px;
+  background: #06528a;
+  text-align: center;
+  line-height: 71px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  color: #ffffff;
+}
+
+/****************************************
+                  底部 结束
+****************************************/
+
 
 .jl-wrap {
   width: 100%;

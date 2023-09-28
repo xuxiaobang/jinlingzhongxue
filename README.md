@@ -2,6 +2,12 @@
 
 ```
 |-
+|-
+|- department-window  部门之窗
+| |- department 部门之窗
+| |- principal-office 校长办公室
+|-
+|-
 |- index.html 首页
 |- idea.html 办学理念
 |- overview.html  学校概况
@@ -17,4 +23,5 @@
 |- middle-school.html 初中部
 |- high-school.html 高中部
 |- international.html 国际部
+
 ```

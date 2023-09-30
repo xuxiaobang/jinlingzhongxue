@@ -31,7 +31,11 @@ $(window).scroll((ev) => {
 
   console.log('nScrollTop', nScrollTop > scrollTop, nScrollTop - scrollTop)
 
-  if (nScrollTop > scrollTop && nScrollTop > 20 && nScrollTop < 30) {
+  if (
+    nScrollTop > scrollTop &&
+    nScrollTop > pHight / 3 &&
+    nScrollTop < pHight / 3 + 10
+  ) {
     $(window).scrollTop(pHight - 80)
   }
 

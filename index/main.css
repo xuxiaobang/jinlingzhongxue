@@ -262,6 +262,7 @@
 
 .jl-notice-content .jl-notice-item {
   padding: 15px 20px;
+  cursor: pointer;
 }
 
 .jl-notice-item .jl-notice-title {
@@ -289,16 +290,14 @@
   margin-left: 10px;
 }
 
-.jl-notice-item:first-child .jl-notice-title {
+.jl-notice-item:hover .jl-notice-title {
   color: #11639f;
 }
-
-.jl-notice-item:first-child .jl-line {
+.jl-notice-item:hover .jl-time {
   color: #11639f;
 }
-
-.jl-notice-item.jl-hot {
-  background: rgba(255, 0, 0, 0.1);
+.jl-notice-item:hover .jl-line {
+  background: #11639f;
 }
 
 /* --------   公告  结束 -------- */
@@ -311,6 +310,7 @@
   padding-bottom: 70px;
 }
 
+/* 标题 */
 .jl-section-header {
   width: 100%;
   height: 1.7rem;
@@ -322,13 +322,63 @@
   letter-spacing: 3px;
 }
 
-.jl-section-img {
+/* 内容 */
+.jl-section-content {
+  position: relative;
+  justify-content: center;
+}
+
+.jl-section-item {
+  flex: 0 0 4.6rem;
+  width: 4.6rem;
+  margin-right: 20px;
+}
+.jl-section-item:last-child {
+  margin-right: 0;
+}
+
+.jl-section-item .jl-section-img-wrap {
+  overflow: hidden;
   width: 100%;
+  height: 2.76rem;
+}
+.jl-section-img-wrap .jl-section-img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
+.jl-category-wrap {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 50px;
+}
+
+.jl-category-wrap .jl-category-title {
+  position: relative;
+  font-size: 24px;
+}
+.jl-category-wrap .jl-category-title:after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  width: 2px;
+  width: 100px;
+  background: #11639f;
+}
+
+/* .jl-section-img {
+  width: 100%;
+  object-fit: cover;
+} */
+
 .jl-section-content {
   position: relative;
+}
+
+.jl-section-top .jl-header-more {
+  /* color: #ffffff; */
 }
 
 /* 教师内容 */
@@ -389,15 +439,15 @@
   border-radius: 2px;
 }
 
-.jl-section-top .jl-header-more {
+/* .jl-section-top .jl-header-more {
   color: #ffffff;
-}
+} */
 
 /* 教师轮播 */
-.jl-teacher {
+/* .jl-teacher {
   box-sizing: border-box;
   padding-top: 0.46rem;
-}
+} */
 
 .jl-section-slide {
   align-items: flex-start;
@@ -407,7 +457,7 @@
 .jl-slide-info {
   margin: 0 0.4rem;
   text-align: left;
-  color: #ffffff;
+  /* color: #ffffff; */
   padding-bottom: 0.6rem;
 }
 
@@ -450,32 +500,32 @@
   object-fit: cover;
 }
 
-.jl-section-pagination {
+.swiper-pagination {
   width: auto;
-  left: 3.2rem;
+  left: 0rem;
   bottom: 0.5rem;
   font-size: 0.14em;
-  color: #ffffff;
+  /* color: #ffffff; */
   line-height: 0.24rem;
   z-index: 9;
 }
 
-.jl-section-pagination .swiper-pagination-current {
+.swiper-pagination .swiper-pagination-current {
   font-size: 0.16rem;
   font-family: DINAlternate-Bold, DINAlternate;
   font-weight: bold;
 }
 
 .jl-swiper-next {
-  right: 5rem !important;
+  right: 0.6rem !important;
   top: auto;
-  bottom: 0.5rem;
+  bottom: 20px;
 }
 
 .jl-swiper-prev {
   left: 0.6rem !important;
   top: auto;
-  bottom: 0.5rem;
+  bottom: 20px;
 }
 
 /* --------   教师频道  结束 -------- */

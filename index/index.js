@@ -50,3 +50,11 @@ $(window).scroll((ev) => {
     $('.jl-header-wrap').removeClass('show')
   }
 })
+
+// 全部导航
+$(function () {
+  $('.jl-nav-operate').click(function () {
+    $('.jl-full-nav').toggleClass('show')
+    $('body').toggleClass('hidden')
+  })
+})

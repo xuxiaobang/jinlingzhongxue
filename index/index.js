@@ -31,7 +31,11 @@ $(window).scroll((ev) => {
 
   console.log('nScrollTop', nScrollTop > scrollTop, nScrollTop - scrollTop)
 
-  if (nScrollTop > scrollTop && nScrollTop > 20 && nScrollTop < 30) {
+  if (
+    nScrollTop > scrollTop &&
+    nScrollTop > pHight / 3 &&
+    nScrollTop < pHight / 3 + 10
+  ) {
     $(window).scrollTop(pHight - 80)
   }
 
@@ -45,4 +49,13 @@ $(window).scroll((ev) => {
     $('.jl-main-header').removeClass('hide')
     $('.jl-header-wrap').removeClass('show')
   }
+})
+
+// 全部导航
+$(function () {
+  $('.jl-nav-operate').click(function () {
+    $('.jl-full-nav').toggleClass('show')
+    $('body').toggleClass('hidden')
+    $('.jl-nav-operate').toggleClass('show')
+  })
 })

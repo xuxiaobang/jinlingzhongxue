@@ -1,9 +1,5 @@
 /* 页面通用样式 */
 
-/* .jl-container {
-  min-width: 1200px;
-} */
-
 /****************************************
           header 开始
 ****************************************/
@@ -15,9 +11,11 @@
 .jl-header-top {
   height: 120px;
   padding-top: 20px;
-  background: linear-gradient(180deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 /*  hader-container */
@@ -126,6 +124,12 @@
   width: 40px;
   height: 40px;
   margin-right: 40px;
+  background: url('../assets/images/nav-more.png') no-repeat center/cover;
+  cursor: pointer;
+}
+
+.jl-nav-operate.show {
+  background-image: url('../assets/images/close-full-header.png');
 }
 
 .jl-nav-more-img {
@@ -144,10 +148,19 @@
   left: 0;
   width: 100vw;
   height: 80px;
-  z-index: 12;
+  z-index: 100;
   color: #ffffff;
-  background: rgba(21, 99, 160, 85);
   transform: translateY(-80px);
+  transition: 0.3s;
+}
+.jl-header-wrap-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background: rgba(21, 99, 160, 85);
   transition: 0.3s;
 }
 
@@ -164,8 +177,244 @@
   object-fit: cover;
 }
 
+/* 全屏header */
+.jl-full-nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 0;
+  transition: 0.6s;
+}
+.jl-full-nav.show {
+  height: 100%;
+}
+
+.jl-full-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: url('../assets/images/full-header-bg.png') no-repeat center/cover;
+}
+.jl-full-mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.jl-full-header-container {
+  max-width: 76%;
+  margin: 1.6rem auto;
+  height: 100%;
+}
+.jl-full-nav-item {
+  flex: 1;
+  text-align: center;
+  transform: translateY(0.5rem);
+  opacity: 0;
+  transition: 0.5s;
+}
+.jl-full-nav-item:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.jl-full-nav-item:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.jl-full-nav-item:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.jl-full-nav-item:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.jl-full-nav-item:nth-child(4) {
+  transition-delay: 0.4s;
+}
+.jl-full-nav-item:nth-child(5) {
+  transition-delay: 0.5s;
+}
+.jl-full-nav-item:nth-child(6) {
+  transition-delay: 0.6s;
+}
+.jl-full-nav-item:nth-child(7) {
+  transition-delay: 0.7s;
+}
+.jl-full-nav-item:nth-child(8) {
+  transition-delay: 0.8s;
+}
+.jl-full-nav-item:nth-child(9) {
+  transition-delay: 0.9s;
+}
+.jl-full-nav-item:nth-child(10) {
+  transition-delay: 1s;
+}
+
+.jl-full-nav.show .jl-full-nav-item {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.jl-full-nav-item .jl-full-title {
+  margin-bottom: 0.16rem;
+}
+.jl-full-nav-item .jl-full-title a {
+  position: relative;
+  font-size: 0.22rem;
+  color: #fff;
+  position: relative;
+  display: block;
+  padding: 0 0 0.18rem;
+  margin-bottom: 0.16rem;
+  font-weight: 700;
+}
+.jl-full-nav-item .jl-full-title a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0.32rem;
+  height: 2px;
+  background: #ffffff;
+}
+
+.jl-full-nav-item .jl-full-label {
+  margin-bottom: 0.2rem;
+}
+.jl-full-nav-item .jl-full-label a {
+  font-size: 0.16rem;
+  color: #fff;
+  line-height: 0.2rem;
+}
+
+.jl-full-nav-item .jl-full-label a:hover {
+  color: #e6c390;
+}
+
+.jl-full-nav.show ~ .jl-main-header .jl-nav {
+  display: none;
+}
+
+.jl-full-nav.show ~ .jl-header-wrap .jl-header-wrap-bg {
+  transform: translateY(-100%);
+}
+.jl-full-nav.show ~ .jl-header-wrap .jl-nav {
+  display: none;
+}
+
 /****************************************
            header 结束
+****************************************/
+
+/****************************************
+           通用 header 开始
+****************************************/
+.jl-common-header {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 6rem;
+  max-height: 6rem;
+}
+.jl-main-header {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+}
+
+/* 背景 */
+.jl-header-bg-wrap {
+  position: relative;
+}
+
+.jl-header-bg-wrap:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+.jl-header-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.jl-crumbs-nav {
+  position: absolute;
+  left: 0;
+  bottom: 0.5rem;
+  width: 100%;
+}
+
+.jl-center-container {
+  align-items: flex-end;
+  width: 13.3rem;
+  max-width: 94%;
+  margin: 0 auto;
+}
+.jl-crumbs-title {
+  font-size: 0.32rem;
+  font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.jl-address {
+  color: #ffffff;
+  margin-left: 0.6rem;
+  margin-bottom: 4px;
+}
+.jl-address .jl-address-item {
+  font-size: 0.14rem;
+  font-family: MicrosoftYaHei;
+  color: #ffffff;
+  padding: 0 0.1rem;
+}
+/****************************************
+           通用 header 结束
+****************************************/
+
+/****************************************
+          nav 开始
+****************************************/
+.jl-section-nav {
+  width: 100%;
+  height: 0.7rem;
+  background: #ffffff;
+  box-shadow: 0px 2px 20px 0px rgba(21, 99, 160, 0.1);
+}
+
+.jl-section-nav .jl-nav-list {
+  justify-content: flex-start;
+  align-items: center;
+}
+.jl-nav-list .jl-nav-item {
+  line-height: 0.7rem;
+  height: 100%;
+  font-size: 0.16rem;
+  font-family: MicrosoftYaHei;
+  color: #333333;
+}
+.jl-nav-list .jl-nav-item a {
+  display: block;
+  height: 100%;
+  padding: 0 0.28rem;
+}
+.jl-nav-list .jl-nav-item.jl-active a {
+  color: #ffffff;
+  background: #1563a0;
+}
+/****************************************
+          nav 结束
 ****************************************/
 
 /****************************************
@@ -291,9 +540,11 @@
   bottom: 0;
   height: 3rem;
   z-index: 3;
-  background: linear-gradient(180deg,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.6) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
 }
 
 /* 标语 */
@@ -314,16 +565,18 @@
           banner 结束
 ****************************************/
 
-
-
 /****************************************
                   底部 结束
 ****************************************/
+.jl-footer {
+  margin-top: 0.7rem;
+}
 .jl-section-footer-wrap {
   position: relative;
   z-index: 3;
   width: 100%;
   height: 3.91rem;
+  margin-top: 0.7rem;
   background: url('../assets/images/footer-bg.png') no-repeat 0 0 / cover;
 }
 
@@ -389,7 +642,6 @@
 /****************************************
                   底部 结束
 ****************************************/
-
 
 .jl-wrap {
   width: 100%;

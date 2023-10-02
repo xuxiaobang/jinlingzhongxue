@@ -17,14 +17,16 @@
 | |- swiper.css   轮播样式
 | |- overview.css 学校概况页样式
 | |- leader.css  学校领导页样式
+| |- position.css 学校地图页样式
 | |
 |- index.html 首页
 |- idea.html 办学理念
 |- overview.html  学校概况
 |- leader.html  学校领导
-|- supervision.html  教育教学督 导室
+|- supervision.html  教育教学督导室
 |- institution.html 组织机构
 |- principal.html 校长专栏
+|- position.html 校园地图
 |- news.html 学校新闻
 |- notice.html 公告通知
 |- recruit-students.html 招生专栏

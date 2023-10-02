@@ -7,7 +7,13 @@
 | |- department 部门之窗
 | |- principal-office 校长办公室
 |-
-|-
+|- css
+| |- common.css 全局通用样式
+| |- media.css  媒体查询样式
+| |- reset.css  重置样式
+| |- swiper.css   轮播样式
+| |- overview.css 学校概况样式
+| |
 |- index.html 首页
 |- idea.html 办学理念
 |- overview.html  学校概况

@@ -56,5 +56,6 @@ $(function () {
   $('.jl-nav-operate').click(function () {
     $('.jl-full-nav').toggleClass('show')
     $('body').toggleClass('hidden')
+    $('.jl-nav-operate').toggleClass('show')
   })
 })

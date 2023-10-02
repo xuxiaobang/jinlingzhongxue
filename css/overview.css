@@ -1,0 +1,86 @@
+/* 学校概况 */
+.jl-section-container .jl-center-container {
+  padding-top: 0.7rem;
+  align-items: flex-start;
+  font-size: 0.14rem;
+  font-family: MicrosoftYaHei;
+  color: #333333;
+  line-height: 0.3rem;
+}
+
+.jl-section-container .jl-overview-title {
+  position: relative;
+  flex: 0 0 0.79rem;
+  width: 0.79rem;
+  align-self: stretch;
+}
+.jl-overview-title .jl-overview-img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.jl-overview-title:after {
+  content: '';
+  position: absolute;
+  top: 2.4rem;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 1px;
+  background: #edd8d8;
+}
+.jl-section-container .jl-overview-content {
+  margin: 0 0.4rem 0.4rem;
+}
+.jl-section-container p {
+  text-indent: 2em;
+  margin-bottom: 0.4rem;
+}
+.jl-section-container p:last-child {
+  margin-bottom: 0;
+}
+.jl-section-container .jl-overview-img-wrap {
+  flex: 0 0 4.8rem;
+  width: 4.8rem;
+}
+.jl-section-container .jl-overview-img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+/* 介绍 */
+.jl-introduce {
+  position: relative;
+}
+
+.jl-introduce-bg {
+  height: 4.8rem;
+  margin-right: 4rem;
+  background: url('../assets/images/text-bg.png') no-repeat center/cover;
+}
+
+.jl-introduce .jl-center-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 0.4rem;
+  color: #ffffff;
+}
+
+.jl-introduce .jl-center-container p {
+  padding-right: 2rem;
+}
+
+/* 插图 */
+.jl-illustration {
+  width: 100%;
+}
+.jl-illustration-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

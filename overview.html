@@ -6,10 +6,407 @@
     <title>学校概况</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/overview.css" />
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/main.js"></script>
   </head>
   <body>
-    <div class="jl-wrap">
-      <img class="jl-img" src="./images/04-学校概况.png" alt="" />
+    <div class="jl-overview-wrap">
+      <!-- =============================== header 开始 ========================== -->
+      <div class="jl-common-header">
+        <!-- 通用header -->
+        <div class="jl-main-header jl-main">
+          <!-- header top -->
+          <div class="jl-header-top">
+            <div class="jl-header-container jl-flex">
+              <!-- logo -->
+              <h1 class="jl-logo">
+                <img src="./index/images/logo.png" alt="" />
+              </h1>
+
+              <!-- nav -->
+              <div class="jl-nav-wrapper jl-flex-con jl-flex jl-flex-vertical">
+                <ul class="jl-nav jl-flex jl-flex-vertical">
+                  <li class="jl-nav-item">
+                    <a class="jl-nav-item__label" href="#" target="_blank">
+                      学校简介
+                    </a>
+                    <div class="jl-nav-sub">
+                      <div class="jl-nav-sub-list jl-flex jl-flex--column">
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/idea.html"
+                          target="_blank"
+                        >
+                          办学理念
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/overview.html"
+                          target="_blank"
+                        >
+                          学校概况
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/leader.html "
+                          target="_blank"
+                        >
+                          学校领导
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/supervision.html"
+                          target="_blank"
+                        >
+                          教育教学督导室
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/supervision.html"
+                          target="_blank"
+                        >
+                          组织机构
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/principal.html"
+                          target="_blank"
+                        >
+                          校长专栏
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/position.html"
+                          target="_blank"
+                        >
+                          校园地图
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="jl-nav-item">
+                    <a
+                      class="jl-nav-item__label"
+                      href="/news.html"
+                      target="_blank"
+                    >
+                      学校新闻
+                    </a>
+                  </li>
+                  <li class="jl-nav-item">
+                    <a
+                      class="jl-nav-item__label"
+                      href="/notice.html"
+                      target="_blank"
+                    >
+                      通知公告
+                    </a>
+                  </li>
+                  <li class="jl-nav-item">
+                    <a
+                      class="jl-nav-item__label"
+                      href="/recruit-students.html"
+                      target="_blank"
+                    >
+                      招生专栏
+                    </a>
+                  </li>
+                  <li class="jl-nav-item">教师频道</li>
+                  <li class="jl-nav-item">校园生活</li>
+                  <li class="jl-nav-item">
+                    <a
+                      class="jl-nav-item__label"
+                      href="/learning-department.html"
+                      target="_blank"
+                    >
+                      学部链接
+                    </a>
+                    <div class="jl-nav-sub">
+                      <div class="jl-nav-sub-list jl-flex jl-flex--column">
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/primary-school.html"
+                          target="_blank"
+                        >
+                          小学部
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/middle-school.html"
+                          target="_blank"
+                        >
+                          中学部
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/high-school.html "
+                          target="_blank"
+                        >
+                          高中部
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/international.html "
+                          target="_blank"
+                        >
+                          国际部
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="jl-nav-item">
+                    <a
+                      class="jl-nav-item__label"
+                      href="/learning-department.html"
+                      target="_blank"
+                    >
+                      部门之窗
+                    </a>
+                    <div class="jl-nav-sub">
+                      <div class="jl-nav-sub-list jl-flex jl-flex--column">
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/primary-school.html"
+                          target="_blank"
+                        >
+                          校长办公室
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/middle-school.html"
+                          target="_blank"
+                        >
+                          党委办公室
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/high-school.html "
+                          target="_blank"
+                        >
+                          教师发展中心
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/international.html "
+                          target="_blank"
+                        >
+                          学生成长中心
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/high-school.html "
+                          target="_blank"
+                        >
+                          科教信息中心
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/international.html "
+                          target="_blank"
+                        >
+                          后期保障中心
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="jl-nav-item">党委工会</li>
+                  <li class="jl-nav-item">智慧校园</li>
+                  <li class="jl-nav-item">校庆二十周年</li>
+                </ul>
+
+                <!-- 全部按钮 -->
+                <div class="jl-nav-operate"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 背景 -->
+        <div class="jl-header-bg-wrap">
+          <img
+            class="jl-header-bg"
+            src="./assets/images/full-header-bg.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+
+        <!-- 面包屑导航 -->
+        <div class="jl-crumbs-nav">
+          <div class="jl-center-container jl-flex">
+            <h2 class="jl-crumbs-title">学校简介</h2>
+            <div class="jl-address jl-flex jl-flex-vertical">
+              <a class="jl-address-item" href="#">首页</a>/
+              <a class="jl-address-item" href="#">学校简写</a>/
+              <a class="jl-address-item" href="#">学校概况</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =============================== header 结束 ========================== -->
+
+      <!-- =============================== 主体 开始 ============================= -->
+      <!-- nav -->
+      <div class="jl-section-nav">
+        <div class="jl-center-container">
+          <ul class="jl-nav-list jl-flex">
+            <li class="jl-nav-item">
+              <a href="#">办学理念</a>
+            </li>
+            <li class="jl-nav-item jl-active">
+              <a href="#">学校概况</a>
+            </li>
+            <li class="jl-nav-item">
+              <a href="#">学校领导</a>
+            </li>
+            <li class="jl-nav-item">
+              <a href="#">教育教学督导室</a>
+            </li>
+            <li class="jl-nav-item">
+              <a href="#">组织机构</a>
+            </li>
+            <li class="jl-nav-item">
+              <a href="#">校长专栏</a>
+            </li>
+            <li class="jl-nav-item">
+              <a href="#">校园地图</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="jl-section-container">
+        <!-- 概况 -->
+        <div class="jl-center-container jl-flex">
+          <!-- 概况 -->
+          <div class="jl-overview-title">
+            <img
+              class="jl-overview-img"
+              src="./assets/images/overview-title.png"
+              alt=""
+            />
+          </div>
+
+          <div class="jl-overview-content">
+            <p>
+              金陵中学河西分校地处南京市河西新城中心，由具有百余年悠久历史的金陵中学和南京市河西新城区管委会于2003年9月共同创建。学校现有小学部、初中部、高中部和国际部，教职工700余人，在校学生约7000人。
+            </p>
+            <p>
+              学校秉承金陵中学办学文化，以“诚真勤仁”为校训，以“人本价值、一体融合、未来生态”为发展战略，以“健雅诚仁、未来胜任”为育人目标，重塑空间文化和学校成长生态，推动小学部、初中部、高中部、国际部“四位一体”整合发展，实现学生学习力、教师研究力、学校竞争力的协力共生。学校围绕一体优势、文化氛围、人本管理、队伍建设、多元课程、质量提升、智慧生态七大领域，着力优化学校生态、教师状态、学生情态。
+            </p>
+            <p>
+              学校师资力量雄厚，特级教师及市学科带头人占比3%，区骨干教师102人，比例达20%，硕士及以上学位138人，比例为27%。学校设有全省首个博士工作站，超过三分之一的教师被评为省市区教育教学先进个人或优秀教育工作者。
+            </p>
+            <p>
+              学校着力整体构建课程体系，丰富课程内涵，被评为全省仅有12所的“课程基地建设示范学校”。我校还与南师大教科所合作，实施“课程·课堂·科研”卓越计划。先后聘请国家男篮胡雪峰教练、国家女足高红教练、著名民乐家朱昌耀等担任学校课程专家委员会成员。学校以“西河雅集”为中心，建立书画长廊，将雨花石、云锦等引进校本课程，开辟“梦想课堂”，打造“STEAM”课程。开设40多门选修课程供学生自由选择。小学建立“小精灵”课程体系，“穿越南京”“快乐星期六”“精灵秀”等校本课程多次被主流媒体报道宣传。在信息奥赛、机器人、航模等重大赛事中，多次获得国家级奖项；学校还被评为南京市足球特色学校；
+              20多个教研组被评为省、市优秀教研组。
+            </p>
+          </div>
+
+          <div class="jl-overview-img-wrap">
+            <img
+              class="jl-overview-img"
+              src="./assets/images/overview-img.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <!-- 介绍  -->
+        <div class="jl-introduce">
+          <div class="jl-introduce-bg"></div>
+          <div class="jl-center-container">
+            <p>
+              学生活动丰富多彩，每年举办新生才艺演出、美食节、体育节、文化艺术节、科技节、数学节、英语节等节日活动。每周三、周五，40多个学生社团开展丰富的社团活动。
+            </p>
+            <p>
+              学校办学成绩卓著，赢得了广泛赞誉。连续多年有多位同学被北大、清华录取。涌现出一大批优秀学子，先后夺得南京市中考第一名，南京市高考文科第一名、南京市高考理科第一名（全省第二名）。高中部五大奥赛成绩全省突出，位居南京市前5名，江苏省第16名。学校多次获得南京市“高中教学质量评优综合奖”和“高考质量推进单项优秀奖”，一本上线率超过70%。初中部中考成绩位居全市前列，四名同学被西安交通大学少年班录取，直读硕士。国际部学生在各类全球联考中，成绩优异。毕业生100%就读于世界前100名校，80%以上被麦吉尔大学、多伦多大学、加州大学伯克利分校等世界顶尖名校录取。小学部课程特色鲜明，教育环境优越，培养出一大批学业成绩优异、综合素质全面的“出彩小精灵”。
+            </p>
+            <p>
+              李源潮同志参观金陵中学河西分校时曾说“河西模式是一个很好的范例”，罗志军同志也称赞学校为“南京教育的品牌，南京城市的品牌”。中国科协副主席徐延豪来校调研时，赞誉学校“创想空间，培育英才”。原教育部副部长、江苏省副省长王湛说：“金中河西的校园文化建设很有特色”。时任新加坡教育部长尚达曼先生率团参观时表示，“金陵中学河西分校在办学的规模、教育理念和办学质量等方面和新加坡最好的中学在同一个层次上。”诺贝尔经济学奖获得者莫里斯来校参观，给予了高度评价。
+            </p>
+            <p>
+              以系统的力量打造“河西教育卓越体”，南京市金陵中学河西分校已成为南京领先、全国知名、国际影响的一所十二年一贯制现代化学校。
+            </p>
+          </div>
+        </div>
+
+        <!-- 插图 -->
+        <div class="jl-illustration">
+          <img
+            class="jl-illustration-img"
+            src="./assets/images/overview-illustration.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <!-- ============================= 主体 结束 ============================= -->
+
+      <!-- ============================ 底部 开始 ============================= -->
+      <div class="jl-section-footer jl-footer">
+        <div class="jl-section-footer-wrap">
+          <div class="jl-section-center jl-flex">
+            <!-- 关联学校 -->
+            <div class="jl-footer-affiliated-schools jl-flex-con">
+              <div class="jl-schools-item">金陵中学</div>
+              <div class="jl-schools-item">金陵中学附属初级中学</div>
+              <div class="jl-schools-item">金陵中学实验小学</div>
+              <div class="jl-schools-item">陵汇文学校</div>
+              <div class="jl-schools-item">金陵中学高新分校</div>
+              <div class="jl-schools-item">南京市金陵小学</div>
+              <div class="jl-schools-item">金陵中学仙林分校（中学部）</div>
+              <div class="jl-schools-item">金陵中学附属小学</div>
+            </div>
+
+            <!-- 学校名称 -->
+            <div class="jl-footer-schools jl-flex-con">
+              <img src="./index/images/footer-logo.png" alt="" />
+            </div>
+
+            <!-- 分享 -->
+            <div class="jl-footer-contact jl-flex-con">
+              <div class="jl-footer-contact-item">
+                <img
+                  class="jl-concat-img"
+                  src="./index/images/wechat.png"
+                  alt=""
+                />
+              </div>
+              <div class="jl-footer-contact-item">
+                <img
+                  class="jl-concat-img"
+                  src="./index/images/user.png"
+                  alt=""
+                />
+              </div>
+              <div class="jl-footer-contact-item">
+                <img
+                  class="jl-concat-img"
+                  src="./index/images/douyin.png"
+                  alt=""
+                />
+              </div>
+              <div class="jl-footer-contact-item">
+                <img
+                  class="jl-concat-img"
+                  src="./index/images/email.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="jl-footer-info">
+          <span class="jl-mr--half">Copyright@2015</span>
+          <span class="jl-mr--half">南京市金陵中学河西分校 </span>
+          <span class="jl-mr--half">苏ICP备05067371号-1</span>
+        </div>
+      </div>
+
+      <!-- ============================ 底部 结束 ============================= -->
     </div>
   </body>
 </html>

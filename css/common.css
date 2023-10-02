@@ -1,9 +1,5 @@
 /* 页面通用样式 */
 
-/* .jl-container {
-  min-width: 1200px;
-} */
-
 /****************************************
           header 开始
 ****************************************/
@@ -128,6 +124,12 @@
   width: 40px;
   height: 40px;
   margin-right: 40px;
+  background: url('../assets/images/nav-more.png') no-repeat center/cover;
+  cursor: pointer;
+}
+
+.jl-nav-operate.show {
+  background-image: url('../assets/images/close-full-header.png');
 }
 
 .jl-nav-more-img {
@@ -305,8 +307,114 @@
 .jl-full-nav.show ~ .jl-header-wrap .jl-nav {
   display: none;
 }
+
 /****************************************
            header 结束
+****************************************/
+
+/****************************************
+           通用 header 开始
+****************************************/
+.jl-common-header {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 6rem;
+  max-height: 6rem;
+}
+.jl-main-header {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+}
+
+/* 背景 */
+.jl-header-bg-wrap {
+  position: relative;
+}
+
+.jl-header-bg-wrap:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+.jl-header-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.jl-crumbs-nav {
+  position: absolute;
+  left: 0;
+  bottom: 0.5rem;
+  width: 100%;
+}
+
+.jl-center-container {
+  align-items: flex-end;
+  width: 13.3rem;
+  max-width: 94%;
+  margin: 0 auto;
+}
+.jl-crumbs-title {
+  font-size: 0.32rem;
+  font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.jl-address {
+  color: #ffffff;
+  margin-left: 0.6rem;
+  margin-bottom: 4px;
+}
+.jl-address .jl-address-item {
+  font-size: 0.14rem;
+  font-family: MicrosoftYaHei;
+  color: #ffffff;
+  padding: 0 0.1rem;
+}
+/****************************************
+           通用 header 结束
+****************************************/
+
+/****************************************
+          nav 开始
+****************************************/
+.jl-section-nav {
+  width: 100%;
+  height: 0.7rem;
+  background: #ffffff;
+  box-shadow: 0px 2px 20px 0px rgba(21, 99, 160, 0.1);
+}
+
+.jl-section-nav .jl-nav-list {
+  justify-content: flex-start;
+  align-items: center;
+}
+.jl-nav-list .jl-nav-item {
+  line-height: 0.7rem;
+  height: 100%;
+  font-size: 0.16rem;
+  font-family: MicrosoftYaHei;
+  color: #333333;
+}
+.jl-nav-list .jl-nav-item a {
+  display: block;
+  height: 100%;
+  padding: 0 0.28rem;
+}
+.jl-nav-list .jl-nav-item.jl-active a {
+  color: #ffffff;
+  background: #1563a0;
+}
+/****************************************
+          nav 结束
 ****************************************/
 
 /****************************************
@@ -460,11 +568,15 @@
 /****************************************
                   底部 结束
 ****************************************/
+.jl-footer {
+  margin-top: 0.7rem;
+}
 .jl-section-footer-wrap {
   position: relative;
   z-index: 3;
   width: 100%;
   height: 3.91rem;
+  margin-top: 0.7rem;
   background: url('../assets/images/footer-bg.png') no-repeat 0 0 / cover;
 }
 

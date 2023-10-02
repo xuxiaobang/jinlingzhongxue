@@ -6,6 +6,13 @@
 |- department-window  部门之窗
 | |- department 部门之窗
 | |- principal-office 校长办公室
+| |- party-committee  党委办公室
+| |- 
+
+
+
+
+
 |-
 |-
 |- index.html 首页

@@ -1,0 +1,36 @@
+.jl-section-container {
+}
+
+.jl-section-container .jl-center-container {
+  flex-wrap: wrap;
+  width: 14.4rem;
+}
+
+.jl-section-container .jl-leader-item {
+  box-sizing: border-box;
+  flex: 0 1 25%;
+  padding: 0.2rem;
+  width: 25%;
+}
+
+.jl-leader-item .jl-leader-avatar {
+  overflow: hidden;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.jl-leader-avatar .jl-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.jl-leader-avatar:hover .jl-avatar {
+  transform: scale(1.2);
+}
+
+.jl-leader-username {
+  text-align: center;
+  margin: 0.3rem 0 0.2rem;
+}

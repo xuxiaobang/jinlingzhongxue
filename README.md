@@ -7,11 +7,7 @@
 | |- department 部门之窗
 | |- principal-office 校长办公室
 | |- party-committee  党委办公室
-| |- 
-
-
-
-
+| |-
 
 |-
 |- css
@@ -19,7 +15,8 @@
 | |- media.css  媒体查询样式
 | |- reset.css  重置样式
 | |- swiper.css   轮播样式
-| |- overview.css 学校概况样式
+| |- overview.css 学校概况页样式
+| |- leader.css  学校领导页样式
 | |
 |- index.html 首页
 |- idea.html 办学理念

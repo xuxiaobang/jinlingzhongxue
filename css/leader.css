@@ -1,16 +1,14 @@
-.jl-section-container {
-}
-
+/* 学校领导内容 */
 .jl-section-container .jl-center-container {
+  justify-content: center;
   flex-wrap: wrap;
   width: 14.4rem;
 }
 
 .jl-section-container .jl-leader-item {
-  box-sizing: border-box;
-  flex: 0 1 25%;
+  flex: 0 1 3.2rem;
   padding: 0.2rem;
-  width: 25%;
+  width: 3.2rem;
 }
 
 .jl-leader-item .jl-leader-avatar {

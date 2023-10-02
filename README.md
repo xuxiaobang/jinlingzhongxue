@@ -22,7 +22,7 @@
 |- idea.html 办学理念
 |- overview.html  学校概况
 |- leader.html  学校领导
-|- supervision.html  教育教学督导室
+|- supervision.html  教育教学督 导室
 |- institution.html 组织机构
 |- principal.html 校长专栏
 |- news.html 学校新闻

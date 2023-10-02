@@ -1,0 +1,180 @@
+/* 招生专栏 */
+
+/* 服务入口 */
+.jl-recruit-service {
+  height: 5.6rem;
+  justify-content: center;
+  align-items: center;
+  background: url('../assets/images/service-bg.png') no-repeat 0 0 / cover;
+}
+.jl-recruit-item {
+  width: 2.8rem;
+  height: 2.8rem;
+  margin-right: 1rem;
+}
+.jl-recruit-item:last-child {
+  margin-right: 0;
+}
+
+/* 校长寄语 */
+.jl-message-container {
+  color: #ffffff;
+  height: 8.8rem;
+  background: url('../assets/images/message-bg.png') no-repeat center/cover;
+}
+.jl-message-title {
+  padding: 0.8rem 0 1rem;
+  font-size: 0.48rem;
+  font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+  font-weight: bold;
+  line-height: 0.64rem;
+}
+
+.jl-message-content {
+  align-items: flex-start;
+}
+.jl-message-content .jl-principal-avatar {
+  flex: 0 0 3.2rem;
+  width: 3.2rem;
+  height: 4rem;
+  margin-right: 0.8rem;
+}
+
+.jl-principal-avatar .jl-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.jl-message-wrap {
+  font-size: 0.16rem;
+  font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+  font-weight: bold;
+  line-height: 0.32rem;
+}
+.jl-message-wrap .jl-principal-username {
+  font-size: 0.24rem;
+  margin: 0.48rem 0;
+}
+
+.jl-message-wrap .jl-message-info {
+  margin-top: 0.6rem;
+  text-indent: 2em;
+}
+
+.jl-message-more {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0.2rem auto;
+}
+.jl-message-more-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 最新信息 */
+.jl-latest-info-container {
+  height: 8.8rem;
+  background: url('../assets/images/latest-info-bg.png') no-repeat center/cover;
+}
+
+.jl-latest-info-content {
+  height: 7.06rem;
+}
+.jl-latest-info-content .jl-latest-info-cover {
+  width: 4.53rem;
+  height: 100%;
+  margin-right: 0.8rem;
+}
+.jl-latest-info-cover .jl-latest-info-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.jl-latest-info-tab .jl-tab-list {
+  align-items: flex-end;
+  margin: 0.9rem 0 0.4rem;
+}
+.jl-tab-list .jl-tab-item {
+  font-size: 0.32rem;
+  font-family: MicrosoftYaHei;
+  color: #000000;
+  line-height: 0.42rem;
+  margin-right: 0.8rem;
+  cursor: pointer;
+}
+
+.jl-tab-list .jl-tab-item.jl-active {
+  font-size: 0.4rem;
+  font-weight: bold;
+  line-height: 0.52rem;
+}
+
+.jl-info-list {
+  position: relative;
+}
+
+.jl-info-list .jl-info-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  width: 12.07rem;
+  height: 5.34rem;
+  background: #ffffff;
+  padding: 0.4rem 0.6rem;
+  transform: translateX(2rem);
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.jl-info-list .jl-info-item.jl-active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.jl-info-item .jl-latest-info-item {
+  flex: 1;
+  width: 100%;
+}
+
+.jl-latest-info-item a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #333333;
+  border-bottom: 1px solid transparent;
+}
+.jl-latest-info-item a:hover {
+  color: #1563a0;
+  border-bottom-color: #1563a0;
+}
+.jl-latest-info-item .jl-latest-info-time {
+  flex: 0 0 1rem;
+  width: 1rem;
+  margin-left: 0.2rem;
+}
+
+/* 更多 */
+.jl-latest-view-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.6rem;
+}
+.jl-view-more {
+  display: flex;
+  align-items: center;
+  color: #1563a0;
+}
+.jl-view-more .jl-view-small {
+  width: 0.4rem;
+  height: 0.4rem;
+  object-fit: cover;
+  margin-right: 0.2rem;
+}

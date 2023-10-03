@@ -7,6 +7,14 @@
 | |- department 部门之窗
 | |- principal-office 校长办公室
 | |- party-committee  党委办公室
+| |- teacher-development   教师发展中心
+| |- student-growth   学生成长中心
+| |- science-education  科教信息中心
+| |- logistics   后勤保障中心
+| |- party-activities   党委工会-党员活动
+
+
+
 | |-
 
 |-

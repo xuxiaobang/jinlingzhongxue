@@ -1,7 +1,7 @@
 /*******************
      header 开始
 *********************/
-.jl-logistics-header {
+.jl-activities-header {
   height: 600px;
   background: skyblue;
 }
@@ -12,8 +12,11 @@
      主体 开始
 *********************/
 /* 盒子距离底部的边距 */
-.jl-logistics-body {
-  margin-bottom: 60px;
+.jl-activities-body {
+  /* margin-bottom: 60px; */
+  background: url("./images/background.png") no-repeat;
+  background-position: 0% 100%;
+  background-size: 100%;
 }
 
 
@@ -23,13 +26,13 @@
 *********************/
 
 /* 导航底部阴影 */
-.jl-logistics-shadow {
+.jl-activities-shadow {
   box-shadow: 0px 2px 20px 0px rgba(21, 99, 160, 0.1);
   width: 100%;
 }
 
 /* 导航部分 */
-.jl-logistics-nav {
+.jl-activities-nav {
   width: 1400px;
   height: 70px;
   display: flex;
@@ -39,7 +42,7 @@
 
 
 /* 导航单个选项 */
-.jl-logistics-nav-item {
+.jl-activities-nav-item {
   height: 70px;
   text-align: center;
   line-height: 70px;
@@ -50,7 +53,7 @@
 }
 
 /* 当前页面对应导航背景色--蓝色 */
-.jl-logistics-nav-click {
+.jl-activities-nav-click {
   background-color: #1563A0;
   color: #fff;
 }
@@ -68,83 +71,136 @@
      列表样式 开始
 *********************/
 /* 列表盒子 */
-.jl-logistics-list {
-  display: flex;
-  width: 1400px;
+.jl-activities-list {
+  width: 1170px;
   margin: 0 auto;
   margin-top: 60px;
   flex-wrap: wrap;
 }
 
 /* 列表单项 */
-.jl-logistics-list-item {
-  width: 440px;
-  height: 200px;
-  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+.jl-activities-list-item {
+  width: 1170px;
+  height: 240px;
+  margin-bottom: 60px;
+  display: flex;
+
+}
+
+
+
+
+
+.jl-activities-item-lef {
+  margin-right: 40px;
+}
+
+.jl-activities-item-rig {
+  width: 730px;
+
   position: relative;
-
 }
 
-/* 盒子蓝色进度线 */
-.jl-logistics-blue {
+.jl-activities-rig-text {
+
   position: absolute;
-  width: 4px;
-  height: 40px;
-  background-color: #1563A0;
-  top: 44px;
-}
-
-/* 列表单项向右向左的间距 */
-.jl-logistics-item-margin {
-  margin: 0 40px 60px 0;
-}
-
-
-
-/* 箭头图标 */
-.jl-more-svg {
-  width: 0.3rem;
-  height: 0.3rem;
-  fill: #999999;
-  transform: rotateX(180deg) translateX(0);
-  margin-left: 0;
-  transition: 0.3s;
-  margin-right: 10px;
-  position: absolute;
-  top: 76px;
-}
-
-
-/* 盒子左侧部分 */
-.jl-logistics-left-text {
-  position: absolute;
-  left: 39px;
-  top: 48px;
-  font-size: 24px;
+  top: 21px;
   color: #333333;
+  /* line-height: 21px; */
 }
 
+.jl-activities-rig-text h2 {
+  font-size: 22px;
+  margin-bottom: 18px;
+}
 
-/* 盒子右侧部分(图标和阴影底色) */
-.jl-logistics-item-background {
-  width: 120px;
-  height: 120px;
-  background-color: #F3F3F3;
-  border-radius: 50%;
-  text-align: center;
-  margin: 0 auto;
+.jl-activities-rig-text span {
+  color: #999999;
+  font-size: 14px;
+}
+
+.jl-activities-rig-icon {
+  display: flex;
+  justify-content: space-between;
   position: absolute;
-  top: 40px;
-  right: 40px;
+  bottom: 14px;
+  font-size: 16px;
+  align-items: flex-end;
+  width: 720px;
+}
+
+
+
+/* 底部分页样式开始 */
+.jl-activities-list-page {
+  width: 538px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+/* 切换页面按钮 */
+.jl-activities-page-jump {
+  background-color: #FFFFFF;
+  width: 80px;
+  margin-right: 4px;
+}
+
+/* 清除最后一个按钮的margin */
+.jl-activities-page-clear {
+  margin-right: 0;
+}
+
+/* 分页单个页列表 */
+.jl-activities-page-list {
+  display: flex;
 
 
 }
 
-.jl-logistics-item-img {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+/* 分页单个页列表单项 */
+.jl-activities-page-list li {
+  background-color: #FFFFFF;
+  width: 32px;
+  margin-right: 4px;
 }
+
+.jl-activities-page-to {
+  padding-left: 20px;
+  display: flex;
+}
+
+/* 跳转到指定页面 */
+.jl-activities-page-to div {
+  margin: 0 8px;
+  width: 44px;
+  background-color: #FFFFFF;
+}
+
+
+/* 底部分页样式结束 */
+
+
+
+/* 清除底部向上的margin */
+.jl-section-footer-wrap {
+  margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

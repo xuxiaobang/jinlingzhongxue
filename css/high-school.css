@@ -1,0 +1,24 @@
+/* 通知公告 */
+.jl-notice-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: url('../assets/images/notice-bg.png') no-repeat 0 0 / cover;
+}
+
+.jl-school-logo {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.6rem;
+  width: 2.5rem;
+  object-fit: cover;
+}
+
+.jl-school-title {
+  font-size: 0.4rem;
+  font-family: MicrosoftYaHei;
+  color: #ffffff;
+  transform: translateY(0.5rem);
+  letter-spacing: 4px;
+}

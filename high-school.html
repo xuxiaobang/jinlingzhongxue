@@ -5,11 +5,663 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>高中部</title>
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/swiper.css" />
+    <link rel="stylesheet" href="./index/main.css" />
+    <link rel="stylesheet" href="./css/primary-school.css" />
+    <link rel="stylesheet" href="./css/high-school.css " />
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./index/index.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
   </head>
   <body>
-    <div class="jl-wrap">
-      <img class="jl-img" src="./images/03-高中部-首页.png" alt="" />
+    <div class="jl-container">
+      <!--全屏导航  -->
+      <div class="jl-full-nav">
+        <div class="jl-full-header">
+          <div class="jl-full-mask">
+            <ul class="jl-full-header-container jl-flex">
+              <li class="jl-full-nav-item ">
+                <h3 class="jl-full-title">
+                  <a href="#">高中部首页</a>
+                </h3>
+              </li>
+              <li class="jl-full-nav-item">
+                <h3 class="jl-full-title">
+                  <a href="#">学部简介</a>
+                </h3>
+              </li>
+              <li class="jl-full-nav-item">
+                <h3 class="jl-full-title">
+                  <a href="#">学部通知</a>
+                </h3>
+                
+              </li>
+              <li class="jl-full-nav-item">
+                <h3 class="jl-full-title">
+                  <a href="#">德育之窗</a>
+                </h3>
+              
+              </li>
+              <li class="jl-full-nav-item">
+                <h3 class="jl-full-title">
+                  <a href="#">学科天地</a>
+                </h3>
+              
+              </li>
+              <li class="jl-full-nav-item">
+                <h3 class="jl-full-title">
+                  <a href="#">教师发展</a>
+                </h3>
+               
+              </li>
+              <li class="jl-full-nav-item">
+                <h3 class="jl-full-title">
+                  <a href="#">招生专栏</a>
+                </h3>
+               
+              </li>
+              <li class="jl-full-nav-item">
+                <h3 class="jl-full-title">
+                  <a href="#">学校主页</a>
+                </h3>
+               
+              </li>
+          </div>
+        
+        </div>
+      </div>
+
+      <!-- header -->
+      <div class="jl-main-header jl-main">
+        <!-- header top -->
+        <div class="jl-header-top">
+          <div class="jl-header-container jl-flex">
+            <!-- logo -->
+            <h1 class="jl-logo">
+              <img src="./assets/images/high-school.png" alt="">
+            </h1>
+
+            <!-- nav -->
+            <div class="jl-nav-wrapper jl-flex-con jl-flex jl-flex-vertical">
+              <ul class="jl-nav jl-flex jl-flex-vertical">
+                <li class="jl-nav-item">
+                  <a class="jl-nav-item__label" href="#" target="_blank">
+                    高中部首页
+                  </a>
+                  <!-- <div class="jl-nav-sub">
+                    <div class="jl-nav-sub-list jl-flex jl-flex--column">
+                      <a class="jl-nav-sub-item" href="/idea.html" target="_blank">
+                        办学理念
+                      </a>
+                    </div>
+                  </div> -->
+                </li>
+                <li class="jl-nav-item">
+                  <a class="jl-nav-item__label" href="/notice.html" target="_blank">
+                    学部简介
+                   </a>
+                </li>
+                <li class="jl-nav-item">
+                  <a class="jl-nav-item__label" href="/recruit-students.html" target="_blank">
+                    学部通知
+                   </a>
+                </li>
+                <li class="jl-nav-item">
+                  <a class="jl-nav-item__label" href="/recruit-students.html" target="_blank">
+                    德育之窗
+                   </a>
+                </li>
+                <li class="jl-nav-item">
+                  <a class="jl-nav-item__label" href="/recruit-students.html" target="_blank">
+                    学科天地
+                   </a>
+                </li>
+                <li class="jl-nav-item">
+                  <a class="jl-nav-item__label" href="/learning-department.html" target="_blank">
+                    教师发展
+                  </a>
+                </li>
+                <li class="jl-nav-item">
+                  <a class="jl-nav-item__label" href="/learning-department.html" target="_blank">
+                    招生专栏
+                  </a>
+                </li>
+                <li class="jl-nav-item">
+                  <a class="jl-nav-item__label" href="/learning-department.html" target="_blank">
+                    学校主页
+                  </a>
+                </li>
+              
+              </ul>
+
+              <!-- 全部按钮 -->
+              <div class="jl-nav-operate">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 滚动导航 -->
+      <div class="jl-header-wrap jl-flex">
+        <!-- 背景 -->
+        <div class="jl-header-wrap-bg"></div>
+
+        <!-- logo -->
+        <h1 class="jl-logo">
+          <img class="jl-logo-img" src="./assets/images/high-school.png" alt="">
+        </h1>
+
+        <!-- nav -->
+        <div class="jl-nav-wrapper jl-flex-con jl-flex jl-flex-vertical">
+          <ul class="jl-nav jl-flex jl-flex-vertical">
+            <li class="jl-nav-item jl-nav-active">
+              <a class="jl-nav-item__label" href="#"  target="_blank">
+               高中部首页
+              </a>
+              <!-- <div class="jl-nav-sub">
+                <div class="jl-nav-sub-list jl-flex jl-flex--column">
+                  <a class="jl-nav-sub-item" href="/idea.html" target="_blank">
+                    办学理念
+                  </a>
+                </div>
+              </div> -->
+            </li>
+
+            <li class="jl-nav-item">
+              <a class="jl-nav-item__label" href="/notice.html" target="_blank">
+                学部简介
+               </a>
+            </li>
+            <li class="jl-nav-item">
+              <a class="jl-nav-item__label" href="/recruit-students.html" target="_blank">
+                学部通知
+               </a>
+            </li>
+            <li class="jl-nav-item">
+              <a class="jl-nav-item__label" href="/recruit-students.html" target="_blank">
+                德育之窗
+               </a>
+            </li>
+            <li class="jl-nav-item">
+              <a class="jl-nav-item__label" href="/recruit-students.html" target="_blank">
+                学科天地
+               </a>
+            </li>
+            <li class="jl-nav-item">
+              <a class="jl-nav-item__label" href="/learning-department.html" target="_blank">
+                教师发展
+               </a>
+            </li>
+            <li class="jl-nav-item">
+              <a class="jl-nav-item__label" href="/learning-department.html" target="_blank">
+                招生专栏
+               </a>
+            </li>
+            <li class="jl-nav-item">
+              <a class="jl-nav-item__label" href="/learning-department.html" target="_blank">
+                学校主页
+               </a>
+            </li>
+          </ul>
+
+          <!-- 全部按钮 -->
+          <div class="jl-nav-operate">
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- 周年庆  -->
+      <div class="jl-anniversary">
+        <img class="jl-anniversary-img" src="./index/images/anniversary.png" alt="">
+      </div>
+
+
+      <!-- 标语  -->
+      <div class="jl-anniversary">
+        <img class="jl-anniversary-img" src="./index/images/anniversary.png" alt="">
+      </div>
+
+      <!-- =============================== 主体 开始 ============================= -->
+
+      <!-------------   banner 开始   ------------->
+      <section class="jl-banner-wrap">
+        <div class="jl-banner-container">
+          <!-- swiper -->
+          <div class="swiper jl-banner">
+            <!-- 轮播内容 -->
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a class="jl-img-wrap" href="#">
+                  <img class="jl-img" src="./index/images/banner-1.png" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="jl-img-wrap" href="#">
+                  <img class="jl-img" src="./index/images/banner-2.png" alt="" />
+                </a>
+              </div>
+            
+              <div class="swiper-slide">
+                <a class="jl-img-wrap" href="#">
+                  <img class="jl-img" src="./index/images/banner-4.png" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="jl-img-wrap" href="#">
+                  <img class="jl-img" src="./index/images/banner-5.png" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="jl-img-wrap" href="#">
+                  <img class="jl-img" src="./index/images/banner-6.png" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="jl-img-wrap" href="#">
+                  <img class="jl-img" src="./index/images/banner-7.png" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <!-- 左右按钮 -->
+            <div class="swiper-button-next jl-main-banner-next"></div>
+            <div class="swiper-button-prev jl-main-banner-prev"></div>
+
+            <!-- 底部背景 -->
+            <div class="jl-banner-bottom">
+              <!-- 标语 -->
+              <div class="jl-slogan">
+                <img src="./assets/images/slogan.png" alt="">
+              </div>
+            </div>
+
+            <!-- 轮播页 -->
+            <div class="swiper-pagination-wrap jl-flex jl-flex-vertical">
+              <div class="swiper-pagination jl-flex jl-flex-vertical"></div>
+              <a class="jl-swiper-more" href="#">
+                <h6 class="jl-more">
+                  more
+                  <svg
+                    t="1670842358822"
+                    class="jl-more-svg"
+                    viewBox="0 0 1024 1024"
+                    p-id="1275"
+                    width="40"
+                    height="40"
+                  >
+                    <path
+                      d="M793.6 426.666667H896l-85.333333 81.066666-132.266667 132.266667-51.2-51.2 81.066667-81.066667H128V426.666667h665.6z"
+                      p-id="1276"
+                    ></path>
+                  </svg>
+                </h6>
+              </a>
+            </div>
+
+
+           
+          </div>
+
+          <!-- Swiper JS -->
+          <script>
+            var swiper = new Swiper('.jl-banner', {
+              autoplay: {
+                delay: 8000,
+                disableOnInteraction: false
+              },
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+              },
+              navigation: {
+                nextEl: '.jl-main-banner-next',
+                prevEl: '.jl-main-banner-prev'
+              }
+            })
+          </script>
+
+
+         
+        </div>
+      </section>
+      <!-------------   banner 结束   ------------->
+
+      <!-------------   最新动态  开始   ------------->
+
+      <section class="jl-news-container jl-flex">
+        <div class="jl-center-container jl-flex">
+          <!-- 最新动态更多 -->
+          <div class="jl-trends-header">
+            <div class="jl-trends-title">最新动态</div>
+            <div  class="jl-trends-more">
+              <a href="#">
+                <img class="jl-trends-img" src="./assets/images/view.png" alt="">
+              </a>
+             
+              <a class="jl-trends-more-label" href="#">查看更多</a>
+            </div>
+          </div>
+
+          <!-- 最新动态列表 -->
+          <ul class="jl-trends-list jl-flex">
+            <li class="jl-trends-item jl-flex">
+              <div class="jl-trends-time">
+                <span class="jl-trends-date">09.28</span>
+                <span class="jl-trends-year">2023</span>
+              </div>
+              <div class="jl-trends-info">
+                <div class="jl-trends-title jl-text-overflow-2">
+                  全市一等奖！我校荣获南京高一新生军事训练比赛最高荣誉
+                </div>
+                <div class="jl-trends-desc jl-text-overflow-2">
+                  在8月30日刚刚落幕的南京市2023年高一新生军事训练成果展示比赛 中我校从最终参赛的17支队伍中脱颖而的17支队伍中脱颖而校从最终参赛的17支队伍中脱颖而的17支队伍中脱颖而校从最终参赛的17支队伍中脱颖而的17支队伍中脱颖而
+                </div>
+              </div>
+            </li>   
+            <li class="jl-trends-item jl-flex">
+              <div class="jl-trends-time">
+                <span class="jl-trends-date">09.28</span>
+                <span class="jl-trends-year">2023</span>
+              </div>
+              <div class="jl-trends-info">
+                <div class="jl-trends-title">
+                  全市一等奖！我校荣获南京高一新生军事训练比 赛最高荣誉
+                </div>
+                <div class="jl-trends-desc">
+                  在8月30日刚刚落幕的南京市2023年高一新生军事训练成果展示比赛 中我校从最终参赛的17支队伍中脱颖而的17支队伍中脱颖而…
+                </div>
+              </div>
+            </li>   
+            <li class="jl-trends-item jl-flex">
+              <div class="jl-trends-time">
+                <span class="jl-trends-date">09.28</span>
+                <span class="jl-trends-year">2023</span>
+              </div>
+              <div class="jl-trends-info">
+                <div class="jl-trends-title">
+                  全市一等奖！我校荣获南京高一新生军事训练比 赛最高荣誉
+                </div>
+                <div class="jl-trends-desc">
+                  在8月30日刚刚落幕的南京市2023年高一新生军事训练成果展示比赛 中我校从最终参赛的17支队伍中脱颖而的17支队伍中脱颖而…
+                </div>
+              </div>
+            </li>   
+            <li class="jl-trends-item jl-flex">
+              <div class="jl-trends-time">
+                <span class="jl-trends-date">09.28</span>
+                <span class="jl-trends-year">2023</span>
+              </div>
+              <div class="jl-trends-info">
+                <div class="jl-trends-title">
+                  全市一等奖！我校荣获南京高一新生军事训练比 赛最高荣誉
+                </div>
+                <div class="jl-trends-desc">
+                  在8月30日刚刚落幕的南京市2023年高一新生军事训练成果展示比赛 中我校从最终参赛的17支队伍中脱颖而的17支队伍中脱颖而…
+                </div>
+              </div>
+            </li>   
+            <li class="jl-trends-item jl-flex">
+              <div class="jl-trends-time">
+                <span class="jl-trends-date">09.28</span>
+                <span class="jl-trends-year">2023</span>
+              </div>
+              <div class="jl-trends-info">
+                <div class="jl-trends-title">
+                  全市一等奖！我校荣获南京高一新生军事训练比 赛最高荣誉
+                </div>
+                <div class="jl-trends-desc">
+                  在8月30日刚刚落幕的南京市2023年高一新生军事训练成果展示比赛 中我校从最终参赛的17支队伍中脱颖而的17支队伍中脱颖而…
+                </div>
+              </div>
+            </li>   
+            <li class="jl-trends-item jl-flex">
+              <div class="jl-trends-time">
+                <span class="jl-trends-date">09.28</span>
+                <span class="jl-trends-year">2023</span>
+              </div>
+              <div class="jl-trends-info">
+                <div class="jl-trends-title">
+                  全市一等奖！我校荣获南京高一新生军事训练比 赛最高荣誉
+                </div>
+                <div class="jl-trends-desc">
+                  在8月30日刚刚落幕的南京市2023年高一新生军事训练成果展示比赛 中我校从最终参赛的17支队伍中脱颖而的17支队伍中脱颖而…
+                </div>
+              </div>
+            </li>   
+          </ul>
+        </div>
+      </section>
+
+      <!-------------   最新动态  结束   ------------->
+
+      <!-------------   学部通知  开始   ------------->
+      <section class="jl-notice-container jl-flex">
+   
+        <!-- 智慧校园 -->
+        <div class="jl-notice-smart-campus jl-flex jl-flex--column jl-flex-con">
+         
+          <!-- 标题 -->
+          <div class="jl-header jl-flex">
+            <div class="jl-header-title"></div>
+          </div>
+          <div class="jl-notice-info jl-flex-con">
+            <img class="jl-school-logo" src="./assets/images/footer-logo.png"/>
+            <div class="jl-school-title">学部通知</div>
+          </div>
+        
+        </div>
+
+        <!-- 通知公告 -->
+        <div class="jl-notice-wrap jl-flex-con">
+          <!-- 标题 -->
+          <div class="jl-header jl-flex">
+            <div class="jl-header-title">学部通知</div>
+            <div class="jl-header-more">
+              <span>查看更多</span>
+              <img
+                class="jl-more-img jl-ml--half"
+                src="./index/images/more.png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!-- 内容  -->
+          <div class="jl-notice-content jl-flex jl-flex--column">
+            <a href="#" class="jl-notice-item jl-flex jl-flex--column">
+              <div class="jl-notice-title jl-text-overflow">
+                开学前及第一周工作安排（ 2023年8月27日~9月10日 ）
+              </div>
+              <div class="jl-notice-time jl-flex">
+                <div class="jl-time">2023-09-16</div>
+                <div class="jl-line jl-flex-con"></div>
+              </div>
+            </a>
+
+            <a href="#" class="jl-notice-item  jl-flex jl-flex--column">
+              <div class="jl-notice-title jl-text-overflow">
+                南京市金陵中学河西分校高中部招聘启事
+              </div>
+              <div class="jl-notice-time jl-flex">
+                <div class="jl-time">2023-09-16</div>
+                <div class="jl-line jl-flex-con"></div>
+              </div>
+            </a>
+
+            <a href="#" class="jl-notice-item jl-flex jl-flex--column">
+              <div class="jl-notice-title jl-text-overflow">
+                南京市金陵中学河西分校国际高中部招聘启事
+              </div>
+              <div class="jl-notice-time jl-flex">
+                <div class="jl-time">2023-09-16</div>
+                <div class="jl-line jl-flex-con"></div>
+              </div>
+            </a>
+
+
+            <a href="#" class="jl-notice-item jl-flex jl-flex--column">
+              <div class="jl-notice-title jl-text-overflow">
+                南京市金陵中学河西分校初中部招聘启事
+              </div>
+              <div class="jl-notice-time jl-flex">
+                <div class="jl-time">2023-09-16</div>
+                <div class="jl-line jl-flex-con"></div>
+              </div>
+            </a>
+
+            <a href="#" class="jl-notice-item jl-flex jl-flex--column">
+              <div class="jl-notice-title jl-text-overflow">
+                2023年暑假读书笔记评选办法
+              </div>
+              <div class="jl-notice-time jl-flex">
+                <div class="jl-time">2023-09-16</div>
+                <div class="jl-line jl-flex-con"></div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+    
+      </section>
+      <!-------------   学部通知  结束   ------------->
+
+
+
+      <!-------------   其他信息  开始   ------------->
+      <section class="jl-section-wrap">
+    
+        <div class=" jl-section-content jl-flex">
+          <div class="jl-section-item  jl-flex jl-flex--column">
+            <!-- 分类 -->
+            <div class="jl-category-wrap jl-flex jl-header">
+              <div class="jl-header-title">德育之窗</div>
+              <div class="jl-header-more">
+                <span>查看更多</span>
+                <img
+                  class="jl-more-img jl-ml--half"
+                  src="./index/images/more.png" 
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <!-- 封面图 -->
+            <div class="jl-section-img-wrap">
+              <img class="jl-section-img" src="./index/images/student-activity.png" alt="">
+            </div>
+            <div class="jl-info">到田野中去！高一年级三农研学暨劳动教育实践</div>
+
+          </div>
+
+          <div class="jl-section-item  jl-flex jl-flex--column">
+            <!-- 分类 -->
+            <div class="jl-category-wrap jl-flex  jl-header">
+              <div class="jl-header-title">德育之声</div>
+              <div class="jl-header-more">
+                <span>查看更多</span>
+                <img
+                  class="jl-more-img jl-ml--half"
+                  src="./index/images/more.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <!-- 封面图 -->
+            <div class="jl-section-img-wrap">
+              <img  class="jl-section-img" src="./index/images/student-works.png" alt="">
+            </div>
+            <div class="jl-info">高中部召开教研组长暨备课组长会议</div>
+          </div>
+
+
+          <div class="jl-section-item  jl-flex jl-flex--column">
+            <!-- 分类 -->
+            <div class="jl-category-wrap jl-flex  jl-header">
+              <div class="jl-header-title">教师发展</div>
+              <div class="jl-header-more">
+                <span>查看更多</span>
+                <img
+                  class="jl-more-img jl-ml--half"
+                  src="./index/images/more.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <!-- 封面图 -->
+            <div class="jl-section-img-wrap ">
+              <img class="jl-section-img" src="./index/images/soul-garden.png" alt="">
+            </div>
+            <div class="jl-info">传承创新 再创辉煌——新老高三交流大会</div>
+
+  
+          </div>
+        </div>
+      </section>
+
+
+      <!-------------   其他信息  结束   ------------->
+
+
+   
+      <!-- =============================== 主体 结束 ============================= -->
+
+
+      <!-- =============================== 底部 开始 ============================= -->
+      <div class="jl-section-footer">
+        <div class="jl-section-footer-wrap">
+          <div class="jl-section-center jl-flex">
+            <!-- 关联学校 -->
+            <div class="jl-footer-affiliated-schools jl-flex-con">
+              <div class="jl-schools-item">金陵中学</div>
+              <div class="jl-schools-item">金陵中学附属初级中学</div>
+              <div class="jl-schools-item">金陵中学实验小学</div>
+              <div class="jl-schools-item">陵汇文学校</div>
+              <div class="jl-schools-item">金陵中学高新分校</div>
+              <div class="jl-schools-item">南京市金陵小学</div>
+              <div class="jl-schools-item">金陵中学仙林分校（中学部）</div>
+              <div class="jl-schools-item">金陵中学附属小学</div>
+            </div>
+
+            <!-- 学校名称 -->
+            <div class="jl-footer-schools jl-flex-con">
+              <img src="./index/images/footer-logo.png" alt="">
+            </div>
+
+            <!-- 分享 -->
+            <div class="jl-footer-contact jl-flex-con">
+              <div class="jl-footer-contact-item">
+                <img class="jl-concat-img" src="./index/images/wechat.png" alt="">
+              </div>
+              <div class="jl-footer-contact-item">
+                <img class="jl-concat-img" src="./index/images/user.png" alt="">
+              </div>
+              <div class="jl-footer-contact-item">
+                <img class="jl-concat-img" src="./index/images/douyin.png" alt="">
+              </div>
+              <div class="jl-footer-contact-item">
+                <img class="jl-concat-img" src="./index/images/email.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="jl-footer-info">
+          <span class="jl-mr--half">Copyright@2015</span>
+          <span class="jl-mr--half">南京市金陵中学河西分校 </span>
+          <span class="jl-mr--half">苏ICP备05067371号-1</span>
+        </div>
+      </div>
+
+      <!-- =============================== 底部 结束 ============================= -->
     </div>
   </body>
 </html>

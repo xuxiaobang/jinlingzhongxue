@@ -21,3 +21,12 @@ function fontSize() {
     'font-size': size + 'px'
   })
 }
+
+// 全部导航
+$(function () {
+  $('.jl-nav-operate').click(function () {
+    $('.jl-full-nav').toggleClass('show')
+    $('body').toggleClass('hidden')
+    $('.jl-nav-operate').toggleClass('show')
+  })
+})

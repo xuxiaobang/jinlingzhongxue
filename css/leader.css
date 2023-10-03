@@ -1,0 +1,34 @@
+/* 学校领导内容 */
+.jl-section-container .jl-center-container {
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 14.4rem;
+}
+
+.jl-section-container .jl-leader-item {
+  flex: 0 1 3.2rem;
+  padding: 0.2rem;
+  width: 3.2rem;
+}
+
+.jl-leader-item .jl-leader-avatar {
+  overflow: hidden;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.jl-leader-avatar .jl-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.jl-leader-avatar:hover .jl-avatar {
+  transform: scale(1.2);
+}
+
+.jl-leader-username {
+  text-align: center;
+  margin: 0.3rem 0 0.2rem;
+}

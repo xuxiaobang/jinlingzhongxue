@@ -1,0 +1,210 @@
+/*******************
+     header 开始
+*********************/
+.jl-superintendent-header {
+  height: 600px;
+  background: skyblue;
+}
+
+
+
+/*******************
+     主体 开始
+*********************/
+/* 盒子距离底部的边距 */
+.jl-superintendent-body {
+  /* margin-bottom: 60px; */
+  background: url("./images/background.png") no-repeat;
+  background-position: 0% 100%;
+  background-size: 100%;
+}
+
+
+
+/*******************
+     导航样式 开始
+*********************/
+
+/* 导航底部阴影 */
+.jl-superintendent-shadow {
+  box-shadow: 0px 2px 20px 0px rgba(21, 99, 160, 0.1);
+  width: 100%;
+}
+
+/* 导航部分 */
+.jl-superintendent-nav {
+  width: 1400px;
+  height: 70px;
+  display: flex;
+  margin: 0 auto;
+
+}
+
+
+/* 导航单个选项 */
+.jl-superintendent-nav-item {
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 16px;
+  padding: 0 28px;
+  color: #333333;
+
+}
+
+/* 当前页面对应导航背景色--蓝色 */
+.jl-superintendent-nav-click {
+  background-color: #1563A0;
+  color: #fff;
+}
+
+/*******************
+     导航样式 结束
+*********************/
+
+
+
+
+
+
+/*******************
+     列表样式 开始
+*********************/
+/* 列表盒子 */
+.jl-superintendent-list {
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+/* 列表单项 */
+.jl-superintendent-list-item {
+  width: 1170px;
+  height: 240px;
+  margin-bottom: 60px;
+  display: flex;
+
+}
+
+
+
+
+
+.jl-superintendent-item-lef {
+  margin-right: 40px;
+}
+
+.jl-superintendent-item-rig {
+  width: 730px;
+
+  position: relative;
+}
+
+.jl-superintendent-rig-text {
+
+  position: absolute;
+  top: 21px;
+  color: #333333;
+  /* line-height: 21px; */
+}
+
+.jl-superintendent-rig-text h2 {
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+.jl-superintendent-rig-text span {
+  color: #999999;
+  font-size: 14px;
+}
+
+.jl-superintendent-rig-icon {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 14px;
+  font-size: 16px;
+  align-items: flex-end;
+  width: 720px;
+}
+
+
+
+/* 底部分页样式开始 */
+.jl-superintendent-list-page {
+  width: 538px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+/* 切换页面按钮 */
+.jl-superintendent-page-jump {
+  background-color: #FFFFFF;
+  width: 80px;
+  margin-right: 4px;
+}
+
+/* 清除最后一个按钮的margin */
+.jl-superintendent-page-clear {
+  margin-right: 0;
+}
+
+/* 分页单个页列表 */
+.jl-superintendent-page-list {
+  display: flex;
+
+
+}
+
+/* 分页单个页列表单项 */
+.jl-superintendent-page-list li {
+  background-color: #FFFFFF;
+  width: 32px;
+  margin-right: 4px;
+}
+
+.jl-superintendent-page-to {
+  padding-left: 20px;
+  display: flex;
+}
+
+/* 跳转到指定页面 */
+.jl-superintendent-page-to div {
+  margin: 0 8px;
+  width: 44px;
+  background-color: #FFFFFF;
+}
+
+
+/* 底部分页样式结束 */
+
+
+
+/* 清除底部向上的margin */
+.jl-section-footer-wrap {
+  margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************
+     列表样式 结束
+*********************/

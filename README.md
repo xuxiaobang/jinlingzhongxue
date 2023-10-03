@@ -12,11 +12,7 @@
 | |- science-education  科教信息中心
 | |- logistics   后勤保障中心
 | |- party-activities   党委工会-党员活动
-
-
-
 | |-
-
 |-
 |- css
 | |- common.css 全局通用样式

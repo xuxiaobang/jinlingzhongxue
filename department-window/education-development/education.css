@@ -13,7 +13,7 @@
 *********************/
 /* 盒子距离底部的边距 */
 .jl-education-body {
-  padding-bottom: 60px;
+  padding-bottom: 50px;
   background: url("./images/background.png") no-repeat;
   background-position: 0% 100%;
   background-size: 100%;
@@ -78,10 +78,17 @@
   display: flex;
 }
 
+/* 列表左列 */
+.jl-education-list-lef {
+  margin-bottom: 60px;
+}
+
+/* 清除 */
 
 /* 列表单项 */
 .jl-education-list-item {
   display: flex;
+  align-items: center;
   width: 680px;
   height: 100px;
   margin: 0 40px 40px 0;
@@ -94,7 +101,7 @@
 .jl-education-item-date {
   width: 100px;
   height: 100px;
-  text-align: center;
+  /* text-align: center; */
   background-color: #EDF2F5;
 }
 
@@ -120,24 +127,81 @@
 }
 
 .jl-education-item-text {
-  height: 100px;
-  line-height: 100px;
+  /* height: 100px;
+  line-height: 100px; */
   position: absolute;
   left: 120px;
   font-size: 20px;
-  overflow-wrap: break-word;
+  /* overflow-wrap: break-word; */
 }
 
 
 
 /* 清除向右的margin */
-.jl-education-margin-clear {
+.jl-education-margin-right {
   margin-right: 0;
+}
+
+/* 清除向下的margin */
+.jl-education-margin-bottom {
+  margin-bottom: 0;
 }
 
 
 
 
+
+/* 底部分页样式开始 */
+.jl-education-list-page {
+  display: flex;
+  width: 538px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 auto;
+
+}
+
+/* 切换页面按钮 */
+.jl-education-page-jump {
+  background-color: #FFFFFF;
+  width: 80px;
+  margin-right: 4px;
+
+}
+
+/* 清除最后一个按钮的margin */
+.jl-education-page-clear {
+  margin-right: 0;
+}
+
+/* 分页单个页列表 */
+.jl-education-page-list {
+  display: flex;
+
+
+}
+
+/* 分页单个页列表单项 */
+.jl-education-page-list li {
+  background-color: #FFFFFF;
+  width: 32px;
+  margin-right: 4px;
+}
+
+.jl-education-page-to {
+  padding-left: 20px;
+  display: flex;
+}
+
+/* 跳转到指定页面 */
+.jl-education-page-to div {
+  margin: 0 8px;
+  width: 44px;
+  background-color: #FFFFFF;
+}
+
+
+/* 底部分页样式结束 */
 
 
 

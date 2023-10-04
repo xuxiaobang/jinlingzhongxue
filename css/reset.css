@@ -259,11 +259,37 @@ body {
   word-break: break-all;
 }
 
+.jl-text-overflow-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  word-break: break-all;
+}
+
 .jl-auto--y {
   overflow-y: auto;
 }
 
 /******** 自动滚动条  *********/
+/* 元素滚动条样式 */
+.jl-scroll::-webkit-scrollbar {
+  width: 2px;
+  background-color: #d8d8d8;
+}
+
+.jl-scroll::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background-color: #1563a0;
+}
+
+.jl-scroll::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: #d8d8d8;
+}
+
+/* 页面滚动条样式 */
 html::-webkit-scrollbar {
   width: 8px;
   height: 8px;

@@ -1,7 +1,7 @@
 /*******************
      header 开始
 *********************/
-.jl-activities-header {
+.jl-education-header {
   height: 600px;
   background: skyblue;
 }
@@ -12,8 +12,8 @@
      主体 开始
 *********************/
 /* 盒子距离底部的边距 */
-.jl-activities-body {
-  /* margin-bottom: 60px; */
+.jl-education-body {
+  padding-bottom: 50px;
   background: url("./images/background.png") no-repeat;
   background-position: 0% 100%;
   background-size: 100%;
@@ -26,13 +26,13 @@
 *********************/
 
 /* 导航底部阴影 */
-.jl-activities-shadow {
+.jl-education-shadow {
   box-shadow: 0px 2px 20px 0px rgba(21, 99, 160, 0.1);
   width: 100%;
 }
 
 /* 导航部分 */
-.jl-activities-nav {
+.jl-education-nav {
   width: 1400px;
   height: 70px;
   display: flex;
@@ -42,7 +42,7 @@
 
 
 /* 导航单个选项 */
-.jl-activities-nav-item {
+.jl-education-nav-item {
   height: 70px;
   text-align: center;
   line-height: 70px;
@@ -53,7 +53,7 @@
 }
 
 /* 当前页面对应导航背景色--蓝色 */
-.jl-activities-nav-click {
+.jl-education-nav-click {
   background-color: #1563A0;
   color: #fff;
 }
@@ -71,79 +71,98 @@
      列表样式 开始
 *********************/
 /* 列表盒子 */
-.jl-activities-list {
-  width: 1170px;
+.jl-education-list {
+  width: 1400px;
   margin: 0 auto;
   margin-top: 60px;
-  flex-wrap: wrap;
+  display: flex;
 }
+
+/* 列表左列 */
+.jl-education-list-lef {
+  margin-bottom: 60px;
+}
+
+/* 清除 */
 
 /* 列表单项 */
-.jl-activities-list-item {
-  width: 1170px;
-  height: 240px;
-  margin-bottom: 60px;
+.jl-education-list-item {
   display: flex;
-
-}
-
-
-
-
-
-.jl-activities-item-lef {
-  margin-right: 40px;
-}
-
-.jl-activities-item-rig {
-  width: 730px;
-
+  align-items: center;
+  width: 680px;
+  height: 100px;
+  margin: 0 40px 40px 0;
+  background-color: #F6F7F9;
   position: relative;
 }
 
-.jl-activities-rig-text {
 
-  position: absolute;
-  top: 21px;
-  color: #333333;
-  /* line-height: 21px; */
+/* 单项左侧日期部分 */
+.jl-education-item-date {
+  width: 100px;
+  height: 100px;
+  /* text-align: center; */
+  background-color: #EDF2F5;
 }
 
-.jl-activities-rig-text h2 {
-  font-size: 22px;
-  margin-bottom: 18px;
+/* 左侧日期的月份 */
+.jl-education-item-date h2 {
+  font-size: 32px;
+  margin: 0 auto;
+  margin-top: 14px;
 }
 
-.jl-activities-rig-text span {
-  color: #999999;
-  font-size: 14px;
-}
-
-.jl-activities-rig-icon {
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  bottom: 14px;
+/* 左侧日期的日期 */
+.jl-education-item-date div {
   font-size: 16px;
-  align-items: flex-end;
-  width: 720px;
+  color: #999999;
 }
+
+
+.jl-education-item-img {
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  left: 120px
+}
+
+.jl-education-item-text {
+  /* height: 100px;
+  line-height: 100px; */
+  position: absolute;
+  left: 120px;
+  font-size: 20px;
+  /* overflow-wrap: break-word; */
+}
+
+
+
+/* 清除向右的margin */
+.jl-education-margin-right {
+  margin-right: 0;
+}
+
+/* 清除向下的margin */
+.jl-education-margin-bottom {
+  margin-bottom: 0;
+}
+
+
 
 
 
 /* 底部分页样式开始 */
-.jl-activities-list-page {
+.jl-education-list-page {
   width: 538px;
   height: 32px;
   line-height: 32px;
   margin: 0 auto;
-  padding-bottom: 60px;
   display: flex;
   color: #333333;
 }
 
 /* 切换页面按钮 */
-.jl-activities-page-jump {
+.jl-education-page-jump {
   background-color: #FFFFFF;
   width: 80px;
   margin-right: 4px;
@@ -153,19 +172,19 @@
 }
 
 /* 清除最后一个按钮的margin */
-.jl-activities-page-clear {
+.jl-education-page-clear {
   margin-right: 0;
 }
 
 /* 分页单个页列表 */
-.jl-activities-page-list {
+.jl-education-page-list {
   display: flex;
 
 
 }
 
 /* 分页单个页列表单项 */
-.jl-activities-page-list li {
+.jl-education-page-list li {
   background-color: #FFFFFF;
   width: 32px;
   margin-right: 4px;
@@ -173,13 +192,13 @@
   text-align: center;
 }
 
-.jl-activities-page-to {
+.jl-education-page-to {
   padding-left: 20px;
   display: flex;
 }
 
 /* 跳转到指定页面 */
-.jl-activities-page-to div {
+.jl-education-page-to div {
   margin: 0 8px;
   width: 44px;
   background-color: #FFFFFF;
@@ -188,6 +207,18 @@
 
 
 /* 底部分页样式结束 */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

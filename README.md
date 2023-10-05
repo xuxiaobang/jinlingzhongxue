@@ -12,6 +12,11 @@
 | |- science-education  科教信息中心
 | |- logistics   后勤保障中心
 | |- party-activities   党委工会-党员活动
+| |- party-reading   党委工会-党员阅读
+| |- union-news     党委工会-工会快讯
+| |- education-development  党委工会-教育发展基金会 
+| |- superintendent   党委工会-督学
+
 | |-
 |-
 |- css

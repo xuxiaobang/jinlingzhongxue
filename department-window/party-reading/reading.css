@@ -1,0 +1,178 @@
+/*******************
+     header 开始
+*********************/
+.jl-reading-header {
+  height: 600px;
+  background: skyblue;
+}
+
+
+
+/*******************
+     主体 开始
+*********************/
+/* 盒子距离底部的边距 */
+.jl-reading-body {
+  padding-bottom: 60px;
+  background: url("./images/background.png") no-repeat;
+  background-position: 0% 4%;
+  background-size: 100%;
+}
+
+
+
+/*******************
+     导航样式 开始
+*********************/
+
+/* 导航底部阴影 */
+.jl-reading-shadow {
+  box-shadow: 0px 2px 20px 0px rgba(21, 99, 160, 0.1);
+  width: 100%;
+}
+
+/* 导航部分 */
+.jl-reading-nav {
+  width: 1400px;
+  height: 70px;
+  display: flex;
+  margin: 0 auto;
+
+}
+
+
+/* 导航单个选项 */
+.jl-reading-nav-item {
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 16px;
+  padding: 0 28px;
+  color: #333333;
+
+}
+
+/* 当前页面对应导航背景色--蓝色 */
+.jl-reading-nav-click {
+  background-color: #1563A0;
+  color: #fff;
+}
+
+/*******************
+     导航样式 结束
+*********************/
+
+
+
+
+
+
+/*******************
+     列表样式 开始
+*********************/
+/* 列表盒子 */
+.jl-reading-list {
+  width: 1400px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+}
+
+
+/* 列表单项 */
+.jl-reading-list-item {
+  display: flex;
+  width: 680px;
+  height: 100px;
+  margin: 0 40px 40px 0;
+  background-color: #F6F7F9;
+  position: relative;
+}
+
+
+/* 单项左侧日期部分 */
+.jl-reading-item-date {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: #EDF2F5;
+}
+
+/* 左侧日期的月份 */
+.jl-reading-item-date h2 {
+  font-size: 32px;
+  margin: 0 auto;
+  margin-top: 14px;
+}
+
+/* 左侧日期的日期 */
+.jl-reading-item-date div {
+  font-size: 16px;
+  color: #999999;
+}
+
+
+.jl-reading-item-img {
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  left: 120px
+}
+
+.jl-reading-item-text {
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  left: 120px;
+  font-size: 20px;
+}
+
+
+
+/* 清除向右的margin */
+.jl-reading-margin-clear {
+  margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 清除底部向上的margin */
+.jl-section-footer-wrap {
+  margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************
+     列表样式 结束
+*********************/

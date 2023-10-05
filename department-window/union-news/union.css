@@ -139,6 +139,7 @@
   margin: 0 auto;
   padding-bottom: 60px;
   display: flex;
+  color: #333333;
 }
 
 /* 切换页面按钮 */
@@ -146,6 +147,9 @@
   background-color: #FFFFFF;
   width: 80px;
   margin-right: 4px;
+  border-radius: 3px;
+  text-align: center;
+
 }
 
 /* 清除最后一个按钮的margin */
@@ -165,6 +169,8 @@
   background-color: #FFFFFF;
   width: 32px;
   margin-right: 4px;
+  border-radius: 3px;
+  text-align: center;
 }
 
 .jl-union-page-to {
@@ -177,10 +183,12 @@
   margin: 0 8px;
   width: 44px;
   background-color: #FFFFFF;
+  border-radius: 3px;
 }
 
 
 /* 底部分页样式结束 */
+
 
 
 

@@ -25,6 +25,7 @@
 | |- recruit-students.css 招生专栏页样式
 | |- primary-school.css 小学部首页样式
 | |- high-school.css   高中部首页样式
+| |- international.css 国际部首页样式
 | |
 |- index.html 首页
 |- idea.html 办学理念

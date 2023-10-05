@@ -51,33 +51,6 @@
   padding: 0 0.8rem 0 1.3rem;
 }
 
-/* 标题 */
-.jl-header {
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0.6rem;
-  height: 0.5rem;
-}
-
-.jl-header .jl-header-title {
-  font-size: 0.36rem;
-  line-height: 1.5;
-  font-family: MicrosoftYaHei;
-  color: #333333;
-  letter-spacing: 3px;
-}
-
-.jl-header .jl-header-more {
-  display: flex;
-  align-items: center;
-  font-size: 0.14rem;
-  font-family: MicrosoftYaHei;
-  color: #333333;
-  line-height: 1.5;
-  letter-spacing: 1px;
-  cursor: pointer;
-}
-
 /* 内容 */
 .jl-news-content .jl-news-img-wrap {
   overflow: hidden;
@@ -319,7 +292,6 @@
 /* --------   公告  结束 -------- */
 
 /* --------   教师频道  开始 -------- */
-
 
 /* 内容 */
 .jl-section-content {

@@ -1,0 +1,94 @@
+.jl-news-details {
+  padding: 0.6rem 0;
+}
+
+.jl-news-details .jl-center-container {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* 新闻详情 */
+.jl-details {
+  width: 67%;
+}
+
+.jl-details-header {
+  margin-bottom: 0.4rem;
+}
+.jl-details .jl-details-title {
+  font-size: 0.32rem;
+  font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+  font-weight: bold;
+  color: #000000;
+  line-height: 0.42rem;
+  text-align: center;
+}
+.jl-details .jl-details-info {
+  text-align: center;
+  padding-bottom: 0.1rem;
+  margin-top: 0.4rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.jl-details .jl-details-info span:first-child {
+  margin-right: 0.4rem;
+}
+
+.jl-details-article {
+  font-size: 0.16rem;
+  font-family: MicrosoftYaHei;
+  color: #000000;
+  line-height: 0.32rem;
+}
+.jl-details-article .jl-article {
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+.jl-details-article .jl-article-left {
+  text-indent: 2em;
+  text-align: left;
+}
+
+.jl-article-img {
+  max-width: 5.54rem;
+  object-fit: cover;
+}
+
+/* 最新动态 */
+.jl-trends {
+  width: 30%;
+}
+.jl-latest-trends {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.4rem 0.3rem;
+  background: #fffaf4;
+}
+
+.jl-latest-trends .jl-latest-trends-title {
+  font-size: 0.22rem;
+  font-family: MicrosoftYaHei;
+  color: #1563a0;
+  line-height: 0.26rem;
+  margin-bottom: 0.12rem;
+}
+
+.jl-latest-trends .jl-latest-trends-item {
+  padding: 0.2rem 0;
+  border-bottom: 1px solid #eeeae4;
+}
+
+.jl-latest-trends-item .jl-text-overflow {
+  font-size: 0.14rem;
+  color: #333;
+  line-height: 0.22rem;
+  margin-right: 0.2rem;
+  transform: 0.5s;
+}
+.jl-latest-trends-item .jl-flex:hover .jl-text-overflow {
+  color: #1563a0;
+}
+
+.jl-latest-trends-item .jl-latest-trends-time {
+  color: #1563a0;
+  font-size: 0.14rem;
+}

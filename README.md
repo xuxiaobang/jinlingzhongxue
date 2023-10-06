@@ -31,6 +31,7 @@
 | |- primary-school.css 小学部首页样式
 | |- high-school.css   高中部首页样式
 | |- international.css 国际部首页样式
+| |- news-details.css  学校新闻内页
 | |
 |- index.html 首页
 |- idea.html 办学理念

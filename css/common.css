@@ -723,6 +723,58 @@ body.hidden {
 /****************************************
                 区块 结束
 ****************************************/
+/****************************************
+                分页 开始
+****************************************/
+
+.jl-activities-list-page {
+  justify-content: center;
+  margin-top: 0.6rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  color: #333333;
+  text-align: center;
+}
+
+/* 切换页面按钮 */
+.jl-activities-page-jump {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 80px;
+  margin-right: 4px;
+  border-radius: 2px;
+  border: 1px solid #d9d9d9;
+}
+
+.jl-activities-page-list .jl-page-item {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 32px;
+  margin-right: 4px;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+}
+
+/* 跳转到指定页面 */
+.jl-activities-page-to {
+  margin-left: 20px;
+  align-items: center;
+}
+.jl-activities-page-to .jl-pages-input {
+  box-sizing: border-box;
+  margin: 0 8px;
+  width: 44px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+  text-align: center;
+}
+
+/****************************************
+                分页 结束
+****************************************/
 
 .jl-wrap {
   width: 100%;

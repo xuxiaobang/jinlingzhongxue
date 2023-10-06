@@ -55,7 +55,7 @@
 |- international.html 国际部
 |- teacher-honors.html  教师荣誉
 |- teacher-demeanor.html 教师风采
-|- teacher-essay.html  教师随笔
+|- teacher-essay.html  教育随笔
 |- student-activities.html 学生活动
 |- student-works.html  学生作品
 |- soul-garden.html 心灵花园

@@ -70,7 +70,7 @@
 |- committee-activities.html 党员活动
 |- party-reading.html 党员阅读
 |- union-news.html  工会快讯
-|- educational-development.html 教育发展
+|- educational-development.html 教育发展基金会
 |- superintendent.html 督学
 |- smart-campus.html 智慧校园
 |- school-leaders.html 学校领导

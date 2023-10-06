@@ -14,7 +14,7 @@
 | |- party-activities   党委工会-党员活动
 | |- party-reading   党委工会-党员阅读
 | |- union-news     党委工会-工会快讯
-| |- education-development  党委工会-教育发展基金会 
+| |- education-development  党委工会-教育发展基金会
 | |- superintendent   党委工会-督学
 
 | |-
@@ -32,6 +32,7 @@
 | |- high-school.css   高中部首页样式
 | |- international.css 国际部首页样式
 | |- news-details.css  学校新闻内页
+| |- department.css 部门之窗样式
 | |
 |- index.html 首页
 |- idea.html 办学理念

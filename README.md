@@ -33,6 +33,7 @@
 | |- international.css 国际部首页样式
 | |- news-details.css  学校新闻内页
 | |- department.css 部门之窗样式
+| |- principal-office.css 校长办公室样式
 | |
 |- index.html 首页
 |- idea.html 办学理念

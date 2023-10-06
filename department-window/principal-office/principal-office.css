@@ -6,8 +6,6 @@
   background: skyblue;
 }
 
-
-
 /*******************
      主体 开始
 *********************/
@@ -15,8 +13,6 @@
 .jl-principal-body {
   margin-bottom: 60px;
 }
-
-
 
 /*******************
      导航样式 开始
@@ -36,9 +32,7 @@
   margin: 0 auto;
   font-size: 16px;
   /* box-shadow: 0px 2px 20px 0px rgba(21, 99, 160, 0.1); */
-
 }
-
 
 /* 导航单个选项 */
 .jl-principal-nav-item {
@@ -46,23 +40,17 @@
   text-align: center;
   line-height: 70px;
   padding: 0 28px;
-
 }
 
 /* 当前页面对应导航背景色--蓝色 */
 .jl-principal-nav-click {
-  background-color: #1563A0;
+  background-color: #1563a0;
   color: #fff;
 }
 
 /*******************
      导航样式 结束
 *********************/
-
-
-
-
-
 
 /*******************
      列表样式 开始
@@ -89,7 +77,7 @@
   position: absolute;
   width: 4px;
   height: 40px;
-  background-color: #1563A0;
+  background-color: #1563a0;
   top: 44px;
 }
 
@@ -97,8 +85,6 @@
 .jl-principal-item-rig {
   margin-right: 40px;
 }
-
-
 
 /* 箭头图标 */
 .jl-more-svg {
@@ -113,7 +99,6 @@
   top: 76px;
 }
 
-
 /* 盒子左侧部分 */
 .jl-principal-left-text {
   position: absolute;
@@ -123,20 +108,17 @@
   color: #333333;
 }
 
-
 /* 盒子右侧部分(图标和阴影底色) */
 .jl-principal-item-background {
   width: 120px;
   height: 120px;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   border-radius: 50%;
   text-align: center;
   margin: 0 auto;
   position: absolute;
   top: 40px;
   right: 40px;
-
-
 }
 
 .jl-principal-item-img {
@@ -144,9 +126,6 @@
   top: 50%;
   transform: translateY(-50%);
 }
-
-
-
 
 /*******************
      列表样式 结束

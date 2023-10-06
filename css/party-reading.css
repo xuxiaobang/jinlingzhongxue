@@ -56,6 +56,22 @@
   z-index: 3;
 }
 
+/* hover */
+.jl-reading-item-content:hover {
+  background: #1563a0;
+}
+.jl-reading-item-content:hover .jl-reading-date {
+  background: #f1a830;
+}
+.jl-reading-item-content:hover h2 {
+  color: #ffffff;
+}
+.jl-reading-item-content:hover span {
+  color: #ffffff;
+}
+.jl-reading-item-content:hover .jl-reading-label {
+  color: #ffffff;
+}
 /******************************
         主体  结束
 *******************************/

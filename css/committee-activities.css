@@ -1,0 +1,131 @@
+/*********************
+    主体 开始
+***********************/
+.jl-committee-activities-wrap {
+  padding: 0.6rem 0;
+  background: url('../assets/images/list-bg.png') no-repeat bottom
+    center/contain;
+}
+
+.jl-activities-list {
+  width: 100%;
+}
+.jl-activies-item {
+  justify-content: center;
+  height: 2.4rem;
+  padding: 0.6rem 0;
+}
+.jl-activies-img-wrap {
+  width: 4rem;
+  height: 100%;
+  margin-right: 0.4rem;
+}
+.jl-activies-img-wrap .jl-activies-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 文本内容 */
+
+.jl-activities-container {
+  box-sizing: border-box;
+  position: relative;
+  width: 7.4rem;
+  height: 100%;
+  padding-top: 0.2rem;
+  color: #333333;
+}
+.jl-activities-container .jl-activities-title {
+  flex: 0 0 0.3rem;
+  font-size: 0.22rem;
+  margin-bottom: 0.18rem;
+  line-height: 0.3rem;
+}
+
+.jl-activities-desc {
+  font-size: 0.14rem;
+  color: #999999;
+}
+
+.jl-activities-time-wrap {
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 0.4rem;
+  height: 0.4rem;
+}
+
+.jl-activities-time-wrap .jl-activies-time {
+  font-size: 0.16rem;
+  font-family: DINAlternate-Bold, DINAlternate;
+  font-weight: bold;
+}
+.jl-activities-time-wrap .jl-activies-icon {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-right: 0.64rem;
+  background: url('../assets/images/right.png') no-repeat 0 0 / cover;
+}
+
+.jl-activies-item:hover {
+  background: #0d6db7;
+}
+.jl-activies-item:hover .jl-activities-container {
+  color: #ffffff;
+}
+.jl-activies-item:hover .jl-activities-desc {
+  color: #ffffff;
+}
+.jl-activies-item:hover .jl-activies-icon {
+  background-image: url('../assets/images/right-white.png');
+}
+
+/* 分页 */
+.jl-activities-list-page {
+  justify-content: center;
+  margin-top: 0.6rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  color: #333333;
+  text-align: center;
+}
+
+/* 切换页面按钮 */
+.jl-activities-page-jump {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 80px;
+  margin-right: 4px;
+  border-radius: 2px;
+  border: 1px solid #d9d9d9;
+}
+
+.jl-activities-page-list .jl-page-item {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 32px;
+  margin-right: 4px;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+}
+
+/* 跳转到指定页面 */
+.jl-activities-page-to {
+  margin-left: 20px;
+  align-items: center;
+}
+.jl-activities-page-to .jl-pages-input {
+  box-sizing: border-box;
+  margin: 0 8px;
+  width: 44px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+  text-align: center;
+}
+
+/*********************
+    主体 结束
+***********************/

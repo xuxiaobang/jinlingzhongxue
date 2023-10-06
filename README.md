@@ -24,6 +24,7 @@
 | |- media.css  媒体查询样式
 | |- reset.css  重置样式
 | |- swiper.css   轮播样式
+| |- idea.css 办学理念样式
 | |- overview.css 学校概况页样式
 | |- leader.css  学校领导页样式
 | |- position.css 学校地图页样式

@@ -72,7 +72,7 @@
 |- union-news.html  工会快讯
 |- educational-development.html 教育发展基金会
 |- superintendent.html 督学
-|- smart-campus.html 智慧校园
+|- smart-campus.html 智慧校园 
 |- school-leaders.html 学校领导
 |- principal-column.html 校长专栏内容
 |- news-details.html 学校新闻内页

@@ -1,0 +1,51 @@
+/*********************************
+     领导详情  开始
+*********************************/
+.jl-leader-detail-wrap {
+  padding: 0.6rem 0;
+}
+
+.jl-leader-detail-wrap .jl-center-container {
+  align-items: flex-start;
+  width: 14rem;
+}
+
+/* 头像 */
+.jl-leader-detail-wrap .jl-leader-avatar {
+  flex: 0 0 3.2rem;
+  width: 3.2rem;
+  margin-right: 0.9rem;
+}
+.jl-leader-detail-wrap .jl-leader-avatar .jl-avatar {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* 详情内容 */
+.jl-leader-detail {
+  color: #333333;
+}
+.jl-leader-detail .jl-leader-username {
+  font-size: 0.32rem;
+  font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+  font-weight: bold;
+  line-height: 0.42rem;
+  margin-bottom: 0.2rem;
+}
+.jl-leader-detail .jl-leader-position {
+  font-size: 0.24rem;
+  font-family: MicrosoftYaHei;
+  line-height: 0.3rem;
+  margin-bottom: 0.7rem;
+}
+.jl-leader-detail .jl-leader-info {
+  font-size: 0.18rem;
+  font-family: MicrosoftYaHei;
+  line-height: 0.36rem;
+}
+.jl-leader-detail .jl-leader-info p {
+  margin-bottom: 0.2rem;
+}
+/*********************************
+     领导详情  结束
+*********************************/

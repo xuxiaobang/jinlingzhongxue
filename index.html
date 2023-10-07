@@ -16,7 +16,7 @@
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/swiper-bundle.min.js"></script>
   </head>
-  <body>
+  <body class="hidden">
     <div class="jl-container">
       <!--全屏导航  -->
       <div class="jl-full-nav">
@@ -1504,6 +1504,18 @@
       </div>
 
       <!-- =============================== 底部 结束 ============================= -->
+
+      <!-- 首页弹窗 -->
+      <div class="jl-dialog">
+        <img class="jl-dialog-img" src="./assets/images/dialog.png" alt="" />
+      </div>
+
+      <script>
+        setTimeout(() => {
+          $('.jl-dialog').addClass('hide')
+          $('body').toggleClass('hidden')
+        }, 5000)
+      </script>
     </div>
   </body>
 </html>

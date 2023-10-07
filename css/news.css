@@ -1,13 +1,72 @@
 /**************************************
         主体内容 开始
 ***************************************/
+.jl-news-container {
+  padding: 0.2rem 0 0.6rem;
+}
 .jl-news-item {
   box-sizing: border-box;
-  padding: 0 1rem;
+  padding: 0.4rem 1rem;
   width: 100%;
-}
-.jl-news-item .jl-flex
 
+  border-bottom: 1px solid #eeeeee;
+}
+.jl-news-item .jl-flex {
+  align-items: flex-start;
+}
+
+/* 时间 */
+.jl-news-item .jl-news-date {
+  display: flex;
+  flex: 0 0 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.4rem;
+  color: #ffffff;
+  background: #1563a0;
+}
+
+.jl-news-item .jl-news-date h2 {
+  font-size: 0.32rem;
+  font-family: DINAlternate-Bold, DINAlternate;
+  font-weight: bold;
+  line-height: 0.4rem;
+  margin-bottom: 0.1rem;
+}
+.jl-news-item .jl-news-date span {
+  font-size: 0.16rem;
+  font-family: DIN-RegularAlternate, DIN;
+  font-weight: normal;
+  line-height: 0.2rem;
+}
+
+/* 封面图片 */
+.jl-news-img {
+  flex: 0 0 3.2rem;
+  width: 3.2rem;
+  height: 2rem;
+  object-fit: cover;
+  margin-right: 0.4rem;
+}
+
+/* 详情 */
+.jl-news-content .jl-news-title {
+  font-size: 0.2rem;
+  font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+  font-weight: bold;
+  color: #333333;
+  line-height: 0.24rem;
+  margin: 0.2rem 0 0.24rem;
+}
+.jl-news-content .jl-news-desc {
+  font-size: 0.14rem;
+  font-family: MicrosoftYaHei;
+  color: #666666;
+  line-height: 0.24rem;
+}
 /**************************************
         主体内容 结束
 ***************************************/

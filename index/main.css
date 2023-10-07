@@ -53,6 +53,7 @@
 
 /* 内容 */
 .jl-news-content .jl-news-img-wrap {
+  display: block;
   overflow: hidden;
   width: 100%;
   height: 3.7rem;
@@ -71,6 +72,10 @@
 }
 
 /* 新闻内容 */
+.jl-current-news {
+  padding: 0.18rem 0.45rem 0.2rem 0.3rem;
+}
+
 .jl-news-info-wrap .jl-news-time {
   flex: 0 0 60px;
   text-align: center;
@@ -105,6 +110,20 @@
   color: #666666;
   line-height: 0.18rem;
   margin-top: 4px;
+}
+
+/* hover */
+.jl-current-news:hover {
+  background: #1563a0;
+  border-radius: 0px 32px 0px 32px;
+  cursor: pointer;
+}
+
+.jl-current-news:hover .jl-news-time .jl-title-day,
+.jl-current-news:hover .jl-news-time .jl-title-date,
+.jl-current-news:hover .jl-news-info .jl-news-desc,
+.jl-current-news:hover .jl-news-info .jl-news-title {
+  color: #ffffff;
 }
 
 /* 新闻列表 */

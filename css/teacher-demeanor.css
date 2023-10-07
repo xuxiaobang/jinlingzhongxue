@@ -1,0 +1,48 @@
+/*******************************
+      主体  开始
+********************************/
+.jl-teacher-demeanor-wrap {
+  padding: 0.6rem 0;
+}
+/* 组织各部 */
+.jl-department-wrap {
+  justify-content: space-between;
+}
+.jl-department-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  background: #f6f7f9;
+  border-radius: 50%;
+}
+.jl-department-item .jl-icon-svg {
+  width: 0.56rem;
+  object-fit: cover;
+  margin-bottom: 0.14rem;
+  color: red;
+}
+.jl-department-item span {
+  font-size: 0.2rem;
+  font-family: MicrosoftYaHei;
+  color: #333333;
+  line-height: 0.26rem;
+}
+/* hover */
+.jl-department-item:hover {
+  background: #0d6db7;
+}
+.jl-department-item:hover span {
+  color: #ffffff;
+}
+
+/* -----  教育各组人员  ----- */
+.jl-group-wrap {
+  align-items: flex-start;
+  margin-top: 0.8rem;
+}
+/*******************************
+      主体  结束
+********************************/

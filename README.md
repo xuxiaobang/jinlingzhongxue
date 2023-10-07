@@ -35,6 +35,7 @@
 | |- primary-school.css 小学部首页样式
 | |- high-school.css   高中部首页样式
 | |- international.css 国际部首页样式
+| |- teacher-demeanor.css  教师风采样式
 | |- news-details.css  学校新闻内页
 | |- department.css 部门之窗样式
 | |- principal-office.css 校长办公室样式

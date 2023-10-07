@@ -29,7 +29,8 @@
 | |- leader.css  学校领导页样式
 | |- institution.css  组织机构样式
 | |- position.css 学校地图页样式
-| |- news.css  学校新闻
+| |- news.css  学校新闻样式
+| |- notice.css 通知公告样式
 | |- recruit-students.css 招生专栏页样式
 | |- primary-school.css 小学部首页样式
 | |- high-school.css   高中部首页样式
@@ -84,4 +85,5 @@
 |- admissions-column.html 招生专栏
 |- regist-entrance.html 登记入口
 |- contact-us.html  联系我们
+
 ```

@@ -401,15 +401,12 @@
   font-weight: bold;
   font-family: DINAlternate-Bold, DINAlternate;
   line-height: 1;
+  font-size: 0.16rem;
 }
 
 .jl-slide-info .jl-slide-time .jl-slide-day {
   font-size: 0.4rem;
-}
-
-.jl-slide-info .jl-slide-time .jl-slide-date {
-  font-size: 0.16rem;
-  margin-left: 20px;
+  margin-right: 0.2rem;
 }
 
 .jl-slide-info .jl-slide-title {

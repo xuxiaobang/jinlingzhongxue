@@ -206,8 +206,8 @@
 
 /*------------ 其他信息 开始--------------------- */
 .jl-section-content {
-  padding-top: 0.6rem;
-  background: #f5f5f5;
+  padding: 0.6rem 0;
+  background: url('../assets/images/section-bg.png') no-repeat 0 0/ 100% 100%;
 }
 .jl-section-content .jl-section-item {
   box-shadow: none;

@@ -111,6 +111,18 @@
   margin-top: 0.2rem;
 }
 
+/* hover */
+.jl-trends-list .jl-trends-item:hover {
+  background: #1563a0;
+}
+
+.jl-trends-list .jl-trends-item:hover .jl-trends-date,
+.jl-trends-list .jl-trends-item:hover .jl-trends-year,
+.jl-trends-list .jl-trends-item:hover .jl-trends-title,
+.jl-trends-list .jl-trends-item:hover .jl-trends-desc {
+  color: #ffffff;
+}
+
 /* 通知公告 */
 .jl-notice-info {
   display: flex;

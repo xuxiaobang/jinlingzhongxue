@@ -353,7 +353,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 3.6rem;
+  top: 3.8rem;
   z-index: 10;
   flex: 0 0 0.7rem;
   justify-content: space-between;
@@ -391,7 +391,7 @@
 
 /* 教师轮播 */
 .jl-slide-info {
-  margin: 0.9rem 0.2rem 0;
+  margin: 1.1rem 0.2rem 0;
   text-align: left;
   padding-bottom: 0.8rem;
 }
@@ -430,6 +430,9 @@
 }
 
 /* 分页 */
+.jl-section-swiper {
+  height: 7.37rem;
+}
 .jl-section-swiper .swiper-pagination {
   width: 100%;
   bottom: 0.2rem;

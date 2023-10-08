@@ -404,6 +404,7 @@
   font-family: DINAlternate-Bold, DINAlternate;
   line-height: 1;
   font-size: 0.16rem;
+  margin-bottom: 0.2rem;
 }
 
 .jl-slide-info .jl-slide-time .jl-slide-day {
@@ -415,7 +416,7 @@
   font-size: 0.22rem;
   font-family: MicrosoftYaHei;
   line-height: 0.29rem;
-  margin: 0.26rem 0 0.2rem;
+  margin-bottom: 0.2rem;
 }
 
 .jl-slide-info .jl-slide-desc {

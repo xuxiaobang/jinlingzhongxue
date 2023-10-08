@@ -143,17 +143,89 @@
 /* ---------- 光荣旗手 结束----------- */
 
 /*------------ 幸福童年 开始--------------------- */
-.jl-happy-childhood {
-  overflow: hidden;
+.jl-childhood-container {
+  position: relative;
   width: 100%;
-  height: 9rem;
+  height: 7.2rem;
+  margin-bottom: 3rem;
+  background: url('../assets/images/childhood-1.png') no-repeat 0 0 / cover;
 }
 
-.jl-happy-childhood .jl-main-banner-next,
-.jl-happy-childhood .jl-main-banner-prev {
-  top: auto;
-  bottom: 0.4rem;
+.jl-childhood-container .jl-childhood-wrap {
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-25%, -50%);
+  width: 10.8rem;
+  height: 4.4rem;
+  padding: 0.6rem;
+  background: #1768a7;
 }
+.jl-childhood-wrap .swiper-slide {
+  background: transparent;
+  align-items: flex-start;
+}
+.jl-childhood-wrap .jl-img {
+  width: 4rem;
+  height: 2.4rem;
+  object-fit: cover;
+  margin-right: 0.4rem;
+}
+
+.jl-slide-info {
+  box-sizing: border-box;
+  margin: 0;
+  padding-right: 0.6rem;
+}
+.jl-slide-info .jl-slide-time {
+  align-items: flex-end;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.jl-slide-info .jl-slide-time .jl-slide-day {
+  font-size: 0.4rem;
+}
+
+.jl-slide-info .jl-slide-time .jl-slide-date {
+  font-size: 0.16rem;
+}
+
+.jl-slide-info .jl-slide-title {
+  font-size: 0.22rem;
+  line-height: 0.29rem;
+  margin: 0.26rem 0 0.2rem;
+  color: #ffffff;
+}
+
+.jl-slide-info .jl-slide-desc {
+  font-size: 0.14rem;
+  line-height: 0.24rem;
+  color: #ffffff;
+}
+
+.jl-childhood-wrap .jl-main-banner-next,
+.jl-childhood-wrap .jl-main-banner-prev {
+  top: auto;
+  bottom: 0 !important;
+  z-index: 30;
+}
+.jl-childhood-wrap .jl-main-banner-next {
+  left: 3.6rem !important;
+}
+.jl-childhood-wrap .jl-main-banner-prev {
+  left: 0 !important;
+}
+.jl-childhood-wrap .swiper-pagination {
+  left: -2.8rem;
+  font-size: 0.2rem;
+  color: #ffffff;
+  line-height: 0.24rem;
+}
+/*
+
 .jl-happy-childhood .swiper-slide {
   position: relative;
 }
@@ -170,38 +242,8 @@
   border-radius: 4px;
 }
 
-.jl-slide-info .jl-slide-time {
-  align-items: flex-end;
-  font-weight: bold;
-  line-height: 1;
-}
 
-.jl-slide-info .jl-slide-time .jl-slide-day {
-  font-size: 0.4rem;
-}
-
-.jl-slide-info .jl-slide-time .jl-slide-date {
-  font-size: 0.16rem;
-  margin-left: 20px;
-}
-
-.jl-slide-info .jl-slide-title {
-  font-size: 0.22rem;
-  line-height: 0.29rem;
-  margin: 0.26rem 0 0.2rem;
-}
-
-.jl-slide-info .jl-slide-desc {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  word-break: break-all;
-  font-size: 0.14rem;
-  color: #666666;
-  line-height: 0.24rem;
-}
+*/
 /*------------ 幸福童年 结束--------------------- */
 
 /*------------ 其他信息 开始--------------------- */

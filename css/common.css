@@ -214,6 +214,7 @@ body.hidden {
 }
 
 .jl-header-wrap .jl-logo {
+  font-size: 0;
   height: 0.48rem;
 }
 

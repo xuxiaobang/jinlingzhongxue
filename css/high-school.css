@@ -10,7 +10,7 @@
 .jl-news-container .jl-trends-header {
   flex: 0 0 1.6rem;
   width: 1.6rem;
-  margin-right: 2rem;
+  margin-right: 1.8rem;
 }
 .jl-trends-header .jl-trends-title {
   position: relative;
@@ -60,11 +60,15 @@
 
 .jl-trends-list .jl-trends-item {
   box-sizing: border-box;
-  width: 5.8rem;
-  padding: 0.4rem;
+  width: 50%;
+  padding: 0.2rem;
+}
+.jl-trends-item .jl-flex {
+  box-sizing: border-box;
   background: #ffffff;
-  margin-right: 0.4rem;
-  margin-bottom: 0.4rem;
+  width: 100%;
+  height: 100%;
+  padding: 0.4rem;
 }
 .jl-trends-list .jl-trends-item:nth-child(even) {
   margin-right: 0;
@@ -112,14 +116,14 @@
 }
 
 /* hover */
-.jl-trends-list .jl-trends-item:hover {
+.jl-trends-list .jl-trends-item .jl-flex:hover {
   background: #1563a0;
 }
 
-.jl-trends-list .jl-trends-item:hover .jl-trends-date,
-.jl-trends-list .jl-trends-item:hover .jl-trends-year,
-.jl-trends-list .jl-trends-item:hover .jl-trends-title,
-.jl-trends-list .jl-trends-item:hover .jl-trends-desc {
+.jl-trends-list .jl-trends-item .jl-flex:hover .jl-trends-date,
+.jl-trends-list .jl-trends-item .jl-flex:hover .jl-trends-year,
+.jl-trends-list .jl-trends-item .jl-flex:hover .jl-trends-title,
+.jl-trends-list .jl-trends-item .jl-flex:hover .jl-trends-desc {
   color: #ffffff;
 }
 

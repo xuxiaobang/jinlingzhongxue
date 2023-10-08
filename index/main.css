@@ -318,7 +318,7 @@
   width: 4.92rem;
   margin-right: 20px;
   box-shadow: 0 0 10px 0 #dddddd;
-  margin-bottom: 20px;
+  margin-bottom: 0.6rem;
   border-radius: 8px;
 }
 .jl-section-item:last-child {
@@ -457,9 +457,8 @@
 /* --------   教师频道  结束 -------- */
 
 /* --------   校园生活  开始 -------- */
-.jl-campus-life .jl-section-container {
-  left: auto;
-  right: 0;
+.jl-campus-life {
+  background: url('../assets/images/section-bg.png') no-repeat 0 0/ 100% 100%;
 }
 
 .jl-life {
@@ -471,6 +470,7 @@
 
 /* --------   校园视频  开始 -------- */
 .jl-vido-wrap {
+  background: #f4f9fe;
   padding-bottom: 0.7rem;
 }
 

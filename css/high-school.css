@@ -15,7 +15,6 @@
 .jl-trends-header .jl-trends-title {
   position: relative;
   font-size: 0.36rem;
-  font-family: MicrosoftYaHei;
   color: #333333;
   line-height: 0.47rem;
   letter-spacing: 3px;
@@ -88,14 +87,12 @@
 }
 .jl-trends-time .jl-trends-date {
   font-size: 0.24rem;
-  font-family: ArialMT;
   color: #333333;
   line-height: 0.4rem;
 }
 
 .jl-trends-time .jl-trends-year {
   font-size: 0.14rem;
-  font-family: ArialMT;
   color: #bbbbbb;
   line-height: 0.4rem;
 }
@@ -103,14 +100,12 @@
 .jl-trends-item .jl-trends-title {
   height: 0.8rem;
   font-size: 0.2rem;
-  font-family: MicrosoftYaHei;
   color: #333333;
   line-height: 0.4rem;
 }
 
 .jl-trends-item .jl-trends-desc {
   font-size: 0.14rem;
-  font-family: MicrosoftYaHei;
   color: #666666;
   line-height: 0.28rem;
   margin-top: 0.2rem;
@@ -135,7 +130,6 @@
 
 .jl-school-title {
   font-size: 0.4rem;
-  font-family: MicrosoftYaHei;
   color: #ffffff;
   transform: translateY(0.5rem);
   letter-spacing: 4px;

@@ -33,7 +33,6 @@
 }
 .jl-reading-date h2 {
   font-size: 0.32rem;
-  font-family: DINAlternate-Bold, DINAlternate;
   font-weight: bold;
   color: #333333;
   line-height: 0.38rem;
@@ -41,7 +40,6 @@
 }
 .jl-reading-date span {
   font-size: 0.16rem;
-  font-family: DIN-RegularAlternate, DIN;
   font-weight: normal;
   color: #999999;
   line-height: 0.2rem;
@@ -49,7 +47,6 @@
 
 .jl-reading-label {
   font-size: 0.2rem;
-  font-family: MicrosoftYaHei;
   color: #333333;
   line-height: 1rem;
   padding: 0 0.2rem;

@@ -27,20 +27,17 @@
 }
 .jl-leader-detail .jl-leader-username {
   font-size: 0.32rem;
-  font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   line-height: 0.42rem;
   margin-bottom: 0.2rem;
 }
 .jl-leader-detail .jl-leader-position {
   font-size: 0.24rem;
-  font-family: MicrosoftYaHei;
   line-height: 0.3rem;
   margin-bottom: 0.7rem;
 }
 .jl-leader-detail .jl-leader-info {
   font-size: 0.18rem;
-  font-family: MicrosoftYaHei;
   line-height: 0.36rem;
 }
 .jl-leader-detail .jl-leader-info p {

@@ -17,7 +17,6 @@
 }
 .jl-details .jl-details-title {
   font-size: 0.32rem;
-  font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #000000;
   line-height: 0.42rem;
@@ -35,7 +34,6 @@
 
 .jl-details-article {
   font-size: 0.16rem;
-  font-family: MicrosoftYaHei;
   color: #000000;
   line-height: 0.32rem;
 }
@@ -66,7 +64,6 @@
 
 .jl-latest-trends .jl-latest-trends-title {
   font-size: 0.22rem;
-  font-family: MicrosoftYaHei;
   color: #1563a0;
   line-height: 0.26rem;
   margin-bottom: 0.12rem;

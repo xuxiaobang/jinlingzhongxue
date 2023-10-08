@@ -31,14 +31,12 @@
 
 .jl-news-item .jl-news-date h2 {
   font-size: 0.32rem;
-  font-family: DINAlternate-Bold, DINAlternate;
   font-weight: bold;
   line-height: 0.4rem;
   margin-bottom: 0.1rem;
 }
 .jl-news-item .jl-news-date span {
   font-size: 0.16rem;
-  font-family: DIN-RegularAlternate, DIN;
   font-weight: normal;
   line-height: 0.2rem;
 }
@@ -55,7 +53,6 @@
 /* 详情 */
 .jl-news-content .jl-news-title {
   font-size: 0.2rem;
-  font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
   font-weight: bold;
   color: #333333;
   line-height: 0.24rem;
@@ -63,7 +60,6 @@
 }
 .jl-news-content .jl-news-desc {
   font-size: 0.14rem;
-  font-family: MicrosoftYaHei;
   color: #666666;
   line-height: 0.24rem;
 }

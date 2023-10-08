@@ -38,7 +38,6 @@
   height: 100%;
   text-align: center;
   font-size: 0.2rem;
-  font-family: MicrosoftYaHei;
   color: #1563a0;
   line-height: 1.2rem;
   transition: 0.5s;
@@ -59,7 +58,6 @@
   flex: 1;
   padding-left: 0.5rem;
   font-size: 0.2rem;
-  font-family: MicrosoftYaHei;
   color: #333333;
   line-height: 0.26rem;
 }

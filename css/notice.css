@@ -39,14 +39,12 @@
   box-sizing: border-box;
   padding: 0 0.2rem;
   font-size: 0.18rem;
-  font-family: MicrosoftYaHei;
   color: #333333;
 }
 .jl-notice-item .jl-notice-time {
   flex: 0 0 0.8rem;
   width: 0.8rem;
   font-size: 0.14rem;
-  font-family: ArialMT;
   color: #999999;
 }
 

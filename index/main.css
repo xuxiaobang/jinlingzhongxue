@@ -83,7 +83,6 @@
 
 .jl-news-info-wrap .jl-news-time .jl-title-day {
   font-size: 0.32rem;
-  font-family: Arial-BoldMT, Arial;
   font-weight: normal;
   color: #333333;
   line-height: 0.37rem;
@@ -91,7 +90,6 @@
 
 .jl-news-info-wrap .jl-news-time .jl-title-date {
   font-size: 0.16rem;
-  font-family: ArialMT;
   color: #999999;
   line-height: 0.18rem;
   margin-top: 4px;
@@ -99,14 +97,12 @@
 
 .jl-news-info .jl-news-title {
   font-size: 0.2rem;
-  font-family: MicrosoftYaHei;
   color: #333333;
   line-height: 0.36rem;
 }
 
 .jl-news-info .jl-news-desc {
   font-size: 0.14rem;
-  font-family: MicrosoftYaHei;
   color: #666666;
   line-height: 0.18rem;
   margin-top: 4px;
@@ -208,7 +204,6 @@
 .jl-smart-campus-content .jl-smart-campus-title .jl-smart-campus-label {
   width: 0.24rem;
   font-size: 0.24rem;
-  font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
   color: #ffffff;
   line-height: 0.33rem;
@@ -275,7 +270,6 @@
 
 .jl-notice-item .jl-notice-title {
   font-size: 0.16rem;
-  font-family: MicrosoftYaHei;
   color: #333333;
   line-height: 0.21rem;
 }
@@ -287,7 +281,6 @@
 
 .jl-notice-time .jl-time {
   font-size: 0.14rem;
-  font-family: ArialMT;
   color: #6c9bbd;
   line-height: 0.16rem;
 }
@@ -373,7 +366,6 @@
 .jl-category-wrap .jl-category-title {
   position: relative;
   font-size: 0.24rem;
-  font-family: PingFangSC-Medium, PingFang SC;
   font-weight: 500;
   color: #000000;
   line-height: 0.33rem;
@@ -407,7 +399,6 @@
 .jl-slide-info .jl-slide-time {
   align-items: flex-end;
   font-weight: bold;
-  font-family: DINAlternate-Bold, DINAlternate;
   line-height: 1;
   font-size: 0.16rem;
   margin-bottom: 0.2rem;
@@ -420,7 +411,6 @@
 
 .jl-slide-info .jl-slide-title {
   font-size: 0.22rem;
-  font-family: MicrosoftYaHei;
   line-height: 0.29rem;
   margin-bottom: 0.2rem;
 }
@@ -433,7 +423,6 @@
   -webkit-line-clamp: 3;
   word-break: break-all;
   font-size: 0.14rem;
-  font-family: MicrosoftYaHei;
   color: #666666;
   line-height: 0.24rem;
 }
@@ -447,7 +436,6 @@
   width: 100%;
   bottom: 0.2rem;
   font-size: 0.16rem;
-  font-family: MicrosoftYaHei;
   color: #1563a0;
   line-height: 0.21rem;
 }

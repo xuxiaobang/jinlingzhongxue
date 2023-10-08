@@ -30,3 +30,17 @@ $(function () {
     $('.jl-nav-operate').toggleClass('show')
   })
 })
+
+// 判断操作系统
+$(function () {
+  var agent = navigator.userAgent.toLowerCase()
+
+  // window
+  if (agent.indexOf('win') >= 0 || agent.indexOf('wow') >= 0) {
+    $('body').attr('style', 'font-family:Microsoft YaHei Regular;')
+  }
+
+  if (/macintosh|mac os x/i.test(navigator.userAgent)) {
+    $('body').attr('style', 'font-family:PingFang SC Regular;')
+  }
+})

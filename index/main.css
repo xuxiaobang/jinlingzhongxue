@@ -244,12 +244,11 @@
 .jl-notice-content {
   position: relative;
   box-sizing: border-box;
-  padding: 0.3rem 0.2rem;
-  height: 4.4rem;
-  background: #ffffff;
-  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+  padding: 0 0.2rem;
+  /* height: 4.4rem; */
+  /* box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1); */
 }
-.jl-notice-content::after {
+/* .jl-notice-content::after {
   content: '';
   position: absolute;
   left: 0;
@@ -257,7 +256,7 @@
   width: 100%;
   height: 6px;
   background: #1563a0;
-}
+} */
 
 .jl-notice-content .jl-notice-item {
   flex: 1;
@@ -269,9 +268,9 @@
 }
 
 .jl-notice-item .jl-notice-title {
-  font-size: 0.16rem;
+  font-size: 0.2rem;
   color: #333333;
-  line-height: 0.21rem;
+  line-height: 0.3rem;
 }
 
 .jl-notice-item .jl-notice-time {

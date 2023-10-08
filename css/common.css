@@ -787,6 +787,7 @@ body.hidden {
   width: 100vw;
   height: 100vh;
   z-index: 100;
+  cursor: pointer;
 }
 .jl-dialog.hide {
   display: none;

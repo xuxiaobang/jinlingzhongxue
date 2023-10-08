@@ -1522,15 +1522,20 @@
       <!-- =============================== 底部 结束 ============================= -->
 
       <!-- 首页弹窗 -->
-      <div class="jl-dialog">
-        <img class="jl-dialog-img" src="./assets/images/dialog.png" alt="" />
-      </div>
+      <!-- <div class="jl-dialog"> -->
+      <img class="jl-dialog" src="./assets/images/dialog.png" alt="" />
+      <!-- </div> -->
 
       <script>
         setTimeout(() => {
           $('.jl-dialog').addClass('hide')
           $('body').toggleClass('hidden')
         }, 5000)
+
+        $('.jl-dialog').click(function () {
+          $('.jl-dialog').addClass('hide')
+          $('body').toggleClass('hidden')
+        })
       </script>
     </div>
   </body>

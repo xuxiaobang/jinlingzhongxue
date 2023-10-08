@@ -364,6 +364,12 @@
   height: 0.7rem;
 }
 
+.jl-category-wrap.jl-relative {
+  position: relative;
+  top: 0;
+  margin-bottom: 0;
+}
+
 .jl-category-wrap .jl-category-title {
   position: relative;
   font-size: 0.24rem;

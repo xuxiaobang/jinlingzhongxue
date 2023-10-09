@@ -492,20 +492,13 @@
 
       <!-- 周年庆  -->
       <div class="jl-anniversary">
-        <img
-          class="jl-anniversary-img"
-          src="./index/images/anniversary.png"
-          alt=""
-        />
-      </div>
-
-      <!-- 标语  -->
-      <div class="jl-anniversary">
-        <img
-          class="jl-anniversary-img"
-          src="./index/images/anniversary.png"
-          alt=""
-        />
+        <a href="#">
+          <img
+            class="jl-anniversary-img"
+            src="./index/images/anniversary.png"
+            alt=""
+          />
+        </a>
       </div>
 
       <!-- =============================== 主体 开始 ============================= -->
@@ -1529,12 +1522,12 @@
       <script>
         setTimeout(() => {
           $('.jl-dialog').addClass('hide')
-          $('body').toggleClass('hidden')
-        }, 5000)
+          $('body').removeClass('hidden')
+        }, 10000)
 
         $('.jl-dialog').click(function () {
           $('.jl-dialog').addClass('hide')
-          $('body').toggleClass('hidden')
+          $('body').removeClass('hidden')
         })
       </script>
     </div>

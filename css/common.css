@@ -418,9 +418,9 @@ body.hidden {
   color: #ffffff;
   margin-left: 0.6rem;
   margin-bottom: 4px;
+  font-size: 0.14rem;
 }
 .jl-address .jl-address-item {
-  font-size: 0.14rem;
   color: #ffffff;
   padding: 0 0.1rem;
 }

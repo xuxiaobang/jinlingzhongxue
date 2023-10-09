@@ -6,10 +6,557 @@
     <title>校长专栏内页</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/news-details.css" />
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/main.js"></script>
   </head>
   <body>
-    <div class="jl-wrap">
-      <img class="jl-img" src="./images/34-校长专栏内页.png" alt="" />
+    <div class="jl-leader-wrap">
+      <!-- =============================== header 开始 ========================== -->
+      <div class="jl-common-header">
+        <!--全屏导航  -->
+        <div class="jl-full-nav">
+          <div class="jl-full-header">
+            <div class="jl-full-mask">
+              <ul class="jl-full-header-container jl-flex">
+                <li class="jl-full-nav-item">
+                  <h3 class="jl-full-title">
+                    <a href="#">学校简介</a>
+                  </h3>
+                  <dl>
+                    <dd class="jl-full-label"><a href="#">办学理念</a></dd>
+                    <dd class="jl-full-label"><a href="#">学校概况</a></dd>
+                    <dd class="jl-full-label"><a href="#">学校领导</a></dd>
+                    <dd class="jl-full-label">
+                      <a href="#">教育教学督导室</a>
+                    </dd>
+                    <dd class="jl-full-label"><a href="#">组织机构</a></dd>
+                    <dd class="jl-full-label"><a href="#">校长专栏</a></dd>
+                    <dd class="jl-full-label"><a href="#">校园地图</a></dd>
+                  </dl>
+                </li>
+                <li class="jl-full-nav-item">
+                  <h3 class="jl-full-title">
+                    <a href="#">学校新闻</a>
+                  </h3>
+                </li>
+                <li class="jl-full-nav-item">
+                  <h3 class="jl-full-title">
+                    <a href="#">招生专栏</a>
+                  </h3>
+                </li>
+                <li class="jl-full-nav-item">
+                  <h3 class="jl-full-title">
+                    <a href="#">教师频道</a>
+                  </h3>
+                  <dl>
+                    <dd class="jl-full-label"><a href="#">教师荣誉</a></dd>
+                    <dd class="jl-full-label"><a href="#">教师风采</a></dd>
+                    <dd class="jl-full-label"><a href="#">教育随笔</a></dd>
+                  </dl>
+                </li>
+                <li class="jl-full-nav-item">
+                  <h3 class="jl-full-title">
+                    <a href="#">校园生活</a>
+                  </h3>
+                  <dl>
+                    <dd class="jl-full-label"><a href="#">学生活动</a></dd>
+                    <dd class="jl-full-label"><a href="#">学生作品</a></dd>
+                    <dd class="jl-full-label"><a href="#">心灵花园</a></dd>
+                    <dd class="jl-full-label"><a href="#">校园足球</a></dd>
+                  </dl>
+                </li>
+                <li class="jl-full-nav-item">
+                  <h3 class="jl-full-title">
+                    <a href="#">学部链接</a>
+                  </h3>
+                  <dl>
+                    <dd class="jl-full-label"><a href="#">小学部</a></dd>
+                    <dd class="jl-full-label"><a href="#">初中部</a></dd>
+                    <dd class="jl-full-label"><a href="#">高中部</a></dd>
+                    <dd class="jl-full-label"><a href="#">国际部</a></dd>
+                  </dl>
+                </li>
+                <li class="jl-full-nav-item">
+                  <h3 class="jl-full-title">
+                    <a href="#">部门之窗</a>
+                  </h3>
+                  <dl>
+                    <dd class="jl-full-label"><a href="#">校长办公室</a></dd>
+                    <dd class="jl-full-label"><a href="#">党委办公室</a></dd>
+                    <dd class="jl-full-label"><a href="#">教师发展中心</a></dd>
+                    <dd class="jl-full-label"><a href="#">学生成长中心</a></dd>
+                    <dd class="jl-full-label"><a href="#">教科信息中心</a></dd>
+                    <dd class="jl-full-label"><a href="#">后勤保障中心</a></dd>
+                  </dl>
+                </li>
+                <li class="jl-full-nav-item">
+                  <h3 class="jl-full-title">
+                    <a href="#">党委工会</a>
+                  </h3>
+                  <dl>
+                    <dd class="jl-full-label"><a href="#">党员活动</a></dd>
+                    <dd class="jl-full-label"><a href="#">党员阅读</a></dd>
+                    <dd class="jl-full-label"><a href="#">工会快讯</a></dd>
+                    <dd class="jl-full-label">
+                      <a href="#">教育发展基金会</a>
+                    </dd>
+                    <dd class="jl-full-label"><a href="#">督学</a></dd>
+                  </dl>
+                </li>
+                <li class="jl-full-nav-item">
+                  <h3 class="jl-full-title">
+                    <a href="#">智慧校园</a>
+                  </h3>
+                  <dl>
+                    <dd class="jl-full-label"><a href="#">南京智慧教育</a></dd>
+                    <dd class="jl-full-label"><a href="#">网上阅读系统</a></dd>
+                    <dd class="jl-full-label"><a href="#">智慧校园平台</a></dd>
+                    <dd class="jl-full-label"><a href="#">评教系统平台</a></dd>
+                    <dd class="jl-full-label"><a href="#">工资查询平台</a></dd>
+                    <dd class="jl-full-label"><a href="#">西河书院</a></dd>
+                    <dd class="jl-full-label"><a href="#">教学资源平台</a></dd>
+                    <dd class="jl-full-label">
+                      <a href="#">空中课堂(校内)</a>
+                    </dd>
+                    <dd class="jl-full-label">
+                      <a href="#">空中课堂(校外)</a>
+                    </dd>
+                  </dl>
+                </li>
+                <li class="jl-full-nav-item">
+                  <h3 class="jl-full-title">
+                    <a href="#">学校二十周年</a>
+                  </h3>
+                  <dl>
+                    <dd class="jl-full-label"><a href="#">学校校史回顾</a></dd>
+                    <dd class="jl-full-label"><a href="#">历届名人校友</a></dd>
+                    <dd class="jl-full-label"><a href="#">校庆专题视频</a></dd>
+                    <dd class="jl-full-label"><a href="#">校庆缤纷画册</a></dd>
+                    <dd class="jl-full-label"><a href="#">校庆精彩活动</a></dd>
+                    <dd class="jl-full-label"><a href="#">各界暖心祝福</a></dd>
+                  </dl>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 通用header -->
+        <div class="jl-main-header jl-main">
+          <!-- header top -->
+          <div class="jl-header-top">
+            <div class="jl-header-container jl-flex">
+              <!-- logo -->
+              <h1 class="jl-logo">
+                <img src="./index/images/logo.png" alt="" />
+              </h1>
+
+              <!-- nav -->
+              <div class="jl-nav-wrapper jl-flex-con jl-flex jl-flex-vertical">
+                <ul class="jl-nav jl-flex jl-flex-vertical">
+                  <li class="jl-nav-item">
+                    <a class="jl-nav-item__label" href="#" target="_blank">
+                      学校简介
+                    </a>
+                    <div class="jl-nav-sub">
+                      <div class="jl-nav-sub-list jl-flex jl-flex--column">
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/idea.html"
+                          target="_blank"
+                        >
+                          办学理念
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/overview.html"
+                          target="_blank"
+                        >
+                          学校概况
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/leader.html "
+                          target="_blank"
+                        >
+                          学校领导
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/supervision.html"
+                          target="_blank"
+                        >
+                          教育教学督导室
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/supervision.html"
+                          target="_blank"
+                        >
+                          组织机构
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/principal.html"
+                          target="_blank"
+                        >
+                          校长专栏
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/position.html"
+                          target="_blank"
+                        >
+                          校园地图
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="jl-nav-item">
+                    <a
+                      class="jl-nav-item__label"
+                      href="/news.html"
+                      target="_blank"
+                    >
+                      学校新闻
+                    </a>
+                  </li>
+                  <li class="jl-nav-item">
+                    <a
+                      class="jl-nav-item__label"
+                      href="/notice.html"
+                      target="_blank"
+                    >
+                      通知公告
+                    </a>
+                  </li>
+                  <li class="jl-nav-item">
+                    <a
+                      class="jl-nav-item__label"
+                      href="/recruit-students.html"
+                      target="_blank"
+                    >
+                      招生专栏
+                    </a>
+                  </li>
+                  <li class="jl-nav-item">教师频道</li>
+                  <li class="jl-nav-item">校园生活</li>
+                  <li class="jl-nav-item">
+                    <a
+                      class="jl-nav-item__label"
+                      href="/learning-department.html"
+                      target="_blank"
+                    >
+                      学部链接
+                    </a>
+                    <div class="jl-nav-sub">
+                      <div class="jl-nav-sub-list jl-flex jl-flex--column">
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/primary-school.html"
+                          target="_blank"
+                        >
+                          小学部
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/middle-school.html"
+                          target="_blank"
+                        >
+                          中学部
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/high-school.html "
+                          target="_blank"
+                        >
+                          高中部
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/international.html "
+                          target="_blank"
+                        >
+                          国际部
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="jl-nav-item">
+                    <a
+                      class="jl-nav-item__label"
+                      href="/learning-department.html"
+                      target="_blank"
+                    >
+                      部门之窗
+                    </a>
+                    <div class="jl-nav-sub">
+                      <div class="jl-nav-sub-list jl-flex jl-flex--column">
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/primary-school.html"
+                          target="_blank"
+                        >
+                          校长办公室
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/middle-school.html"
+                          target="_blank"
+                        >
+                          党委办公室
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/high-school.html "
+                          target="_blank"
+                        >
+                          教师发展中心
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/international.html "
+                          target="_blank"
+                        >
+                          学生成长中心
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/high-school.html "
+                          target="_blank"
+                        >
+                          科教信息中心
+                        </a>
+                        <a
+                          class="jl-nav-sub-item"
+                          href="/international.html "
+                          target="_blank"
+                        >
+                          后期保障中心
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="jl-nav-item">党委工会</li>
+                  <li class="jl-nav-item">智慧校园</li>
+                  <li class="jl-nav-item">校庆二十周年</li>
+                </ul>
+
+                <!-- 全部按钮 -->
+                <div class="jl-nav-operate"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 背景 -->
+        <div class="jl-header-bg-wrap">
+          <img
+            class="jl-header-bg"
+            src="./assets/images/full-header-bg.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+
+        <!-- 面包屑导航 -->
+        <div class="jl-crumbs-nav">
+          <div class="jl-center-container jl-flex">
+            <h2 class="jl-crumbs-title">学校简介</h2>
+            <div class="jl-address jl-flex jl-flex-vertical">
+              <a class="jl-address-item" href="#">首页</a>/
+              <a class="jl-address-item" href="#">学校新闻</a>/
+              <a class="jl-address-item" href="#">正文</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =============================== header 结束 ========================== -->
+
+      <!-- =============================== 主体 开始 ============================= -->
+      <section class="jl-section-wrap jl-news-details">
+        <div class="jl-center-container jl-flex">
+          <!-- 新闻详情 -->
+          <div class="jl-details">
+            <!-- 新闻详情header -->
+            <div class="jl-details-header">
+              <h2 class="jl-details-title">
+                时间与未来——在2023-2024学年度第一学期中学部开学典礼上的讲话
+              </h2>
+              <div class="jl-details-info">
+                <span>发布时间：2023-09-11</span>
+                <span>浏览次数：49</span>
+              </div>
+            </div>
+
+            <!-- 新闻详情内容 -->
+            <div class="jl-details-article">
+              <div class="jl-article jl-article-left">老师们、同学们：</div>
+
+              <div class="jl-article jl-article-left">
+                大家早上好！所有的久别重逢，都是为了更好的相遇。今天，我们中学部近5000名师生又重新相聚在美丽的校园，举行新学期的第一次升旗仪式。首先，我代表全校师生，向新加入金陵中学河西分校中学部的1564名新同学表示热烈的欢迎！同时，我也要向初二、初三和高二、高三的同学们，表达感谢！感谢你们充满活力的青春成长样态，给金中河西带来的美好！
+              </div>
+
+              <div class="jl-article jl-article-left">
+                今天，在新学期开学典礼的特别时刻，我想和大家交流“时间与未来”的话题。时间，是万物的载体。我们每个人都在自己的时区里，寻觅时间的意义、彰显人生的价值、走向美好的未来。
+              </div>
+              <div class="jl-article jl-article-left">一、感悟时间</div>
+              <div class="jl-article jl-article-left">
+                2003年，美国学者 斯蒂文·赫尔
+                提出了“时间商”的概念。所谓“时间商”，就是对待时间的态度和运用时间创造价值的能力。新的学年，如何与时间相处，是值得我们每个人认真思考的一个命题。
+              </div>
+              <div class="jl-article jl-article-left">
+                时间是最公平的，给任何人每天都是24小时。有一个词叫“时间颗粒度”，指的是一个人管理时间的单位。有人做过统计，比尔盖茨的时间颗粒度是5分钟，美国总统的时间颗粒度是4分钟。一个人的时间颗粒度越精细，时间管理的意识和能力就越强。当我们用分钟和秒针来计量时，时间的颗粒感、紧迫感和获得感，就会顿然清晰起来。如果你理解了“时间颗粒度”，你就会更加珍惜时间、恪守时间。
+              </div>
+
+              <div class="jl-article jl-article-left">
+                如何做“时间的朋友”？关键点在于信奉“长期主义”，相信时间的累积、持续的坚持，就会创造时间的“复利”。根据“一万小时定律”，任何人要在任何领域出类拔萃，脱颖而出，都需要认真投入一万小时以上。所谓“水滴石穿”，说的就是量变会带来质变，重复与积累可以成就卓越。
+              </div>
+
+              <div class="jl-article jl-article-left">
+                古希腊哲学家德谟克利特说，“没有人能两次踏进同一条河流”。每一个小时都很独特，每分每秒，我们周围的环境、我们自己的生理心理状态，都在发生变化。我们要学会让不同的学习内容和不同的时间相契合。那些需要阅读、理解、背诵的东西，放在合理的时间进行，会大大提高效率。建立一套运用时间的价值体系，是一个人的重要能力，希望同学们珍惜在金中河西学习和生活的每一天，学会合理利用时间，掌握适合自己的学习方法，努力提高单位时间的效率。
+              </div>
+
+              <div class="jl-article jl-article-left">二、约定未来</div>
+            </div>
+          </div>
+
+          <!-- 右侧动态 -->
+          <div class="jl-trends">
+            <!-- 最新动态  -->
+            <div class="jl-latest-trends">
+              <h2 class="jl-latest-trends-title">最新动态</h2>
+              <ul class="jl-latest-trends-list">
+                <li class="jl-latest-trends-item">
+                  <a class="jl-flex" href="#">
+                    <h3 class="jl-text-overflow">
+                      第39个教师节之际，这里满满都是爱与感动
+                    </h3>
+                    <div class="jl-latest-trends-time">2023.09.27</div>
+                  </a>
+                </li>
+                <li class="jl-latest-trends-item">
+                  <a class="jl-flex" href="#">
+                    <h3 class="jl-text-overflow">
+                      第39个教师节之际，这里满满都是爱与感动
+                    </h3>
+                    <div class="jl-latest-trends-time">2023.09.27</div>
+                  </a>
+                </li>
+                <li class="jl-latest-trends-item">
+                  <a class="jl-flex" href="#">
+                    <h3 class="jl-text-overflow">
+                      第39个教师节之际，这里满满都是爱与感动
+                    </h3>
+                    <div class="jl-latest-trends-time">2023.09.27</div>
+                  </a>
+                </li>
+                <li class="jl-latest-trends-item">
+                  <a class="jl-flex" href="#">
+                    <h3 class="jl-text-overflow">
+                      第39个教师节之际，这里满满都是爱与感动
+                    </h3>
+                    <div class="jl-latest-trends-time">2023.09.27</div>
+                  </a>
+                </li>
+                <li class="jl-latest-trends-item">
+                  <a class="jl-flex" href="#">
+                    <h3 class="jl-text-overflow">
+                      第39个教师节之际，这里满满都是爱与感动
+                    </h3>
+                    <div class="jl-latest-trends-time">2023.09.27</div>
+                  </a>
+                </li>
+                <li class="jl-latest-trends-item">
+                  <a class="jl-flex" href="#">
+                    <h3 class="jl-text-overflow">
+                      第39个教师节之际，这里满满都是爱与感动
+                    </h3>
+                    <div class="jl-latest-trends-time">2023.09.27</div>
+                  </a>
+                </li>
+                <li class="jl-latest-trends-item">
+                  <a class="jl-flex" href="#">
+                    <h3 class="jl-text-overflow">
+                      第39个教师节之际，这里满满都是爱与感动
+                    </h3>
+                    <div class="jl-latest-trends-time">2023.09.27</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================= 主体 结束 ============================= -->
+
+      <!-- ============================ 底部 开始 ============================= -->
+      <div class="jl-section-footer">
+        <div class="jl-section-footer-wrap">
+          <div class="jl-section-center jl-flex">
+            <!-- 关联学校 -->
+            <div class="jl-footer-affiliated-schools jl-flex-con">
+              <div class="jl-schools-item">金陵中学</div>
+              <div class="jl-schools-item">金陵中学附属初级中学</div>
+              <div class="jl-schools-item">金陵中学实验小学</div>
+              <div class="jl-schools-item">陵汇文学校</div>
+              <div class="jl-schools-item">金陵中学高新分校</div>
+              <div class="jl-schools-item">南京市金陵小学</div>
+              <div class="jl-schools-item">金陵中学仙林分校（中学部）</div>
+              <div class="jl-schools-item">金陵中学附属小学</div>
+            </div>
+
+            <!-- 学校名称 -->
+            <div class="jl-footer-schools jl-flex-con">
+              <img src="./index/images/footer-logo.png" alt="" />
+            </div>
+
+            <!-- 分享 -->
+            <div class="jl-footer-contact jl-flex-con">
+              <div class="jl-footer-contact-item">
+                <img
+                  class="jl-concat-img"
+                  src="./index/images/wechat.png"
+                  alt=""
+                />
+              </div>
+              <div class="jl-footer-contact-item">
+                <img
+                  class="jl-concat-img"
+                  src="./index/images/user.png"
+                  alt=""
+                />
+              </div>
+              <div class="jl-footer-contact-item">
+                <img
+                  class="jl-concat-img"
+                  src="./index/images/douyin.png"
+                  alt=""
+                />
+              </div>
+              <div class="jl-footer-contact-item">
+                <img
+                  class="jl-concat-img"
+                  src="./index/images/email.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="jl-footer-info">
+          <span class="jl-mr--half">Copyright@2015</span>
+          <span class="jl-mr--half">南京市金陵中学河西分校 </span>
+          <span class="jl-mr--half">苏ICP备05067371号-1</span>
+        </div>
+      </div>
+
+      <!-- ============================ 底部 结束 ============================= -->
     </div>
   </body>
 </html>

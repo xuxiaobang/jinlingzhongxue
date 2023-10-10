@@ -6,12 +6,13 @@
 }
 .jl-party-reading-wrap .jl-center-container {
   flex-wrap: wrap;
-  width: 14.4rem;
+  width: 12rem;
 }
 .jl-reading-item {
   box-sizing: border-box;
-  padding: 0.2rem;
-  width: 50%;
+  /* padding: 0.2rem; */
+  margin-bottom: 0.4rem;
+  width: 100%;
 }
 .jl-reading-item-content {
   position: relative;

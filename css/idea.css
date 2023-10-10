@@ -5,94 +5,18 @@
   padding: 0.4rem 0;
 }
 .jl-section-container .jl-center-container {
-  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-left: 28%;
 }
 
 .jl-idea-item {
-  box-sizing: border-box;
-  width: 33.3333%;
-  padding: 0.2rem 0.1rem;
-  background: url('../assets/images/bell-tower-bg.png') no-repeat bottom
-    right/0.8rem auto;
-}
-
-.jl-idea-item .jl-flex {
-  align-items: center;
-  width: 100%;
-  height: 1.2rem;
-  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
-}
-
-.jl-idea-item .jl-idea-title {
-  position: relative;
-  flex: 0 0 1.2rem;
-  width: 1.2rem;
-  height: 100%;
-  background: #f2f6fa;
-}
-.jl-idea-item .jl-idea-title .jl-title-label {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  font-size: 0.2rem;
-  color: #1563a0;
-  line-height: 1.2rem;
-  transition: 0.5s;
-}
-.jl-idea-item .jl-idea-title:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 4px;
-  background: #1563a0;
-  transition: 0.5s;
-}
-
-.jl-idea-item .jl-idea-content {
-  box-sizing: border-box;
-  flex: 1;
-  padding-left: 0.5rem;
-  font-size: 0.2rem;
+  font-size: 0.22rem;
+  font-weight: bold;
   color: #333333;
-  line-height: 0.26rem;
-}
-.jl-idea-item .jl-idea-content span {
-  position: relative;
-  padding: 0 0.1rem;
-}
-.jl-idea-item .jl-idea-content span:after {
-  content: '';
-  position: absolute;
-  right: -4px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background: #333333;
-}
-.jl-idea-item .jl-idea-content span:last-child:after {
-  display: none;
+  line-height: 0.3rem;
+  margin-bottom: 0.4rem;
 }
 
-/* hover */
-.jl-idea-item:hover .jl-idea-title .jl-title-label {
-  color: #ffffff;
-}
-.jl-idea-item:hover .jl-idea-title:before {
-  width: 100%;
-}
-.jl-idea-item:hover .jl-idea-content {
-  color: #1563a0;
-}
-.jl-idea-item:hover .jl-idea-content span:after {
-  background: #1563a0;
-}
 /************************************
         主体内容  结束
 **************************************/

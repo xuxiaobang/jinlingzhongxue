@@ -1,6 +1,9 @@
 /* 学校领导内容 */
+.jl-leader {
+  padding: 0.6rem 0;
+}
 .jl-section-container .jl-center-container {
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   width: 14.4rem;
 }
@@ -31,4 +34,7 @@
 .jl-leader-username {
   text-align: center;
   margin: 0.3rem 0 0.2rem;
+  font-size: 0.2rem;
+  color: #333333;
+  line-height: 0.26rem;
 }

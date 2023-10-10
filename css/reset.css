@@ -28,6 +28,7 @@ p {
 
 body {
   font-family: 'Microsoft YaHei';
+  font-size: 0.14rem;
 }
 a {
   text-decoration: none;
@@ -53,8 +54,6 @@ li {
   padding: 0;
   list-style: none;
 }
-
-
 
 /*-------------------------
         预制样式 

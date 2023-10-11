@@ -1,0 +1,101 @@
+/**********************
+     主体开始
+**************************/
+.jl-regist-wrap {
+  padding: 0.6rem 0;
+}
+
+/* 标题 */
+.jl-regist-wrap .jl-regist-header {
+  font-size: 0.32rem;
+  font-weight: bold;
+  color: #000000;
+  line-height: 0.42rem;
+  margin-bottom: 0.4rem;
+}
+
+/* 内容 */
+.jl-regist-container {
+  overflow: visible;
+}
+.jl-regist-entrance-content {
+  overflow: visible;
+  flex-wrap: wrap;
+}
+.jl-regist-entrance-item {
+  position: relative;
+  overflow: visible;
+  margin-bottom: 0.4rem;
+  margin-right: 0.4rem;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+.jl-regist-entrance-item:before {
+  content: '';
+  position: absolute;
+  top: 0.34rem;
+  width: 4px;
+  height: 0.4rem;
+  background: #1563a0;
+}
+.jl-regist-entrance-link {
+  box-sizing: border-box;
+  width: 4.4rem;
+  height: 2rem;
+  padding: 0.4rem;
+  font-size: 0.24rem;
+  color: #333333;
+}
+
+.jl-regist-entrance-link .jl-regist-entrance-title {
+  line-height: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+.jl-regist-entrance-link .iconfont {
+  color: #999999;
+}
+
+.jl-regist-entrance-link .jl-regist-entrance-icon {
+  justify-content: center;
+  align-items: center;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background: #eeeeee;
+}
+
+.jl-regist-entrance-icon .iconfont {
+  font-size: 0.5rem;
+}
+
+/* 导航 */
+.jl-regist-nav {
+  margin-left: 2rem;
+  flex: 0 0 2.2rem;
+  width: 2.2rem;
+  border-top: 1px solid #eeeeee;
+}
+
+.jl-regist-nav .jl-regist-link {
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0.25rem;
+  width: 100%;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 0.16rem;
+  color: #333333;
+  line-height: 0.2rem;
+}
+.jl-regist-nav .jl-regist-link .iconfont {
+  font-size: 0.16rem;
+  color: #333333;
+}
+.jl-regist-nav .jl-regist-link:hover {
+  color: #0d6db7;
+}
+.jl-regist-nav .jl-regist-link:hover .iconfont {
+  color: #0d6db7;
+}
+/**********************
+     主体结束
+**************************/

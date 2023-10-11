@@ -42,6 +42,7 @@
 | |- committee-activities.css 党员活动样式
 | |- party-reading.css 党员阅读样式
 | |- school-leaders.css 学校领导详情
+| |- regist-entrance.css 登记入口
 | |
 |- index.html 首页
 |- idea.html 办学理念

@@ -207,10 +207,12 @@
   /* width: 0.24rem; */
   font-size: 0.24rem;
   font-weight: 400;
-  color: #ffffff;
   line-height: 0.33rem;
   margin-top: 0.6rem;
   margin-bottom: 0.5rem;
+}
+.jl-smart-campus-title .jl-smart-campus-label a {
+  color: #ffffff;
 }
 
 .jl-smart-campus-title::after {

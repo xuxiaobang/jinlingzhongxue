@@ -89,7 +89,8 @@
 |- regist-entrance.html 登记入口
 |- contact-us.html  联系我们
 |
-|- department-introduction.html   小学学部简介
-|- department-news.html   小学学部新闻
+|- department-introduction.html   小学部-学部简介
+|- department-news.html   小学部-学部新闻
+|- happy-childhood.html   小学部-幸福童年
 
 ```

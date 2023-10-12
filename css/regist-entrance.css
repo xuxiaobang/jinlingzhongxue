@@ -21,6 +21,7 @@
 .jl-regist-entrance-content {
   overflow: visible;
   flex-wrap: wrap;
+  margin-right: 2rem;
 }
 .jl-regist-entrance-item {
   position: relative;
@@ -69,7 +70,6 @@
 
 /* 导航 */
 .jl-regist-nav {
-  margin-left: 2rem;
   flex: 0 0 2.2rem;
   width: 2.2rem;
   border-top: 1px solid #eeeeee;
@@ -121,5 +121,32 @@
   margin-right: 0.6rem;
 }
 .jl-contact-us-item .jl-contact-us-content span {
+  margin-right: 0.4rem;
+}
+
+/* 地图 */
+.jl-regist-entrance-content .jl-map {
+  width: 100%;
+  height: 6rem;
+}
+
+.jl-traffic-wrap {
+  align-items: flex-start;
+  margin-top: 0.6rem;
+}
+
+.jl-traffic-wrap .jl-traffic-info-item {
+  align-items: center;
+  font-size: 0.16rem;
+  font-weight: 400;
+  color: #333333;
+  line-height: 0.22rem;
+  margin-bottom: 0.3rem;
+}
+.jl-traffic-info-item .jl-traffic-title {
+  font-size: 0.24rem;
+  font-weight: 500;
+  color: #1563a0;
+  line-height: 0.34rem;
   margin-right: 0.4rem;
 }

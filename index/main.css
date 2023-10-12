@@ -196,18 +196,20 @@
 .jl-smart-campus-content .jl-smart-campus-title {
   position: relative;
   align-items: center;
+  box-sizing: border-box;
   flex: 0 0 2rem;
   width: 2rem;
+  padding-top: 0.4rem;
   background: #1563a0;
 }
 
 .jl-smart-campus-content .jl-smart-campus-title .jl-smart-campus-label {
-  width: 0.24rem;
+  /* width: 0.24rem; */
   font-size: 0.24rem;
   font-weight: 400;
   color: #ffffff;
   line-height: 0.33rem;
-  margin-top: 1rem;
+  margin-top: 0.6rem;
   margin-bottom: 0.5rem;
 }
 

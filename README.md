@@ -92,5 +92,6 @@
 |- department-introduction.html   小学部-学部简介
 |- department-news.html   小学部-学部新闻
 |- happy-childhood.html   小学部-幸福童年
+|- science-park.html   小学部-科学园地
 
 ```

@@ -747,6 +747,9 @@ body.hidden {
   border-radius: 2px;
   border: 1px solid #d9d9d9;
 }
+.jl-activities-page-jump.jl-disabled {
+  color: #bbbbbb;
+}
 
 .jl-activities-page-list .jl-page-item {
   box-sizing: border-box;
@@ -755,6 +758,18 @@ body.hidden {
   margin-right: 4px;
   border-radius: 3px;
   border: 1px solid #d9d9d9;
+}
+.jl-page-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.jl-page-item.jl-active {
+  background: #0d6db7;
+}
+.jl-page-item.jl-active a {
+  color: #ffffff;
 }
 
 /* 跳转到指定页面 */

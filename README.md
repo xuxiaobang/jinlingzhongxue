@@ -43,6 +43,7 @@
 | |- party-reading.css 党员阅读样式
 | |- school-leaders.css 学校领导详情
 | |- regist-entrance.css 登记入口
+| |- department-introduction.css 小学部简介
 | |
 |- index.html 首页
 |- idea.html 办学理念
@@ -87,5 +88,7 @@
 |- admissions-column.html 招生专栏
 |- regist-entrance.html 登记入口
 |- contact-us.html  联系我们
+|
+|- department-introduction.html   学部简介
 
 ```

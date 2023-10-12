@@ -1,0 +1,27 @@
+/**********************
+     主体  开始
+**************************/
+.jl-primary-school-introduction {
+  padding: 0.6rem 0;
+}
+
+/* 标题 */
+.jl-introduction-header {
+  font-size: 0.32rem;
+  font-weight: bold;
+  color: #000000;
+  line-height: 0.42rem;
+  margin-bottom: 0.4rem;
+} 
+
+.jl-introduction-container {
+  font-size: 0.14rem;
+  color: #333333;
+  line-height: 0.3rem;
+}
+.jl-introduction-container p {
+  margin-bottom: 0.3rem;
+}
+/**********************
+     主体 结束
+**************************/

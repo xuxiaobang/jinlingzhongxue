@@ -17,6 +17,12 @@
   margin-bottom: 0.4rem;
 }
 
+.jl-idea-item-label {
+  width: 4em;
+  justify-content: space-between;
+}
+.jl-idea-item-label.jl-space {
+}
 /************************************
         主体内容  结束
 **************************************/

@@ -266,6 +266,16 @@ li {
   word-break: break-all;
 }
 
+/* 4行超出... */
+.jl-text-overflow-4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  word-break: break-all;
+}
+
 .jl-auto--y {
   overflow-y: auto;
 }

@@ -150,3 +150,11 @@
   line-height: 0.34rem;
   margin-right: 0.4rem;
 }
+
+/* 办事指南 */
+.jl-work-guide-wrap {
+  padding: 0.4rem 0 0.6rem;
+}
+.jl-work-guide-wrap .jl-work-guide {
+  width: 10rem;
+}

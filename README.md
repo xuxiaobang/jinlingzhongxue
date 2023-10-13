@@ -93,5 +93,6 @@
 |- department-news.html   小学部-学部新闻
 |- happy-childhood.html   小学部-幸福童年
 |- science-park.html   小学部-科学园地
+|- parent-school-progress.html   小学部-家校共进
 
 ```

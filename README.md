@@ -97,5 +97,6 @@
 |- primary-school-teacher-essay.html  小学部-教师随笔
 |-
 |- work-guide.html   办事指南
+|- campus-video.html 校园视频
 
 ```

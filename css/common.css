@@ -649,7 +649,10 @@ body.hidden {
   justify-content: center;
   align-items: center;
 }
-
+.jl-footer-schools img{
+  width: 100%;
+  object-fit:cover;
+}
 .jl-footer-contact {
   display: flex;
   align-items: center;

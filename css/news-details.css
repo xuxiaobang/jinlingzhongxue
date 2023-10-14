@@ -79,6 +79,7 @@
 }
 
 .jl-latest-trends-item .jl-text-overflow {
+  flex: 1;
   font-size: 0.14rem;
   color: #333;
   line-height: 0.22rem;

@@ -135,6 +135,17 @@
   margin-top: 0.6rem;
 }
 
+.jl-traffic-wrap .jl-traffic-icon {
+  flex: 0 0 0.26rem;
+  width: 0.26rem;
+  line-height: 0.34rem;
+  margin-right: 0.2rem;
+}
+.jl-traffic-icon .iconfont {
+  font-size: 0.26rem;
+  color: #1563a0;
+}
+
 .jl-traffic-wrap .jl-traffic-info-item {
   align-items: center;
   font-size: 0.16rem;

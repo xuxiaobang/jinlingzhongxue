@@ -1,0 +1,69 @@
+/*****************************
+    主体 开始
+*****************************/
+
+/* header */
+.jl-common-header {
+  height: 100vh;
+  max-height: 100vh;
+  background-color: #eeeeee;
+}
+.jl-header-video-wrap {
+  height: 100%;
+}
+
+.jl-header-video-wrap .jl-video {
+  width: 100%;
+  height: 100%;
+}
+.jl-crumbs-nav {
+  bottom: 1.2rem;
+}
+
+/* 视频列表  */
+.jl-campus-video {
+  padding: 0.6rem 0;
+}
+
+.jl-video-list {
+  flex-wrap: wrap;
+}
+.jl-video-list .jl-video-item {
+  box-sizing: border-box;
+  flex: 0 0 25%;
+  width: 25%;
+  height: 2rem;
+  padding-right: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+.jl-video-list .jl-video-item:nth-child(4n) {
+  padding-right: 0;
+}
+
+.jl-video-list .jl-video-item .jl-video-content {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* play */
+.jl-video-item-wrap {
+  position: relative;
+}
+.jl-video-item .jl-video-play {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0.42rem;
+  height: 0.42rem;
+}
+.jl-video-item:hover .jl-video-play {
+  display: block;
+}
+/*****************************
+    主体 结束
+*****************************/

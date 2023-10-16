@@ -44,6 +44,7 @@
 | |- school-leaders.css 学校领导详情
 | |- regist-entrance.css 登记入口
 | |- department-introduction.css 小学部简介
+| |- campus-video.css  校园视频样式
 | |
 |- index.html 首页
 |- idea.html 办学理念

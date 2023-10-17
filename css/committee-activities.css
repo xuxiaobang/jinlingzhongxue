@@ -8,7 +8,8 @@
 }
 
 .jl-activities-list {
-  width: 100%;
+  width: 12rem;
+  margin: 0 auto;
 }
 .jl-activies-item {
   justify-content: center;
@@ -53,6 +54,7 @@
   align-items: center;
   flex: 0 0 0.4rem;
   height: 0.4rem;
+  margin-top: 0.6rem;
 }
 
 .jl-activities-time-wrap .jl-activies-time {
@@ -66,14 +68,14 @@
   background: url('../assets/images/right.png') no-repeat 0 0 / cover;
 }
 
-.jl-activies-item:hover {
+/* .jl-activies-item:hover {
   background: #0d6db7;
-}
+} */
 .jl-activies-item:hover .jl-activities-container {
-  color: #ffffff;
+  color: #0d6db7;
 }
 .jl-activies-item:hover .jl-activities-desc {
-  color: #ffffff;
+  color: #0d6db7;
 }
 .jl-activies-item:hover .jl-activies-icon {
   background-image: url('../assets/images/right-white.png');

@@ -80,6 +80,10 @@
 }
 
 /* 学生活动 */
+.jl-committee-activities-wrap .jl-center-container {
+  box-sizing: border-box;
+  overflow: visible;
+}
 .jl-active-center {
   flex-wrap: wrap;
 }
@@ -89,6 +93,9 @@
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
   margin-right: 0.4rem;
   margin-bottom: 0.4rem;
+}
+.jl-active-item a {
+  display: block;
 }
 .jl-active-item:nth-child(3n) {
   margin-right: 0;
@@ -138,6 +145,13 @@
   width: 0.4rem;
   height: 0.4rem;
   background: url('../assets/images/right.png') no-repeat 0 0 / cover;
+}
+
+/* hover */
+.jl-active-item:hover .jl-active-title,
+.jl-active-item:hover .jl-active-info,
+.jl-active-item:hover .jl-active-time {
+  color: #0d6db7;
 }
 /*********************
     主体 结束

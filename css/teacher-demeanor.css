@@ -37,6 +37,13 @@
   color: #ffffff;
 }
 
+.jl-department-item.jl-active {
+  background: #0d6db7;
+}
+.jl-department-item.jl-active span {
+  color: #ffffff;
+}
+
 /* -----  教育各组人员  ----- */
 .jl-group-wrap {
   overflow: visible;

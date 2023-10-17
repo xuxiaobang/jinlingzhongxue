@@ -34,7 +34,13 @@ body.hidden {
   color: #333333;
   line-height: 1.5;
   letter-spacing: 1px;
-  cursor: pointer;
+}
+
+.jl-header-more .iconfont {
+  margin-left: 0.1rem;
+}
+.jl-header .jl-header-more:hover {
+  color: #1563a0;
 }
 
 /****************************************

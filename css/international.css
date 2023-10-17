@@ -76,6 +76,13 @@
   margin-right: 0.4rem;
 }
 
+.jl-news-info-item:first-child .jl-header-title {
+  background: url('../assets/images/campus-title-bg.png') no-repeat 0 0 / cover;
+}
+.jl-news-info-item:last-child .jl-header-title {
+  background: url('../assets/images/news-info-bg.png') no-repeat 0 0 / cover;
+}
+
 /* 箐箐校园 */
 /* 录播 */
 .jl-campus {
@@ -113,10 +120,13 @@
 }
 
 /* 箐箐学校列表 */
-.jl-news-wrap .jl-campus-item {
-  padding: 0.3rem 0;
+.jl-news-wrap .jl-campus-item-wrap {
   border-bottom: 1px solid #eeeeee;
-  cursor: pointer;
+}
+.jl-news-wrap .jl-campus-item {
+  box-sizing: border-box;
+  display: block;
+  padding: 0.3rem 0;
 }
 
 .jl-news-wrap .jl-campus-title {
@@ -134,10 +144,15 @@
 .jl-today-news-list {
   padding: 0 0.1rem;
 }
-.jl-news-wrap .jl-today-news-item {
-  padding: 0.3rem 0.4rem;
+.jl-today-news-item-wrap {
   margin-bottom: 0.4rem;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.jl-news-wrap .jl-today-news-item {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 0.3rem 0.4rem;
 }
 .jl-news-wrap .jl-today-news-item:last-child {
   margin-bottom: 0;
@@ -162,6 +177,10 @@
 /*********************** 
       国际课程 开始 
 **************************/
+.jl-international-courses .jl-header-title {
+  background: url('../assets/images/international-courses-title-bg.png')
+    no-repeat 0 0 / cover;
+}
 .jl-international-courses {
   padding: 0.6rem 0;
   background: #f4f4f4;
@@ -209,6 +228,9 @@
   font-size: 0.14rem;
   color: #333333;
 }
+.jl-course-item .jl-course-title:hover {
+  color: #1563a0;
+}
 /*********************** 
       国际课程 结束 
 **************************/
@@ -216,10 +238,16 @@
 /*********************** 
       国际考试 开始 
 **************************/
+.jl-international-exam .jl-header-title {
+  background: url('../assets/images/international-exam-title-bg.png') no-repeat
+    0 0 / cover;
+}
 .jl-international-exam {
   padding: 0.6rem 0;
 }
-
+.jl-international-exam-containter {
+  background: url('../assets/images/world-map.png') no-repeat center/cover;
+}
 .jl-international-exam-containter .jl-flex {
   justify-content: space-between;
 }
@@ -245,21 +273,30 @@
 .jl-international-exam-item:last-child .jl-international-exam-title {
   background-image: url('../assets/images/sat.png');
 }
+.jl-international-exam-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+}
+.jl-international-exam-link:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
 
 .jl-international-exam-title .jl-exam-title {
   text-align: center;
   line-height: 2rem;
   font-size: 0.4rem;
   font-weight: 400;
-  color: #ffffff;
 }
 
-.jl-international-exam-title .jl-more-svg {
+.jl-international-exam-title .jl-more-icon {
   position: absolute;
   left: 50%;
   bottom: 0.38rem;
   margin-left: 0;
-  transform: rotateX(180deg) translateX(-50%);
+  font-size: 0.22rem;
+  transform: translateX(-50%);
 }
 
 .jl-international-exam-content {
@@ -338,8 +375,8 @@
 
 .jl-international-exam-list
   .jl-international-exam-item:nth-child(2)
-  .jl-more-svg {
-  fill: #000000;
+  .jl-more-icon {
+  color: #000000;
 }
 
 .jl-international-exam-list

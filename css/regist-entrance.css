@@ -52,7 +52,7 @@
   margin-bottom: 0.5rem;
 }
 .jl-regist-entrance-link .iconfont {
-  color: #999999;
+  color: #333333;
 }
 
 .jl-regist-entrance-link .jl-regist-entrance-icon {
@@ -66,6 +66,22 @@
 
 .jl-regist-entrance-icon .iconfont {
   font-size: 0.5rem;
+}
+
+/* hover */
+.jl-regist-entrance-item:hover .jl-regist-entrance-link {
+  color: #1563a0;
+}
+.jl-regist-entrance-item:hover .jl-regist-entrance-header .iconfont {
+  color: #1563a0;
+}
+
+.jl-regist-entrance-item:hover .jl-regist-entrance-icon {
+  background: #1563a0;
+}
+
+.jl-regist-entrance-item:hover .jl-regist-entrance-icon .iconfont {
+  color: #ffffff;
 }
 
 /* 导航 */

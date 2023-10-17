@@ -20,6 +20,7 @@
   width: 4rem;
   height: 100%;
   margin-right: 0.4rem;
+  object-fit: cover;
 }
 .jl-activies-img-wrap .jl-activies-img {
   width: 100%;
@@ -54,7 +55,6 @@
   align-items: center;
   flex: 0 0 0.4rem;
   height: 0.4rem;
-  margin-top: 0.6rem;
 }
 
 .jl-activities-time-wrap .jl-activies-time {

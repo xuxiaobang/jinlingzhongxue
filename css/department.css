@@ -5,14 +5,16 @@
   margin: 0.6rem 0;
 }
 .jl-department-container-wrap .jl-center-container {
+  flex-wrap: wrap;
   align-items: flex-start;
+  align-content: flex-start;
 }
 
 /* 列表部分 */
 .jl-department-container-wrap .jl-department-list-item {
   box-sizing: border-box;
-  padding: 0 0.1rem;
-  margin-right: 0.4rem;
+  padding: 0 0.2rem;
+  width: 33.33%;
 }
 .jl-department-container-wrap .jl-department-list-item:last-child {
   margin-right: 0;
@@ -41,7 +43,7 @@
 .jl-department-container {
   box-sizing: border-box;
   width: 100%;
-  padding: 0 0.4rem 0.4rem;
+  padding: 0 0.2rem 0.4rem;
 }
 
 .jl-department-container-item {
@@ -52,10 +54,15 @@
 .jl-department-container-item .jl-flex {
   align-items: center;
 }
-.jl-department-container-item .jl-department-svg {
-  transform: rotateX(180deg);
+.jl-department-container-item .jl-department-icon {
   margin-right: 0.24rem;
-  fill: #333333;
-  width: 0.18rem;
-  height: 0.18rem;
+  color: #333333;
+  font-size: 0.18rem;
+}
+
+.jl-department-container-item:hover {
+  color: #1563a0;
+}
+.jl-department-container-item:hover .jl-department-icon {
+  color: #1563a0;
 }

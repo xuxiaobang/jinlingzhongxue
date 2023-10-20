@@ -24,7 +24,7 @@ function fontSize() {
 
 // 获取屏幕高度
 var scrollTop = $(window).scrollTop()
-$(window).scroll((ev) => {
+$(window).scroll(function (ev) {
   // 处理瞬间滚屏
   var pHight = $(window).height()
   var nScrollTop = $(window).scrollTop()
@@ -50,4 +50,3 @@ $(window).scroll((ev) => {
     $('.jl-header-wrap').removeClass('show')
   }
 })
-

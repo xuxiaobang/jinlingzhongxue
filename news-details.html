@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./assets/iconfont/iconfont.css" />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/media.css" />
     <link rel="stylesheet" href="./css/news-details.css" />
@@ -430,7 +431,7 @@
               <div class="jl-article">
                 <img
                   class="jl-article-img"
-                  src="./assets/images/overview-img.png"
+                  src="./assets/images/latest-info.png"
                   alt=""
                 />
               </div>
@@ -505,6 +506,27 @@
           </div>
         </div>
       </section>
+
+      <!-- 预览 -->
+      <div class="jl-detail-dialog">
+        <img class="jl-review-img" src="" alt="" />
+
+        <div class="jl-close">
+          <span class="iconfont icon-h-close"></span>
+        </div>
+      </div>
+      <script>
+        $('.jl-details-article img').click(function () {
+          var url = this.src
+
+          $('.jl-review-img')[0].src = url
+          $('.jl-detail-dialog').addClass('show')
+        })
+
+        $('.jl-close').click(function () {
+          $('.jl-detail-dialog').removeClass('show')
+        })
+      </script>
 
       <!-- ============================= 主体 结束 ============================= -->
 

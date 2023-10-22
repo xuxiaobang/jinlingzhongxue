@@ -58,6 +58,45 @@
   object-fit: cover;
 }
 
+/* 预览 */
+.jl-detail-dialog {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  background: rgba(0, 0, 0, 0.6);
+}
+.jl-detail-dialog.show {
+  display: block;
+}
+
+.jl-detail-dialog .jl-review-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.jl-detail-dialog .jl-close {
+  position: absolute;
+  right: 0.4rem;
+  top: 0.4rem;
+  z-index: 21;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: #1563a0;
+  font-size: 0.2rem;
+  text-align: center;
+  line-height: 0.5rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+.jl-detail-dialog .jl-close:hover {
+  opacity: 0.9;
+}
 /* 最新动态 */
 .jl-trends {
   width: 30%;

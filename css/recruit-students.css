@@ -170,6 +170,9 @@
   align-items: center;
   color: #1563a0;
 }
+.jl-view-more:hover {
+  color: #1563a0;
+}
 .jl-view-more .jl-view-small {
   width: 0.4rem;
   height: 0.4rem;

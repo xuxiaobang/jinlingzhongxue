@@ -1,5 +1,6 @@
 .jl-center-container {
   width: 12rem;
+  padding-bottom: 0.8rem;
 }
 
 .jl-reserch-guid {
@@ -12,7 +13,7 @@
 .jl-guid-header {
   width: 100%;
   height: 3.2rem;
-  background: blue;
+  background: url('../assets/images/guid-bg.png') no-repeat center/cover;
   font-size: 0.32rem;
   font-weight: bold;
   text-align: center;

@@ -1,0 +1,40 @@
+.jl-center-container {
+  width: 12rem;
+}
+
+.jl-reserch-guid {
+  font-size: 0.16rem;
+  color: #000000;
+  line-height: 0.32rem;
+}
+
+/* header */
+.jl-guid-header {
+  width: 100%;
+  height: 3.2rem;
+  background: blue;
+  font-size: 0.32rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  line-height: 3.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.jl-guid-content {
+  margin-top: 0.4rem;
+}
+
+.jl-guid-content .jl-guid-title {
+  font-weight: bold;
+}
+
+.jl-guid-publish {
+  width: 100%;
+  text-align: right;
+  font-size: 0.16rem;
+  margin-top: 0.8rem;
+  font-weight: bold;
+  color: #000000;
+  line-height: 0.32rem;
+}

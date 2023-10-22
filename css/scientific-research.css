@@ -1,0 +1,58 @@
+/* 科研申报 */
+
+/*********************************
+      主体 开始
+**********************************/
+
+.jl-scientific-research {
+  padding: 0.6rem 0 0.8rem;
+  background: url('../assets/images/list-bg.png') no-repeat center/cover;
+}
+.jl-secientific-header {
+  font-size: 0.32rem;
+  font-weight: bold;
+  color: #000000;
+  line-height: 0.42rem;
+}
+
+.jl-research-content {
+  margin-top: 0.4rem;
+}
+.jl-research-content .jl-research-title {
+  width: 1.2rem;
+  height: 0.36rem;
+  line-height: 0.36rem;
+  text-align: center;
+  background: #f6f6f6;
+  font-size: 0.16rem;
+  color: #1563a0;
+  margin-bottom: 0.2rem;
+}
+.jl-research-content .jl-research-item {
+  font-size: 0.16rem;
+  color: #000000;
+  line-height: 0.32rem;
+}
+.jl-research-item .jl-research-guide {
+  color: #1563a0;
+}
+
+.jl-reserch-btn {
+  display: block;
+  width: 2rem;
+  height: 0.5rem;
+  background: #1283db;
+  border-radius: 4px;
+  margin-top: 0.4rem;
+  text-align: center;
+  font-size: 0.16rem;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 0.5rem;
+}
+.jl-reserch-btn:hover {
+  color: #ffffff;
+}
+/*********************************
+      主体 结束
+**********************************/

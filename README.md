@@ -45,6 +45,8 @@
 | |- regist-entrance.css 登记入口
 | |- department-introduction.css 小学部简介
 | |- campus-video.css  校园视频样式
+| |- scientific-research.css 科研申报样式
+| |- research-guide.css 指南样式
 | |
 |- index.html 首页
 |- idea.html 办学理念
@@ -57,7 +59,7 @@
 |- news.html 学校新闻
 |- notice.html 公告通知
 |- recruit-students.html 招生专栏
-|- learning-department.html 学部链接
+|- learning-department.html
 |- primary-school.html 小学部
 |- middle-school.html 初中部
 |- high-school.html 高中部
@@ -99,8 +101,10 @@
 |-
 |- work-guide.html   办事指南
 |- campus-video.html 校园视频
-|-
 |- anniversary-news.html 20周年新闻
+|-
+|- scientific-research.html  科研申报
+|- research-guide.html  申报指南
 
 
 ```

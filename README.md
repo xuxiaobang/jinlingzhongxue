@@ -90,7 +90,7 @@
 |- notice-announcement.html 通知公告
 |- admissions-column.html 招生专栏
 |- regist-entrance.html 登记入口
-|- contact-us.html  联系我们
+|- contact- .html  联系我们
 |
 |- department-introduction.html   小学部-学部简介
 |- department-news.html   小学部-学部新闻
@@ -106,5 +106,5 @@
 |- scientific-research.html  科研申报
 |- research-guide.html  申报指南
 
-
+ 
 ```

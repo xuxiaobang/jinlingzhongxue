@@ -50,8 +50,11 @@
   text-align: left;
 }
 
-.jl-details-article img {
-  max-width: 5.54rem;
+/* .jl-details-article img { */
+/* max-width: 5.54rem;
+} */
+.jl-details-article * {
+  max-width: 100%;
   object-fit: cover;
 }
 

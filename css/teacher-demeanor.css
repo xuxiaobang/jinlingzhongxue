@@ -1,6 +1,10 @@
 /*******************************
       主体  开始
 ********************************/
+.department-link {
+  width: 12rem;
+}
+
 .jl-teacher-demeanor-wrap {
   padding: 0.6rem 0;
 }

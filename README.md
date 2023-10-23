@@ -105,6 +105,6 @@
 |-
 |- scientific-research.html  科研申报
 |- research-guide.html  申报指南
+|- department-link.html 学部链接
 
- 
 ```

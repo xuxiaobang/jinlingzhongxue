@@ -24,11 +24,14 @@
 /* 详情内容 */
 .jl-leader-detail {
   color: #333333;
+  text-align: center;
 }
+
 .jl-leader-detail .jl-leader-username {
   font-size: 0.32rem;
   font-weight: bold;
   line-height: 0.42rem;
+  text-align: left;
   margin-bottom: 0.2rem;
 }
 .jl-leader-detail .jl-leader-position {

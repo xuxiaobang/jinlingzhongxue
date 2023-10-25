@@ -46,8 +46,15 @@
 }
 
 .jl-activities-desc {
+  flex: 0 0 auto;
   font-size: 0.14rem;
   color: #999999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  word-break: break-all;
 }
 
 .jl-activities-time-wrap {

@@ -83,6 +83,7 @@
 }
 
 .jl-latest-info-content {
+  overflow: visible;
   height: 7.06rem;
 }
 .jl-latest-info-content .jl-latest-info-cover {
@@ -95,7 +96,9 @@
   height: 100%;
   object-fit: cover;
 }
-
+.jl-latest-info-tab {
+  overflow: visible;
+}
 .jl-latest-info-tab .jl-tab-list {
   align-items: flex-end;
   margin: 0.9rem 0 0.4rem;
@@ -121,6 +124,7 @@
 }
 
 .jl-info-list .jl-info-item {
+  overflow: visible;
   box-sizing: border-box;
   position: absolute;
   top: 0;
@@ -169,13 +173,18 @@
 
 /* 更多 */
 .jl-latest-view-more {
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: center;
-  margin-top: 0.6rem;
+  /* margin-top: 0.6rem; */
 }
 .jl-view-more {
   display: flex;
   align-items: center;
+  font-size: 0.16rem;
   color: #1563a0;
 }
 .jl-view-more:hover {

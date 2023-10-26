@@ -64,8 +64,10 @@
   background: #eeeeee;
 }
 
-.jl-regist-entrance-icon .iconfont {
-  font-size: 0.5rem;
+.jl-regist-entrance-icon .jl-icon {
+  width: 0.4rem;
+  height: 0.4rem;
+  object-fit: contain;
 }
 
 /* hover */
@@ -74,14 +76,6 @@
 }
 .jl-regist-entrance-item:hover .jl-regist-entrance-header .iconfont {
   color: #1563a0;
-}
-
-.jl-regist-entrance-item:hover .jl-regist-entrance-icon {
-  background: #1563a0;
-}
-
-.jl-regist-entrance-item:hover .jl-regist-entrance-icon .iconfont {
-  color: #ffffff;
 }
 
 /* 导航 */

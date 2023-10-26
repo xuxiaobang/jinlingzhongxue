@@ -12,6 +12,7 @@
 /* 组织各部 */
 .jl-department-wrap {
   justify-content: space-between;
+  margin-bottom: 0.4rem;
 }
 .jl-department-item {
   display: flex;

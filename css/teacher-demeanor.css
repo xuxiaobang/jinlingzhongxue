@@ -25,24 +25,24 @@
   font-size: 0.2rem;
   color: #333333;
 }
-.jl-department-item .jl-department-icon {
+.jl-department-item .jl-icon {
   display: block;
-  /* width: 0.56rem; */
-  /* height: 0.56rem; */
-  font-size: 0.52rem;
+  width: 0.56rem;
+  height: 0.56rem;
+  object-fit: contain;
   margin-bottom: 0.1rem;
 }
 
 /* hover */
 .jl-department-item:hover {
-  background: #0d6db7;
+  background: rgba(13, 109, 183, 0.5);
 }
 .jl-department-item:hover span {
   color: #ffffff;
 }
 
 .jl-department-item.jl-active {
-  background: #0d6db7;
+  background: rgba(13, 109, 183, 0.5);
 }
 .jl-department-item.jl-active span {
   color: #ffffff;

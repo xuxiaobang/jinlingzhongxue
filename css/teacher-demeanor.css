@@ -36,17 +36,11 @@
 
 /* hover */
 .jl-department-item:hover {
-  background: rgba(13, 109, 183, 0.5);
-}
-.jl-department-item:hover span {
-  color: #ffffff;
+  background: rgba(13, 109, 183, 0.1);
 }
 
 .jl-department-item.jl-active {
-  background: rgba(13, 109, 183, 0.5);
-}
-.jl-department-item.jl-active span {
-  color: #ffffff;
+  background: rgba(13, 109, 183, 0.1);
 }
 
 /* -----  教育各组人员  ----- */

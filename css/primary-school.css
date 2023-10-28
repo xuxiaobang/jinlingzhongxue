@@ -147,15 +147,25 @@
 /* ---------- 光荣旗手 结束----------- */
 
 /*------------ 其他信息 开始--------------------- */
-.jl-section-content {
+.jl-section-wrap {
   padding: 0.6rem 0 0;
   background: url('../assets/images/section-bg.png') no-repeat 0 0/ 100% 100%;
 }
+
+.jl-section-content {
+  width: 16.4rem;
+  max-width: 94%;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
 .jl-section-content .jl-section-item {
   box-shadow: none;
 }
 .jl-section-content .jl-section-item {
-  margin-right: 0.9rem;
+  margin-right: 1rem;
+  flex: 0 1 4.8rem;
+  width: 4.8rem;
 }
 .jl-section-content .jl-section-item:last-child {
   margin-right: 0;

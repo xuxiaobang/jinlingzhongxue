@@ -72,16 +72,17 @@ body.hidden {
 
 /* .logo */
 .jl-logo {
-  height: 80%;
+  height: 60%;
   margin-left: 0.8rem;
   font-size: 0;
 }
+
 .jl-logo-img-wrap {
   display: block;
   height: 100%;
   font-size: 0;
 }
-.jl-logo-img {
+.jl-logo img {
   height: 100%;
 }
 

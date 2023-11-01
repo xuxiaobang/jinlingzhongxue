@@ -42,10 +42,11 @@
   color: #333333;
 }
 .jl-notice-item .jl-notice-time {
-  flex: 0 0 0.8rem;
-  width: 0.8rem;
+  flex: 0 0 1.2rem;
+  width: 1.2rem;
   font-size: 0.14rem;
   color: #999999;
+  text-align: right;
 }
 
 /* hover */

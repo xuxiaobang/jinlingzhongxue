@@ -59,6 +59,9 @@
   color: #333333;
   font-size: 0.18rem;
 }
+.jl-department-container-item span {
+  font-size: 0.16rem;
+}
 
 .jl-department-container-item:hover {
   color: #1563a0;

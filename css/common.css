@@ -501,6 +501,10 @@ body.hidden {
   z-index: 1;
 }
 
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
 .jl-banner .swiper-pagination-bullet {
   width: 20px;
   height: 6px;

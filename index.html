@@ -622,25 +622,6 @@
               </a>
             </div>
           </div>
-
-          <!-- Swiper JS -->
-          <script>
-            var swiper = new Swiper('.jl-banner', {
-              loop: true,
-              autoplay: {
-                delay: 5000,
-                disableOnInteraction: false
-              },
-              pagination: {
-                el: '.swiper-pagination',
-                clickable: true
-              },
-              navigation: {
-                nextEl: '.jl-main-banner-next',
-                prevEl: '.jl-main-banner-prev'
-              }
-            })
-          </script>
         </div>
       </section>
       <!-------------   banner 结束   ------------->
@@ -790,7 +771,7 @@
       <!-------------   公告  结束   ------------->
       <section class="jl-notice-container jl-flex">
         <!-- 智慧校园 -->
-        <div class="jl-notice-smart-campus jl-flex-con--4">
+        <div class="jl-notice-smart-campus jl-flex-con">
           <!-- 标题 -->
           <div class="jl-header jl-flex">
             <div class="jl-header-title">智慧校园</div>
@@ -831,10 +812,9 @@
         </div>
 
         <!-- 通知公告 -->
-        <div class="jl-notice-wrap jl-flex-con--3">
+        <div class="jl-notice-wrap jl-flex-con">
           <!-- 标题 -->
           <div class="jl-header jl-flex">
-         +
             <div class="jl-header-title">通知公告</div>
             <a href="#" class="jl-header-more">
               <span>查看更多</span>
@@ -1361,22 +1341,6 @@
         </div>
       </section>
 
-      <script>
-        $('.jl-swiper').each(function (index) {
-          console.log('args', arguments)
-          new Swiper(`.jl-swiper-${index + 1}`, {
-            pagination: {
-              el: `.jl-pagination`,
-              type: 'fraction'
-            },
-            navigation: {
-              nextEl: `.jl-swiper-next`,
-              prevEl: `.jl-swiper-prev`
-            }
-          })
-        })
-      </script>
-
       <!-------------   校园生活  结束   ------------->
 
       <!-------------   校园视频  开始   ------------->
@@ -1429,13 +1393,6 @@
             </div> -->
           </div>
         </div>
-
-        <script>
-          $('.jl-video-item').click(function () {
-            // console.log('argumetns', arguments, this , $(this).attr('src'))
-            $('.jl-video-play').eq(0).attr('src', $(this).attr('src'))
-          })
-        </script>
       </section>
 
       <!-------------   校园视频  结束   ------------->
@@ -1505,19 +1462,58 @@
       <!-- =============================== 底部 结束 ============================= -->
 
       <!-- 首页弹窗 -->
-      <!-- <div class="jl-dialog"> -->
       <img class="jl-dialog" src="./assets/images/dialog.gif" alt="" />
-      <!-- </div> -->
 
       <script>
-        setTimeout(function () {
-          $('.jl-dialog').addClass('hide')
-          $('body').removeClass('hidden')
-        }, 10000)
+        $(function () {
+          // banner
+          new Swiper('.jl-banner', {
+            loop: true,
+            autoplay: {
+              delay: 5000,
+              disableOnInteraction: false
+            },
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true
+            },
+            navigation: {
+              nextEl: '.jl-main-banner-next',
+              prevEl: '.jl-main-banner-prev'
+            }
+          })
 
-        $('.jl-dialog').click(function () {
-          $('.jl-dialog').addClass('hide')
-          $('body').removeClass('hidden')
+          //  首页内 其他 swiper
+          $('.jl-swiper').each(function (index) {
+            console.log('args', arguments)
+            new Swiper(`.jl-swiper-${index + 1}`, {
+              pagination: {
+                el: `.jl-pagination`,
+                type: 'fraction'
+              },
+              navigation: {
+                nextEl: `.jl-swiper-next`,
+                prevEl: `.jl-swiper-prev`
+              }
+            })
+          })
+
+          // 校园视频
+          $('.jl-video-item').click(function () {
+            // console.log('argumetns', arguments, this , $(this).attr('src'))
+            $('.jl-video-play').eq(0).attr('src', $(this).attr('src'))
+          })
+
+          //  弹窗
+          setTimeout(function () {
+            $('.jl-dialog').addClass('hide')
+            $('body').removeClass('hidden')
+          }, 10000)
+
+          $('.jl-dialog').click(function () {
+            $('.jl-dialog').addClass('hide')
+            $('body').removeClass('hidden')
+          })
         })
       </script>
     </div>

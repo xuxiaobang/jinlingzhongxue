@@ -1360,6 +1360,7 @@
             <video
               class="jl-video jl-video-play"
               controls
+              preload="auto"
               src="./assets/video/7d88865c93d866c3c6da1a1ff9ae45d1.mp4"
             ></video>
           </div>
@@ -1485,7 +1486,7 @@
 
           //  首页内 其他 swiper
           $('.jl-swiper').each(function (index) {
-            console.log('args', arguments)
+            // console.log('args', arguments)
             new Swiper(`.jl-swiper-${index + 1}`, {
               pagination: {
                 el: `.jl-pagination`,
@@ -1503,6 +1504,27 @@
             // console.log('argumetns', arguments, this , $(this).attr('src'))
             $('.jl-video-play').eq(0).attr('src', $(this).attr('src'))
           })
+
+          // 视频封面
+          $('.jl-video-play')
+            .eq(0)
+            .on('loadeddata', function () {
+              this.currentTime = 0.01
+              // 创建一个canvas元素
+              var canvas = document.createElement('canvas')
+              canvas.width = $(this).prop('scrollWidth')
+              canvas.height = $(this).prop('scrollHeight')
+
+              // 将视频的第一帧绘制到canvas上
+              var context = canvas.getContext('2d')
+              context.drawImage(this, 0, 0, canvas.width, canvas.height)
+
+              // 获取canvas上的图像作为第一帧图片数据
+              var firstFrameImage = canvas.toDataURL('image/jpeg')
+
+              // 打印第一帧图片数据
+              $(this).attr('poster', firstFrameImage)
+            })
 
           //  弹窗
           setTimeout(function () {

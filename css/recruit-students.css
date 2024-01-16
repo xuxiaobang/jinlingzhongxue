@@ -124,7 +124,7 @@
 }
 
 .jl-info-list .jl-info-item {
-  overflow: visible;
+  /* display: visible; */
   box-sizing: border-box;
   position: absolute;
   top: 0;
@@ -136,7 +136,7 @@
   height: 5.34rem;
   background: #ffffff;
   padding: 0.4rem 0.6rem;
-  transform: translateX(2rem);
+  transform: translateX(100%);
   opacity: 0;
   transition: 0.6s;
 }

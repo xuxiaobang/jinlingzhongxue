@@ -10,10 +10,15 @@ function fontSize() {
   if (winW <= 1600 && winW > 800) {
     size = Math.round(winW / 16)
   } else if (winW <= 800) {
-    size = Math.round(winW / 7.5)
-    if (size > 65) {
-      size = 65
-    }
+    size = 100
+    $('html').css({
+      'width': 1600 + 'px',
+      'transform': `scale(${winW / 1600})`
+    })
+    // size = Math.round(winW / 7.5)
+    // if (size > 65) {
+    //   size = 65
+    // }
   } else {
     size = 100
   }

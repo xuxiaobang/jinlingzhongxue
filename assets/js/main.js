@@ -13,7 +13,8 @@ function fontSize() {
     size = 100
     $('html').css({
       'width': 1600 + 'px',
-      'transform': `scale(${winW / 1600})`
+      'transform': `scale(${winW / 1600})`,
+      'transform-origin': 'top left'
     })
     // size = Math.round(winW / 7.5)
     // if (size > 65) {
